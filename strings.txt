@@ -2020,7 +2020,7 @@ ALARM_ALARM_REPEAT_DESC
 	PL	To ustawienie umożliwia określenie, czy alarm zostanie uruchomiony więcej niż raz. Po wybraniu opcji Nie alarm wyłączy się automatycznie po uruchomieniu. Ten alarm nie zostanie uruchomiony, aż do ponownego włączenia.
 	RU	Данная настройка позволяет выбрать, будет ли будильник звонить больше одного раза. Если выбрано значение "Нет", будильник автоматически отключится после первого звонка. Он не будет больше звонить, если не включить его снова.
 	SV	Med den här inställningen väljer du om alarmet ska ringa mer än en gång. Om du anger Nej avaktiveras alarmet automatiskt när det har ringt. Alarmet ringer sedan inte igen förrän du aktiverar det igen.
-	ZH_TW
+	ZH_TW	這個設定允許您中是否會多次觸發，如果設定為否，則此鬧鐘在觸發後就會自動關閉，且除非您將其再次打開，否則此鬧鐘將不會再觸發。
 
 ALARM_ALL_ALARMS
 	CS	Všechny budíky
@@ -2052,7 +2052,7 @@ ALARM_ALARMS_ENABLED_DESC
 	PL	Ta opcja umożliwia natychmiastowe włączenie lub wyłączenie alarmów. Po wybraniu ustawienia Wył. alarm nie zostanie uruchomiony.
 	RU	Эта настройка позволяет включить/выключить все будильники. Если она отключена, будильники выключены не будут.
 	SV	Med den här inställningen kan du aktivera/avaktivera alla alarm på en gång.Om du väljer inställningen Av avaktiveras alla alarm.
-	ZH_TW	此選項可以將所有鬧鐘啟用或關閉，如果設定為關閉，那麼沒有鬧鐘會響
+	ZH_TW	這個設定可以將所有鬧鐘啟用或關閉，如果設定為關閉，那麼沒有鬧鐘會響
 
 ALARM_FADE
 	CS	Zesilování budíku
@@ -2903,6 +2903,7 @@ UPDATING_FIRMWARE_TRANSPORTER
 	RU	Обновление микропрограммы Transporter.
 	SV	Uppdaterar Transporters inbyggda programvara
 	ZH_CN	更新Transporter韧件
+	ZH_TW	Transporter 韌體更新中
 
 UPDATING_FIRMWARE_RECEIVER
 	CS	Aktualizování firmwaru Squeezeboxu.
@@ -2918,6 +2919,7 @@ UPDATING_FIRMWARE_RECEIVER
 	PL	Aktualizowanie oprogramowania układowego urządzenia Squeezebox.
 	RU	Обновление микропрограммы Squeezebox.
 	SV	Uppdaterar Squeezebox-spelarens inbyggda programvara.
+	ZH_TW	Squeezebox 韌體更新中
 
 UPDATING_FIRMWARE_BOOM
 	CS	Aktualizace firmwaru.
@@ -2933,6 +2935,7 @@ UPDATING_FIRMWARE_BOOM
 	PL	Aktualizowanie oprogramowania układowego.
 	RU	Обновление микропрограммы.
 	SV	Inbyggt program uppdateras
+	ZH_TW	韌體更新中
 
 FIRMWARE_MISSING
 	CS	Chyba: Chybí firmware
@@ -2950,6 +2953,7 @@ FIRMWARE_MISSING
 	RU	Ошибка: отсутствует микропрограмма
 	SV	Fel: Inbyggd maskinvara saknas.
 	ZH_CN	失误：韧件丢失
+	ZH_TW	錯誤：沒有找到韌體
 
 FIRMWARE_MISSING_DESC
 	CS	Server se nemůže připojit k Internetu a získat aktualizaci firmwaru.
@@ -2967,6 +2971,7 @@ FIRMWARE_MISSING_DESC
 	RU	Серверу не удается подключиться к Интернету для обновления микропрограммы.
 	SV	Servern kan inte ansluta till Internet och hämta spelarens inbyggda programvara.
 	ZH_CN	服务器无法连接互联网并取得韧件更新。
+	ZH_TW	伺服器無法連接網路以取得韌體更新
 
 CHECKING_STREAM
 	CS	Kontrola datového proudu...
@@ -2984,6 +2989,7 @@ CHECKING_STREAM
 	RU	Проверка потока...
 	SV	Kontrollerar ström...
 	ZH_CN	检查频流
+	ZH_TW	串流檢查中...
 
 GETTING_STREAM_INFO
 	CS	Získávání informací o datovém proudu...
@@ -3000,6 +3006,7 @@ GETTING_STREAM_INFO
 	PL	Pobieranie informacji o strumieniu...
 	RU	Получение информации о потоке...
 	SV	Hämtar ströminformation...
+	ZH_TW	串流資訊
 
 GETTING_TRACK_DETAILS
 	CS	Získávám podrobnosti o skladbě...
@@ -3015,6 +3022,7 @@ GETTING_TRACK_DETAILS
 	PL	Pobieranie szczegółów utworu...
 	RU	Получение сведений о дорожке...
 	SV	Hämtar spårinformation...
+	ZH_TW	取得歌曲資訊中...
 
 CONNECTING_FOR
 	CS	Připojování...
@@ -3034,6 +3042,7 @@ CONNECTING_FOR
 	RU	Подключение...
 	SV	Ansluter...
 	ZH_CN	连接中：
+	ZH_TW	連接中...
 
 BUFFERING
 	CS	Načítání do vyrovnávací paměti
@@ -3051,6 +3060,7 @@ BUFFERING
 	RU	Буферизация
 	SV	Buffrar
 	ZH_CN	缓冲装载中
+	ZH_TW	緩衝中
 
 REBUFFERING
 	CS	Opakované načítání do vyrovnávací paměti...
@@ -3067,6 +3077,7 @@ REBUFFERING
 	PL	Ponowne buforowanie...
 	RU	Повторная буферизация...
 	SV	Buffrar om...
+	ZH_TW	重新緩衝中...
 
 REBUFFERING_FAILED
 	CS	Ukládání do vyrovnávací paměti selhalo
@@ -3082,6 +3093,7 @@ REBUFFERING_FAILED
 	PL	Ponowne buforowanie nie powiodło się
 	RU	Сбой повторной буферизации
 	SV	Det gick inte att buffra om
+	ZH_TW	重新緩衝失敗
 
 WAITING_TO_SYNC
 	CS	Čekám na synchronizaci...
@@ -3099,6 +3111,7 @@ WAITING_TO_SYNC
 	RU	Ожидание синхронизации...
 	SV	Inväntar synkronisering...
 	ZH_CN	等待同步
+	ZH_TW	等待同步中...
 
 PROBLEM_CONNECTING
 	CS	Problém: Nelze se připojit k serveru pro:
@@ -3118,6 +3131,7 @@ PROBLEM_CONNECTING
 	RU	Проблема: сбой подключения к серверу в течение:
 	SV	Problem: Det går inte att ansluta till servern för:
 	ZH_CN	失误：无法连接上伺服器：
+	ZH_TW	錯誤：無法連上伺服器：
 
 PROBLEM_OPENING
 	CS	Problém: Nelze otevřít soubor pro:
@@ -3137,6 +3151,7 @@ PROBLEM_OPENING
 	RU	Проблема: ошибка открытия файла для:
 	SV	Problem: Det går inte att öppna fil för:
 	ZH_CN	失误：无法打开文件：
+	ZH_TW	錯誤：無法打開文件：
 
 PROBLEM_OPENING_REMOTE_URL
 	CS	Chyba: Nelze otevřít vzdálenou adresu URL
@@ -3154,6 +3169,7 @@ PROBLEM_OPENING_REMOTE_URL
 	RU	Ошибка: сбой открытия удаленного URL
 	SV	Fel: Fel: Det går inte att öppna den externa webbadressen.
 	ZH_CN	失误：无法连接网址
+	ZH_TW	錯誤：無法開啟遙控網址
 
 PROBLEM_CONVERT_FILE
 	CS	Problém: Nelze přehrát typ souboru pro:
@@ -3169,6 +3185,7 @@ PROBLEM_CONVERT_FILE
 	PL	Problem: nie można odtworzyć typu pliku dla:
 	RU	Проблема: сбой воспроизведения типа файла для:
 	SV	Problem: Det går inte att spela upp filtypen för:
+	ZH_TW	錯誤：無法播放檔案格式：
 
 PROBLEM_CONVERT_FILE_WMA_LOSSLESS
 	CS	Problém: Bezztrátový WMA vyžaduje Windows
@@ -3184,6 +3201,7 @@ PROBLEM_CONVERT_FILE_WMA_LOSSLESS
 	PL	Problem: format Bezstratny WMA wymaga systemu Windows
 	RU	Проблема: для WMA Lossless требуется Windows
 	SV	Problem: WMA Lossless kräver Windows
+	ZH_TW	錯誤：WMA 無損檔案需要 Windows 轉換
 
 PROBLEM_CONVERT_STREAM
 	CS	Problém: Nelze převést proud:
@@ -3199,6 +3217,7 @@ PROBLEM_CONVERT_STREAM
 	PL	Problem: nie można przekonwertować strumienia:
 	RU	Проблема: невозможно преобразовать поток:
 	SV	Problem: Det gick inte att konvertera strömmen:
+	ZH_TW	錯誤：無法轉換串流：
 
 PROBLEM_CONVERTING_STREAM
 	CS	Chyba: DRM v souboru:
@@ -3214,6 +3233,7 @@ PROBLEM_CONVERTING_STREAM
 	PL	Błąd: mechanizm DRM w pliku:
 	RU	Ошибка: DRM в файле:
 	SV	Fel: DRM i filen:
+	ZH_TW	錯誤：檔案具有 DRM：
 
 PROBLEM_UNKNOWN_TYPE
 	CS	Chyba: Neznámý typ souboru pro:
@@ -3229,6 +3249,7 @@ PROBLEM_UNKNOWN_TYPE
 	PL	Błąd: nierozpoznany typ pliku dla:
 	RU	Ошибка: нераспознаваемый тип файла для:
 	SV	Fel: Okänd filtyp för:
+	ZH_TW	錯誤：未知檔案格式：
 
 UNSUPPORTED_SAMPLE_RATE
 	CS	Nepodporovaná vzorkovací frekvence
@@ -3244,6 +3265,7 @@ UNSUPPORTED_SAMPLE_RATE
 	PL	Nieobsługiwana częstotliwość próbkowania
 	RU	Неподдерживаемая частота дискретизации
 	SV	Samplingsfrekvensen stöds ej
+	ZH_TW	不支援的取樣率
 
 PLAYLIST_NO_ITEMS_FOUND
 	CS	Chyba: V seznamu skladeb nebyly nalezeny žádné položky
@@ -3260,6 +3282,7 @@ PLAYLIST_NO_ITEMS_FOUND
 	PL	Błąd: nie znaleziono elementów na liście odtwarzania
 	RU	Ошибка: не найдены элементы плей-листа
 	SV	Fel: Spellistan är tom.
+	ZH_TW	錯誤：播放清單中沒有項目
 
 PLAYLIST_PROBLEM_CONNECTING
 	DA	Fejl: Kan ikke tilslutte for at hente spillelisten
@@ -3274,6 +3297,7 @@ PLAYLIST_PROBLEM_CONNECTING
 	PL	Błąd: nie można połączyć się, aby odzyskać listę odtwarzania
 	SV	Fel: Kan inte ansluta för att hämta spellista
 	ZH_CN	失误：无法取得播放表
+	ZH_TW	錯誤：無法取得播放清單
 
 ASF_UNABLE_TO_PARSE
 	CS	Chyba: Nelze parsovat zvukový proud ASF
@@ -3291,6 +3315,7 @@ ASF_UNABLE_TO_PARSE
 	RU	Ошибка: сбой анализа аудиопотока ASF
 	SV	Fel: Det går inte att tolka ASF-ljudströmmen.
 	ZH_CN	失误：无法解析音频流
+	ZH_TW	錯誤：無法解析 AFS 音訊串流媒體
 
 HOME
 	CS	Doma
@@ -3310,6 +3335,7 @@ HOME
 	RU	Главное меню
 	SV	Hem
 	ZH_CN	主页
+	ZH_TW	首頁
 
 STATUS
 	CS	Stav
@@ -3328,6 +3354,7 @@ STATUS
 	RU	Статус
 	SV	Status
 	ZH_CN	状态
+	ZH_TW	狀態
 
 SERVER
 	CS	Server
@@ -3347,6 +3374,7 @@ SERVER
 	RU	Сервер
 	SV	Server
 	ZH_CN	服务器
+	ZH_TW	伺服器
 
 ABOUT_SHORT
 	CS	O aplikaci
@@ -3366,6 +3394,7 @@ ABOUT_SHORT
 	RU	О программе
 	SV	Om
 	ZH_CN	关于
+	ZH_TW	關於
 
 WEB_XML_ERROR
 	CS	Nastala chyba při zavádění vzdáleného kanálu pro %s: (%s)
@@ -3383,6 +3412,7 @@ WEB_XML_ERROR
 	RU	Ошибка при загрузке удаленного веб-канала для %s: (%s)
 	SV	Ett fel uppstod när fjärrflödet för %s lästes in: (%s)
 	ZH_CN	载入远方信息时发生失误%s: (%s)
+	ZH_TW	載入遙控訊息時發生錯誤 %s: (%s)
 
 XML_ERROR
 	CS	Chyba
@@ -3400,6 +3430,7 @@ XML_ERROR
 	RU	Ошибка
 	SV	Fel
 	ZH_CN	失误
+	ZH_TW	錯誤
 
 XML_GET_FAILED
 	CS	Parsování selhalo
@@ -3417,6 +3448,7 @@ XML_GET_FAILED
 	RU	Сбой анализа
 	SV	Det gick inte att tolka
 	ZH_CN	解析失误
+	ZH_TW	解析失敗
 
 XML_LOADING
 	CS	Vyvolávání...
@@ -3434,6 +3466,7 @@ XML_LOADING
 	RU	Получение...
 	SV	Hämtar...
 	ZH_CN	读取中
+	ZH_TW	獲取中...
 
 XML_LINK
 	CS	Odkaz
@@ -3451,6 +3484,7 @@ XML_LINK
 	RU	Ссылка
 	SV	Länk
 	ZH_CN	链路
+	ZH_TW	鏈結
 
 XML_DATE
 	CS	Datum
@@ -3468,6 +3502,7 @@ XML_DATE
 	RU	Дата
 	SV	Datum
 	ZH_CN	日期
+	ZH_TW	日期
 
 XML_EDITOR
 	CS	Editor
@@ -3485,6 +3520,7 @@ XML_EDITOR
 	RU	Редактор
 	SV	Redigerare
 	ZH_CN	编辑
+	ZH_TW	編輯器
 
 XML_ENCLOSURE
 	CS	Příloha
@@ -3502,6 +3538,7 @@ XML_ENCLOSURE
 	RU	Вложение
 	SV	Kabinett
 	ZH_CN	框架
+	ZH_TW	框架
 
 XML_AUDIO_ENCLOSURES
 	CS	Zvuková příloha
@@ -3519,6 +3556,7 @@ XML_AUDIO_ENCLOSURES
 	RU	Аудиовложения
 	SV	Högtalarkabinett
 	ZH_CN	音频框架
+	ZH_TW	音訊框架
 
 XML_FEED_DESCRIPTION
 	CS	O tomto kanálu
@@ -3536,6 +3574,7 @@ XML_FEED_DESCRIPTION
 	RU	Об этом веб-канале
 	SV	Om det här flödet
 	ZH_CN	关于这饲址
+	ZH_TW	關於此訊息
 
 XML_SUBTITLE
 	CS	Titulek
@@ -3553,6 +3592,7 @@ XML_SUBTITLE
 	RU	Субтитры
 	SV	Undertitel
 	ZH_CN	字幕
+	ZH_TW	歌詞
 
 XML_SUMMARY
 	CS	Souhrn
@@ -3570,6 +3610,7 @@ XML_SUMMARY
 	RU	Сводка
 	SV	Sammanfattning
 	ZH_CN	简介
+	ZH_TW	簡介
 
 XML_EXPLICIT
 	CS	Výslovný
@@ -3587,6 +3628,7 @@ XML_EXPLICIT
 	RU	Непристойный
 	SV	Explicit
 	ZH_CN	说明
+	ZH_TW	詳細內容
 
 NUMBER_OF_LISTENERS
 	CS	Počet posluchačů
@@ -3604,6 +3646,7 @@ NUMBER_OF_LISTENERS
 	RU	Число слушателей
 	SV	Antal lyssnare
 	ZH_CN	听众数量
+	ZH_TW	聽眾數量
 
 DESCRIPTION
 	CS	Popis
@@ -3621,6 +3664,7 @@ DESCRIPTION
 	RU	Описание
 	SV	Beskrivning
 	ZH_CN	陈述
+	ZH_TW	描述
 
 SOURCE
 	CS	Zdroj
@@ -3638,6 +3682,7 @@ SOURCE
 	RU	Источник
 	SV	Källa
 	ZH_CN	源头
+	ZH_TW	來源
 
 EXTERNAL_ID
 	DE	Externe ID
@@ -3645,6 +3690,7 @@ EXTERNAL_ID
 	FR	ID externe
 	SV	Extern ID
 	NL	Externe ID
+	ZH_TW	外部 ID
 
 #
 # Setup page strings
@@ -3668,6 +3714,7 @@ SETUP_GROUP_BRIGHTNESS
 	RU	Яркость
 	SV	Ljusstyrka
 	ZH_CN	光亮度
+	ZH_TW	亮度
 
 SETUP_GROUP_BRIGHTNESS_DESC
 	CS	Jas displeje přehrávače lze nastavit, je-li zapnutý, vypnutý nebo nečinný (spořič). Rovněž jej lze upravit automaticky, když stisknete libovolné tlačítko, začnete přehrávat skladbu nebo jej chvíli necháte. Tuto automatickou funkci můžete zakázat.
@@ -3687,6 +3734,7 @@ SETUP_GROUP_BRIGHTNESS_DESC
 	RU	Можно настроить яркость экрана плеера во включенном, выключенном или неактивном состоянии (экранная заставка). Она также может настраиваться автоматически, когда пользователь нажимает кнопку, начинает воспроизведение песни или на какое-то время перестает пользоваться устройством. Это автоматическое поведение можно отключить.
 	SV	Du kan ange olika inställningar för spelarskärmens ljusstyrka beroende på om spelaren är påslagen, avstängd eller i viloläge (skärmsläckare). Ljusstyrkan kan också justeras automatiskt när du trycker på en knapp, börjar spela upp en låt, eller inte rör spelaren på ett tag. De här automatiska justeringarna kan avaktiveras.
 	ZH_CN	播放机显示屏可以根据不同的操作状态如开机、关机、或屏幕保护程序进行时设置不同的光亮度。播放机也会随着按键、开始播放音乐等活动而自行调节显示屏光亮度。用户可选择是否采用此项自动光亮度调节功能。
+	ZH_TW	播放器的螢幕可以依據不同的狀態如開啟、關閉或待機(螢幕保護程式)來設定不同的亮度。當您按下按鈕、開始播放歌曲或讓它閒置一段時間時，也可以自動調整亮度。您可以選擇關閉這個自動調節的設定
 
 SETUP_GROUP_TCP_PARAMS
 	CS	Parametry TCP
@@ -3706,6 +3754,7 @@ SETUP_GROUP_TCP_PARAMS
 	RU	Параметры TCP
 	SV	TCP-parametrar
 	ZH_CN	TCP参数
+	ZH_TW	TCP 參數
 
 SETUP_GROUP_TCP_PARAMS_DESC
 	CS	Tato nastavení upravují parametry sítě TCP/IP v Logitech Media Serveru.
@@ -3725,6 +3774,7 @@ SETUP_GROUP_TCP_PARAMS_DESC
 	RU	Эти настройки служат для регулировки параметров работы в сети по протоколу TCP/IP в Logitech Media Server.
 	SV	De här inställningarna justerar TCP/IP-parametrarna för Logitech Media Server.
 	ZH_CN	适用于调节服务器上TCP/IP网络参数的配置。
+	ZH_TW	這些設定用於調整 Logitech Media Server 的 TCP/IP 網路設定
 
 SETUP_GROUP_TITLEFORMATS_DESC
 	CS	Tyto formáty jsou k dispozici pro výběr ve webovém rozhraní i v přehrávačích. Chcete-li některý formát odstranit, vymažte textové pole, chcete-li zadat nový formát, umístěte jej do prázdného pole. K dispozici jsou tyto datové prvky: CT (typ obsahu), TITLE, GENRE, TRACKNUM (číslo skladby jako celé číslo), FS (velikost souboru), ARTIST, COMPOSER, CONDUCTOR, BAND, ALBUM, COMMENT, YEAR, SECS (celkem sekund), DURATION (minuty a sekundy), BITRATE, LONGDATE (aktuální datum, dlouhé), SHORTDATE (aktuální datum, krátké), CURRTIME (aktuální čas). Prvky mohou být odděleny čímkoli (nebo ničím). Oddělovače se použijí pouze v případě, že jsou přítomny datové prvky.<br>Aktuální výběr je formát, který bude použit na webových stránkách.
@@ -3744,6 +3794,7 @@ SETUP_GROUP_TITLEFORMATS_DESC
 	RU	Данные форматы доступны для выбора в веб-интерфейсе и плеерах. Чтобы удалить формат, снимите для него флажок, чтобы ввести новый формат, установите флажок в пустое поле. Доступные элементы данных: CT (тип содержимого), TITLE, GENRE, TRACKNUM (номер дорожки в виде целого числа), FS (размер файла), ARTIST, COMPOSER, CONDUCTOR, BAND, ALBUM, COMMENT, YEAR, SECS (общее число секунд), DURATION (число минут и секунд), VBR_SCALE (vbr/cbr), BITRATE, TAGSIZE, VOLUME (имя тома), PATH, FILE, EXT (расширение файла), LONGDATE (текущая дата, длинный формат), SHORTDATE (текущая дата, краткий формат), CURRTIME (текущее время). Элементы могут разделяться каким-либо символом (или никаким). Разделители используются только при наличии элементов данных.<br>«Текущий выбор» — это формат, который будет использоваться на веб-страницах.
 	SV	Dessa är de tillgängliga formaten för webbgränssnittet och själva spelaren. Töm textboxen för att ta bort ett format. Skriv i en tom textbox för att lägga till ett nytt format. Tillgängliga dataelement: CT (content type), TITLE, GENRE, TRACKNUM (spårnummer), FS (filstorlek), ARTIST, COMPOSER, CONDUCTOR, BAND, ALBUM, COMMENT (kommentar), YEAR (år), SECS (totala antalet sekunder), DURATION (minuter och sekunder, BITRATE, LONGDATE (dagens datum, långt), SHORTDATE (dagens datum, kort), CURRTIME (aktuell tid). Skiljetecken kan användas för att separera dataelementen. Ett skiljetecken kan vara vilket tecken som helst (eller inget tecken alls). Skiljetecken visas endast om dataelementet existerar.<br>Det valda formatet är det som kommer användas på websidorna.
 	ZH_CN	以上或播放机设置内皆设有各类不同的显示格式可供选择。如要除去某个格式，便清除其属复选框中的标记。您也可在空的资料栏中输入新格式。可用基本资料包括CT（内容类别）、TITLE（曲目）、GENRE（曲风）、TRACKNUM（音轨序号）、FS（文件大小）、ARTIST（艺人）、ALBUM（专辑）、COMMENT（注解）、YEAR（年份）、SECS（总秒数）、DURATION（总长度）、BITRATE（比特率）、LONGDATE（日期，完整）、SHORTDATE（日期，缩写）、CURRTIME（现在时间）。基本资料可使用任何方式区分。<br>当前的格式便是网页所应用的格式。
+	ZH_TW	這些是可以在網絡界面和播放器上選擇的格式。 如要刪除格式，請清除文字框；如要輸入新格式，請將其放置在空文字框中。可用的資料元素包括：CT（內容類型）、TITLE（標題）、GENRE（曲風）、TRACKNUM（曲目編號）、FS（文件大小）、ARTIST（藝人）、ALBUM（專輯）、COMMENT（註解）、YEAR（年份）、SECS（總秒數）、DURATION（總長度）、BITRATE（位元速率）、LONGDATE（完整日期）、SHORTDATE（簡短日期）、CURRTIME（當前時間）。 每個數據都可以按任何內容進行分類。 <br>當前的格式選擇與網絡上使用的格式相同。
 
 SETUP_PLAYER_TITLEFORMATS_DESC
 	CS	Tyto formáty jsou k dispozici pro výběr v tomto přehrávači. Chcete-li přidat další formát pro výběr v přehrávači, vyberte jeden z rozevíracího seznamu a uložte nastavení.<br>Aktuální výběr je formát, který bude použit v přehrávači.<br>Pokud chcete přidat nové formáty, které nejsou k dispozici v rozevíracím seznamu, přejděte do Nastavení serveru > Rozhraní > Formát názvu.
@@ -3763,6 +3814,7 @@ SETUP_PLAYER_TITLEFORMATS_DESC
 	RU	Данные форматы доступны для выбора в веб-интерфейсе и плеерах. Чтобы удалить формат, снимите для него флажок, чтобы ввести новый формат, установите флажок в пустое поле. Доступные элементы данных: CT (тип содержимого), TITLE, GENRE, TRACKNUM (номер дорожки в виде целого числа), FS (размер файла), ARTIST, COMPOSER, CONDUCTOR, BAND, ALBUM, COMMENT, YEAR, SECS (общее число секунд), DURATION (число минут и секунд), VBR_SCALE (vbr/cbr), BITRATE, TAGSIZE, VOLUME (имя тома), PATH, FILE, EXT (расширение файла), LONGDATE (текущая дата, длинный формат), SHORTDATE (текущая дата, краткий формат), CURRTIME (текущее время). Элементы могут разделяться каким-либо символом (или никаким). Разделители используются только при наличии элементов данных.<br>«Текущий выбор» — это формат, который будет использоваться на веб-страницах.
 	SV	Dessa är de tillgängliga formaten för webbgränssnittet och själva spelaren. Töm textboxen för att ta bort ett format. Skriv i en tom textbox för att lägga till ett nytt format. Tillgängliga dataelement: CT (content type), TITLE, GENRE, TRACKNUM (spårnummer), FS (filstorlek), ARTIST, COMPOSER, CONDUCTOR, BAND, ALBUM, COMMENT (kommentar), YEAR (år), SECS (totala antalet sekunder), DURATION (minuter och sekunder, BITRATE, LONGDATE (dagens datum, långt), SHORTDATE (dagens datum, kort), CURRTIME (aktuell tid). Skiljetecken kan användas för att separera dataelementen. Ett skiljetecken kan vara vilket tecken som helst (eller inget tecken alls). Skiljetecken visas endast om dataelementet existerar.<br>Det valda formatet är det som kommer användas på websidorna.
 	ZH_CN	以上或播放机设置内皆设有各类不同的显示格式可供选择。如要除去某个格式，便清除其属复选框中的标记。您也可在空的资料栏中输入新格式。可用基本资料包括CT（内容类别）、TITLE（曲目）、GENRE（曲风）、TRACKNUM（音轨序号）、FS（文件大小）、ARTIST（艺人）、ALBUM（专辑）、COMMENT（注解）、YEAR（年份）、SECS（总秒数）、DURATION（总长度）、BITRATE（比特率）、LONGDATE（日期，完整）、SHORTDATE（日期，缩写）、CURRTIME（现在时间）。基本资料可使用任何方式区分。<br>当前的格式便是网页所应用的格式。
+	ZH_TW	這些是該播放器上可供選擇的格式。如要在播放器上添加其他格式以供選擇，請從下拉列表中選擇一種格式並保存設置。<br>當前選擇為播放器上使用的格式。<br>如果您想添加的新格式在下拉列表中不可用，請轉至伺服器設定> 界面> 標題格式。
 
 SETUP_GROUP_MENUITEMS
 	CS	Přizpůobení domovské nabídky
@@ -3781,6 +3833,7 @@ SETUP_GROUP_MENUITEMS
 	PT	Personalização do Menu Inicial
 	SV	Konfigurering av huvudmenyn
 	ZH_CN	主页菜单
+	ZH_TW	自定義首頁選項
 
 SETUP_GROUP_MENUITEMS_DESC
 	CS	Můžete si upravit volby, které se objeví ve vaší Domovské nabídce na displeji přehrávače. Klepnutím na položky je můžete přesunout nahoru a dolů nebo odstranit. Klepnutím na "Přidat" přidáte odstraněnou položku zpět do nabídky.
@@ -3801,6 +3854,7 @@ SETUP_GROUP_MENUITEMS_DESC
 	RU	Можно настроить элементы, доступные для выбора в главном меню верхнего уровня на экране плеера. Щелкайте элементы меню, перемещая их вверх и вниз или удаляя. Нажмите кнопку "Добавить", чтобы вернуть удаленный элемент обратно в меню.
 	SV	Du kan anpassa vilka alternativ som visas på rotmenyn på spelarens skärm. Flytta ett menyalternativ uppåt och nedåt eller ta bort alternativet genom att klicka. Klicka på Lägg till om du vill lägga till ett borttaget alternativ på menyn igen.
 	ZH_CN	您可将播放机最高阶层的主页菜单加以用户化。单击以调整排序或除去该菜单项目。如要列入已被除去的菜单项目，请单击"Add"。
+	ZH_TW	您可以自定義播放器中主頁面的顯示項目。 點擊可上下移動項目或刪除項目。 點擊“添加”將刪除的項目返回主頁面。
 
 SETUP_GROUP_NONMENUITEMS_INTRO
 	CS	Neaktivní položky nabídky:
@@ -3819,6 +3873,7 @@ SETUP_GROUP_NONMENUITEMS_INTRO
 	RU	Неактивные элементы меню:
 	SV	Inaktiva menyalternativ:
 	ZH_CN	非活动菜单项目：
+	ZH_TW	不使用的頁面選項：
 
 SETUP_ACTIVEFONT
 	CS	Písmo
@@ -3837,6 +3892,7 @@ SETUP_ACTIVEFONT
 	RU	Шрифт
 	SV	Typsnitt
 	ZH_CN	字体
+	ZH_TW	字體
 
 SETUP_ACTIVEFONT_DESC
 	CS	Tlačítkem SIZE na dálkovém ovladači nebo níže uvedenými přepínači můžete přepínat mezi písmy na displeji přehrávače. V nabídce níže si můžete zvolit pořadí, v jakém se budou zobrazovat.
@@ -3855,6 +3911,7 @@ SETUP_ACTIVEFONT_DESC
 	RU	С помощью кнопки SIZE пульта ДУ или нижеприведенных переключателей можно переключаться между шрифтами экрана плеера. Порядок их вывода можно задать с помощью следующих меню.
 	SV	Du kan använda knappen SIZE på fjärrkontrollen eller knapparna nedan för att byta teckensnitt på spelarens skärm. Du kan välja i vilken ordning de ska visas med hjälp av menyerna nedan.
 	ZH_CN	您可使用遥控器的大小按钮或如下的无线电按钮设定播放机显示屏的字体大小。您可在如下的菜单设定它们出现的排序。
+	ZH_TW	您可以使用遙控器中的 SIZE 按鍵或以下的單選按鈕來設定播放器要顯示的字體大小。您可以在下面的選項中選擇它們出現的順序。
 
 SETUP_IDLEFONT
 	CS	Písmo režimu pohotovosti
@@ -3873,6 +3930,7 @@ SETUP_IDLEFONT
 	RU	Шрифт режима ожидания
 	SV	Typsnitt i viloläge
 	ZH_CN	备用字体
+	ZH_TW	待機字體
 
 SETUP_IDLEFONT_DESC
 	CS	Pokud je přehrávač v režimu pohotovosti, můžete pomocí tlačítka SIZE na dálkovém ovladači nebo pomocí přepínačů níže měnit písmo v zobrazení hodin. V nabídce níže si můžete zvolit pořadí, v jakém se budou zobrazovat.
@@ -3891,6 +3949,7 @@ SETUP_IDLEFONT_DESC
 	RU	Когда плеер находится в режиме ожидания, с помощью кнопки SIZE на пульте ДУ или расположенных ниже переключателей можно изменять размеры шрифта экрана часов. Следующие меню позволяют выбрать порядок их отображения.
 	SV	När spelaren befinner sig i viloläge kan du använda knappen SIZE på fjärrkontrollen eller knapparna nedan för att byta teckensnitt på klockskärmen. Du kan välja i vilken ordning de ska visas med hjälp av menyerna nedan.
 	ZH_CN	当播放机在备用状态时，您可使用遥控器的大小按钮或如下的无线电按钮设定播放机时间显示的字体大小。您可在如下的菜单设定它们出现的排序。
+	ZH_TW	當播放器處於待機狀態時，您可以使用遙控器的 SIZE 按鍵或以下的單選按鈕來設定時鐘字體大小。您可以在下面的選項中選擇它們出現的順序。
 
 SETUP_DOUBLESIZE
 	CS	Velikost textu
@@ -3910,6 +3969,7 @@ SETUP_DOUBLESIZE
 	RU	Размер текста
 	SV	Textstorlek
 	ZH_CN	字体大小
+	ZH_TW	字體大小
 
 SETUP_DOUBLESIZE_DESC
 	CS	Zvolte velikost textu pro displej přehrávače
@@ -3928,6 +3988,7 @@ SETUP_DOUBLESIZE_DESC
 	RU	Выберите размер текста для экрана плеера
 	SV	Välj textstorlek för spelarens skärm.
 	ZH_CN	请选择播放机显示屏的字体大小
+	ZH_TW	請選擇播放器要顯示的字體大小
 
 SETUP_OFFDISPLAYSIZE
 	CS	Velikost textu v pohotovosti
@@ -3947,6 +4008,7 @@ SETUP_OFFDISPLAYSIZE
 	RU	Размер текста в режиме ожидания
 	SV	Textstorlek i viloläge
 	ZH_CN	备用字体大小
+	ZH_TW	待機時的字體大小
 
 SETUP_SCROLLPAUSE
 	CS	Pauza při rolování
@@ -3965,6 +4027,7 @@ SETUP_SCROLLPAUSE
 	RU	Пауза при прокрутке
 	SV	Rullningspaus
 	ZH_CN	暂停卷动
+	ZH_TW	暫停捲動
 
 SETUP_SCROLLPAUSE_DESC
 	CS	Můžete upravit dobu, po kterou přehrávač čeká, než začne zobrazovat horizontálně rolující text na displeji. Zadejte v sekundách dobu zpoždění začátku rolování nebo mezi rolováním. Při zadání nuly nebude žádné zpoždění a rolování začne okamžitě. Výchozí hodnota je 3,6 sekund.
@@ -3983,6 +4046,7 @@ SETUP_SCROLLPAUSE_DESC
 	RU	Можно задать время, по истечении которого плеер начинает горизонтальную прокрутку текста на экране. Введите значение в секундах для времени ожидания до начала прокрутки или между прокрутками. Для немедленной прокрутки без пауз введите «0». Значение по умолчанию — 3,6 с.
 	SV	Du kan justera fördröjningen innan textremsan börja rulla över spelarens skärm. Ange ett värde (i sekunder) innan textremsan börjar rulla, eller innan den börjar på nytt efter att ha rullat en gång över skärmen. Ange noll om du vill att textremsan börjar rulla direkt utan fördröjning. Standard är 3,6 sekunder.
 	ZH_CN	您可调整播放机开始进行横跨文字卷动前的等待值。输入一个以秒为单位的等待值为在卷动之前或在卷动之间的等待时间。如要立刻进行卷动请输入零为等待值。缺省值为3.6秒。
+	ZH_TW	您可以調整播放器開始捲動文字前的等待時間，輸入一個以秒為單位的時間，當輸入值為0時將會立即進行捲動。預設值為3.6秒。
 
 SETUP_SCROLLRATE
 	CS	Rychlost rolování
@@ -4001,6 +4065,7 @@ SETUP_SCROLLRATE
 	RU	Скорость прокрутки
 	SV	Rullningshastighet
 	ZH_CN	卷动速度
+	ZH_TW	捲動速度
 
 SETUP_SCROLLRATE_DESC
 	CS	Můžete nastavit rychlost, jakou se bude rolující text pohybovat přes obrazovku. Rychlost rolování udává dobu mezi obnovením zobrazení. U přehrávače s grafickým displejem lze toto upravit v kombinaci s hodnotou Pixely rolování a nastavit rychlost a kvalitu rolování (text se bude pohybovat podle Pixely rolování jednou za každou sekundu Rychlostí rolování). U přehrávače se znakovým displejem se udává doba před rolováním k následujícímu znaku. Zadejte v sekundách hodnotu doby mezi obnovením. Nižší čísla znamenají rychlejší rolování. Výchozí hodnota je 0,033 sekundy.
@@ -4019,6 +4084,7 @@ SETUP_SCROLLRATE_DESC
 	RU	Можно настроить скорость прокрутки теста на экране. Параметр «Скорость прокрутки» определяет промежуток времени между обновлениями экрана. На плеерах с графическим экраном он настраивается совместно с параметром «Число пикселей прокрутки», при этом задается скорость и качество прокрутки (текст будет перемещаться на число пикселей прокрутки через каждые несколько секунд скорости прокрутки). На плеерах с символьным экраном этот параметр определяет промежуток времени перед прокруткой до следующего символа. Чтобы задать промежуток времени между обновлениями, введите значение в секундах. Чем меньше число, тем выше скорость. Значение по умолчанию 0,033 с.
 	SV	Du kan justera hastigheten för textremsan som rullar över skärmen. Texthastigheten bestämmer hur ofta informationen uppdateras. På spelare med grafisk skärm kan hastigheten kombineras med hur många bildpunkter som rullas. De två inställningarna bestämmer tillsammans hastigheten och bildkvaliteten: Texten rullar det angivna antalet bildpunkter under det angivna antalet sekunder. På spelare med teckenskärm anger detta tiden innan nästa tecken visas. Ange ett värde i sekunder för tiden mellan uppdateringarna. Ju lägre tal, desto snabbare rullar texten. 0,03 sekunder är standard.
 	ZH_CN	您可以调节文字横向卷动的速度。卷动速度也代表了显示刷新之间所需的时间。在设有图形显示屏的播放机，这个设置可与卷动映像点的设置一并进行调节已达到您所要求的显示速度和质量（文字将根据卷动映像点和卷动速度的设定组合进行卷动）。在设有字符显示屏的播放机这个设定表示卷动到下一个字符前所需的时间。输入一个以秒为单位的值，为更新之间的时间。小值使卷动更加快速。单行缺省值为0.15秒，双行缺省值为0.1秒。
+	ZH_TW	您可以調整文字在橫向捲動時的速度，捲動速度也代表刷新文字的間隔時間。在具有圖形顯示的播放器中，可以結合捲動像素值一起設定以達到您指定的速率與品質要求（文字將會在指定的捲動速率進行指定的捲動像素值移動）。當顯示器只具備字元顯示時，此選項將會定義每個文字橫向捲動的暫停時間。輸入一個文字更新的捲動速率（以秒為單位）。當數值越小則捲動速度越快，預設值為0.03秒。
 
 DOUBLE-LINE
 	CS	Velký text
@@ -4034,6 +4100,7 @@ DOUBLE-LINE
 	PL	Duży tekst
 	RU	Крупный текст
 	SV	Stor text
+	ZH_TW	大型文字
 
 SETUP_GROUP_IRSETS
 	CS	Ovládací prvky dálkového ovladače
@@ -4053,6 +4120,7 @@ SETUP_GROUP_IRSETS
 	RU	Пульты ДУ
 	SV	Fjärrkontroller
 	ZH_CN	遥控器
+	ZH_TW	遙控器
 
 SETUP_GROUP_IRSETS_DESC
 	CS	Můžete si zvolit, zda bude tento přehrávač reagovat na určité signály infračerveného dálkového ovladače nebo je bude ignorovat. Chcete-li povolit seznam kódů dálkového ovladače, níže zaškrtněte políčko vedle názvu. Zrušením zaškrtnutí zakážete seznam kódů.
@@ -4072,6 +4140,7 @@ SETUP_GROUP_IRSETS_DESC
 	RU	Можно настроить, на какие инфракрасные сигналы пульта плеер будет реагировать, а какие — игнорировать. Чтобы включить набор кодов пульта ДУ, установите флажок рядом с его именем. Чтобы отключить его, снимите флажок.
 	SV	Du kan välja om denna spelare ska svara till eller ignorera signaler från vissa fjärrkontroller. Om du vill aktivera en fjärrkontrolls koduppsättning, markerar du rutan bredvid namnet nedan och klickar på Ändra. Om du vill avaktivera en koduppsättning avmarkerar du rutan och klickar på Ändra.
 	ZH_CN	您可选择让这个播放机对某些红外线遥控信号有所反应。如要激活某个遥控代码组，请在如下的复选框内标记。如要撤销某个遥控代码组，请清除其复选框中的标记。
+	ZH_TW	您可以選擇讓該播放器對某些紅外線訊號進行反應或忽略。如要啟用某個遙控器的代碼組合，請在以下的複選框勾選。如要禁用遙控器代碼組合，請清除該複選標記。
 
 SETUP_GROUP_PLUGINS
 	CS	Zásuvné moduly (pluginy)
@@ -4087,6 +4156,7 @@ SETUP_GROUP_PLUGINS
 	PL	Dodatki
 	RU	Подключаемые модули
 	SV	Plugin-program
+	ZH_TW	插件
 
 SETUP_GROUP_PLUGINS_DESC
 	CS	Logitech Media Server obsahuje některé zásuvné moduly (pluginy), které můžete využívat s pomocí dálkového ovladače nebo webového rozhraní. Níže můžete povolit nebo zakázat jednotlivé zásuvné moduly.<br/><br/>Poznámka: Aby změny začaly platit, je nutné restartovat aplikaci.
@@ -4102,6 +4172,7 @@ SETUP_GROUP_PLUGINS_DESC
 	PL	Program Logitech Media Server zawiera dodatki, których można używać za pomocą pilota lub w interfejsie internetowym. Poszczególne dodatki można włączyć lub wyłączyć poniżej.<br/><br/>Uwaga: aby zobaczyć efekt wprowadzenia zmian, należy ponownie uruchomić aplikację.
 	RU	Logitech Media Server содержит несколько подключаемых модулей, которыми можно управлять с помощью пульта ДУ или веб-интерфейса. Можно включать и выключать отдельные подключаемые модули.<br/><br/>Примечание: чтобы увидеть результат изменений, перезагрузите приложение.
 	SV	Det finns ett antal plugin-program för Logitech Media Server som du kan använda från fjärrkontrollen eller i webbgränssnittet. Nedan kan du aktivera och avaktivera enskilda plugin-program.<br/><br/>Obs! Ändringarna träder inte i kraft förrän du startar om programmet.
+	ZH_TW	Logitech Media Server 包含了一些可以用於遙控器或是網路介面的插件。您可以單獨選擇啟用或不啟用以下插件。<br/><br/>請注意，在勾選要啟用的插件後，您必須將伺服器重新啟動使插件生效。
 
 SETUP_GROUP_PLUGINS_NEEDS_RESTART
 	CS	K uskutečnění změny je nutné restartovat.
@@ -4117,6 +4188,7 @@ SETUP_GROUP_PLUGINS_NEEDS_RESTART
 	PL	Wprowadzenie zmiany wymaga ponownego uruchomienia.
 	RU	Изменения вступят в силу после перезапуска.
 	SV	Du måste starta om för att ändringen ska börja gälla.
+	ZH_TW	此變更需要重新啟動以生效
 
 SETUP_PLUGINS_SAFEMODE
 	CS	Vezměte na vědomí: protože Logitech Media Server běží v bezpečném režimu, nejsou k dispozici zásuvné moduly. Přesto je můžete povolit nebo zakázat, abyste vyřešili problémy s instalací.
@@ -4132,6 +4204,7 @@ SETUP_PLUGINS_SAFEMODE
 	PL	Uwaga: po uruchomieniu programu Logitech Media Server w trybie bezpiecznym dodatki będą niedostępne. Możliwe jest włączenie lub wyłączenie tych dodatków, aby rozwiązać problemy z instalacją.
 	RU	Примечание: поскольку Logitech Media Server выполняется в безопасном режиме, подключаемые модули недоступны. При этом их по-прежнему можно включать и отключать, чтобы решить проблемы с установкой.
 	SV	Tänk på att plugin-programmen inte är tillgängliga när du kör Logitech Media Server i felsäkert läge. Du kan fortfarande aktivera/inaktivera dem för att åtgärda problemen du hade under installationen.
+	ZH_TW	請注意：當您以安全模式運行 Logitech Media Server 時，所有插件將變成不可用。您仍可選擇啟用或不啟用這些插件來解決在安裝時遇到的問題。
 
 INSTALLERROR_INVALID_VERSION
 	CS	Zásuvný modul není kompatibilní s touto verzí Logitech Media Serveru. Prosím aktualizujte.
@@ -4147,6 +4220,7 @@ INSTALLERROR_INVALID_VERSION
 	PL	Dodatek jest niezgodny z tą wersją programu Logitech Media Server. Dokonaj aktualizacji.
 	RU	Плагин несовместим с данной версией Logitech Media Server. Обновите программу.
 	SV	Plugin-programmet är inte kompatibelt med den här versionen av Logitech Media Server. Uppdatera.
+	ZH_TW	此插件與目前版本的 Logitech Media Server 不相容，請更新。
 
 INSTALLERROR_INCOMPATIBLE_PLATFORM
 	CS	Zásuvný modul není kompatibilní s vaší platformou.
@@ -4162,6 +4236,7 @@ INSTALLERROR_INCOMPATIBLE_PLATFORM
 	PL	Dodatek jest niezgodny z platformą.
 	RU	Плагин несовместим с данной платформой.
 	SV	Plugin-programmet är inte kompatibelt med din plattform.
+	ZH_TW	此插件與您使用的平台不相容
 
 INSTALLERROR_FAILED_TO_LOAD
 	CS	Nepodařilo se zavést zásuvný modul
@@ -4177,6 +4252,7 @@ INSTALLERROR_FAILED_TO_LOAD
 	PL	Załadowanie dodatku nie powiodło się
 	RU	Сбой загрузки подключаемого модуля
 	SV	Det gick inte att läsa in plugin-programmet
+	ZH_TW	插件載入失敗
 
 SETUP_GROUP_FORMATS_CONVERSION
 	CS	Nastavení konverze formátu souborů
@@ -4195,6 +4271,7 @@ SETUP_GROUP_FORMATS_CONVERSION
 	RU	Настройка преобразования форматов файлов
 	SV	Inställningar för konvertering mellan filformat
 	ZH_CN	文件格式转换设置
+	ZH_TW	檔案格式轉換設定
 
 SETUP_GROUP_FORMATS_CONVERSION_DESC
 	CS	Logitech Media Server může převádět formáty zvukových souborů průběžně (on-the-fly) pro přehrávání na vašem přehrávači. Níže můžete zrušením zaškrtnutí zakázat určité formáty. Je zde zobrazen pouze název binárního souboru. Chcete-li vidět nebo editovat celou příkazovou řádku, otevřete convert.conf. Změny uložíte klepnutím na tlačítko Změnit.
@@ -4213,6 +4290,7 @@ SETUP_GROUP_FORMATS_CONVERSION_DESC
 	RU	Logitech Media Server может в реальном времени преобразовывать форматы аудиофайлов для воспроизведения на плеере. Можно отключить те или иные форматы, сняв соответствующие флажки. Здесь отображается только имя двоичного файла. Чтобы просмотреть или изменить всю командную строку, нужно открыть файл convert.conf. Щелкните "Изменить", чтобы сохранить изменения.
 	SV	Logitech Media Server kan konvertera ljudfiler under uppspelning. Du kan avaktivera specifika format nedan genom att avmarkera dem. Här visas endast namnet på den binära filen. Om du vill se eller redigera hela kommandoraden måste du öppna convert.conf. Spara ändringarna genom att klicka på Ändra.
 	ZH_CN	Logitech Media Server能对音像文件进行即时的格式转换以便在播放机上播放。如要撤销某些格式，请清除其复选框中的标记。此处只显示有关的可执行文件。如要查看或编辑完整的命令行，请查看convert.conf。请点击《更动》以保存您所作的设定。
+	ZH_TW	Logitech Media Server 能夠在播放時針對音訊檔案進行即時的格式轉換，您可以清除複選框來禁止轉換某些格式。此處只會顯示有關的二進制檔案。如要查看或編輯完整的命令指令，請查看 convert.conf。請點擊"變更"來保存您所更改的設定。
 
 SETUP_FORMATS_PREFER_NATIVE
 	CS	Preferovat nativní formát (dekódování v přehrávači), kdykoli je to možné
@@ -4220,6 +4298,7 @@ SETUP_FORMATS_PREFER_NATIVE
 	EN	Prefer native format (decoding on the player) whenever possible
 	FR	Utiliser le format natif si possible (éviter le transcodage)
 	NL	Prefereer oorspronkelijk formaat indien mogelijk (decoderen op muziekspeler)
+	ZH_TW	盡可能使用原始格式（於播放器中解碼）
 
 SETUP_FORMATSLIST_MISSING_BINARY
 	CS	Požadovaný binární soubor nebyl nalezen:
@@ -4238,6 +4317,7 @@ SETUP_FORMATSLIST_MISSING_BINARY
 	RU	Требуемый двоичный файл не найден:
 	SV	En nödvändig binärfil kunde inte hittas:
 	ZH_CN	所需的可执行文件不存在：
+	ZH_TW	所需的二進制檔案不存在：
 
 FILE_FORMAT
 	CS	Formát souboru
@@ -4256,6 +4336,7 @@ FILE_FORMAT
 	RU	Формат файла
 	SV	Filformat
 	ZH_CN	文件格式
+	ZH_TW	檔案格式
 
 SETUP_INPUTTYPE
 	CS	Z
@@ -4264,6 +4345,7 @@ SETUP_INPUTTYPE
 	FR	De
 	ZH_CN	自
 	NL	Van
+	ZH_TW	自
 
 STREAM_FORMAT
 	CS	Formát proudu
@@ -4282,6 +4364,7 @@ STREAM_FORMAT
 	RU	Формат потока
 	SV	Strömformat
 	ZH_CN	频流格式
+	ZH_TW	串流格式
 
 SETUP_DISABLEDEXTENSIONSAUDIO
 	CS	Zakázáné přípony zvukových souborů
@@ -4299,6 +4382,7 @@ SETUP_DISABLEDEXTENSIONSAUDIO
 	RU	Отключенные расширения аудиофайлов
 	SV	Avaktiverade filtillägg för ljudfiler
 	ZH_CN	撤销音频文件扩展名
+	ZH_TW	禁用的音訊檔案副檔名
 
 SETUP_DISABLEDEXTENSIONSIMAGES
 	CS	Zakázáné přípony souborů obrázku
@@ -4314,6 +4398,7 @@ SETUP_DISABLEDEXTENSIONSIMAGES
 	PL	Wyłączone rozszerzenia plików obrazów
 	RU	Отключенные расширения файлов изображений
 	SV	Avaktiverade filtillägg för bildfiler
+	ZH_TW	禁用的圖片檔案副檔名
 
 SETUP_DISABLEDEXTENSIONSAUDIO_DESC
 	CS	Logitech Media Server vyhledá ve složkách s médii všechny podporované typy souborů (zvukové soubory a seznamy sbírek (cue sheets)). Chcete-li zakázat zpracování některých typů souborů při prohledávání složky s médii, zadejte níže seznam přípon souborů oddělený čárkami. Například: cue, mp4, aac
@@ -4331,6 +4416,7 @@ SETUP_DISABLEDEXTENSIONSAUDIO_DESC
 	RU	Logitech Media Server выполняет в папках мультимедиа поиск файлов всех поддерживаемых типов (аудиофайлов и плей-листов). Чтобы отключить обработку определенных типов файлов при сканировании папки с музыкальными файлами, введите список файловых расширений через запятую. Например: cue, mp4, aac.
 	SV	Logitech Media Server söker igenom mediemapparna efter alla filtyper som stöds (ljudfiler och cue-filer). Om du inte vill att alla filtyper ska bearbetas vid sökningen av musikmappen kan du ange filtilläggen för de filer som ska undantas nedan i en kommaavgränsad lista. Exempel: cue, mp4, aac
 	ZH_CN	Logitech Media Server会在音乐文件夹内寻找各式所支持的音频或cue sheet文件。 如想要把某些格式除外，便在以下输入其格式扩展名，以逗号为分隔。例如: cue, mp4, aac
+	ZH_TW	Logitech Media Server 會在媒體資料夾中尋找所有已支援的音訊格式或是 CUE 檔案。如要在掃描時將特定的格式排除，在以下的文字框中輸入其副檔名，以逗號為分隔。例如：cue, mp3, aac
 
 SETUP_DISABLEDEXTENSIONSIMAGES_DESC
 	CS	Server vyhledá ve složkách s médii všechny podporované typy souborů obrázku. Chcete-li zakázat zpracování některých typů souborů při prohledávání složky s médii, zadejte níže seznam přípon souborů oddělený čárkami. Například: bmp, gif.
@@ -4346,6 +4432,7 @@ SETUP_DISABLEDEXTENSIONSIMAGES_DESC
 	PL	Serwer wyszuka w folderach multimediów wszystkie obsługiwane typy plików obrazów. Aby wyłączyć przetwarzanie określonych typów plików podczas przeszukiwania folderu muzyki, wprowadź listę rozszerzeń plików rozdzieloną przecinkami poniżej, np.: bmp, gif
 	RU	Сервер выполнит в папках мультимедиа поиск файлов изображений всех поддерживаемых типов. Чтобы отключить обработку определенных типов файлов при сканировании папки с музыкальными файлами, введите список файловых расширений через запятую. Например: bmp, gif.
 	SV	Servern letar i mediemapparna efter alla bildfiler i format som stöds. Om du vill förhindra att vissa filtyper behandlas när musikmappen genomsöks kan du ange en kommaavgränsad lista med filnamnstillägg nedan. T.ex. bmp, gif
+	ZH_TW	Logitech Media Server 會在媒體資料夾中尋找所有已支援的圖片格式。如要在掃描時將特定的格式排除，在以下的文字框中輸入其副檔名，以逗號為分隔。例如：bmp, gif
 
 SETUP_DISABLEDEXTENSIONSPLAYLIST
 	CS	Zakázáné přípony souborů v seznamu skladeb
@@ -4363,6 +4450,7 @@ SETUP_DISABLEDEXTENSIONSPLAYLIST
 	RU	Отключенные расширения файлов плей-листа
 	SV	Avaktiverade filtillägg för spellistor
 	ZH_CN	撤销播放表文件扩展名
+	ZH_TW	禁用的播放清單檔案副檔名
 
 SETUP_DISABLEDEXTENSIONSPLAYLIST_DESC
 	CS	Logitech Media Server vyhledá ve složce Seznamy skladeb všechny podporované typy souborů (soubory seznamů skladeb a kompilační listy (cue sheets)). Chcete-li zakázat zpracování některých typů souborů při prohledávání složky Seznamy skladeb, zadejte níže seznam přípon souborů oddělený čárkami. Například: m3u, pls, cue
@@ -4380,6 +4468,7 @@ SETUP_DISABLEDEXTENSIONSPLAYLIST_DESC
 	RU	Logitech Media Server выполняет в папке "Плей-листы" поиск всех поддерживаемых типов файлов (файлов плей-листов и микрофонных материалов). Чтобы отключить обработку определенных типов файлов при сканировании папки "Плей-листы", введите список файловых расширений через запятую. Например: m3u, pls, cue
 	SV	Logitech Media Server söker igenom mappen med spellistor efter filer av alla de typer som stöds (spellistefiler och cue-filer). Om du inte vill att alla filtyper ska bearbetas vid sökningen av spellistemappen kan du ange en kommaseparerad lista över filtillägg nedan. Exempel: m3u, pls, cue
 	ZH_CN	Logitech Media Server会在播放表文件夹内寻找各式所支持的播放表或cue sheet文件。 如想要把某些格式除外，便在以下输入其格式扩展名，以逗号为分隔。例如: m3u, pls, cue
+	ZH_TW	Logitech Media Server 會在播放清單資料夾中尋找所有已支援的圖片格式。如要在掃描時將特定的格式排除，在以下的文字框中輸入其副檔名，以逗號為分隔。例如：m3u, pls, cue
 
 PLAYER_TYPE
 	CS	Typ přehrávače
@@ -4398,6 +4487,7 @@ PLAYER_TYPE
 	RU	Тип плеера
 	SV	Spelartyp
 	ZH_CN	播放机类别
+	ZH_TW	播放器類型
 
 PLAYER_ID
 	CS	ID přehrávače
@@ -4416,6 +4506,7 @@ PLAYER_ID
 	RU	ID плеера
 	SV	Spelar-ID
 	ZH_CN	播放机身份证明
+	ZH_TW	播放器 ID
 
 COMMAND
 	CS	Příkaz
@@ -4434,6 +4525,7 @@ COMMAND
 	RU	Команда
 	SV	Kommando
 	ZH_CN	命令
+	ZH_TW	指令
 
 DECODER
 	CS	Dekodér
@@ -4452,6 +4544,7 @@ DECODER
 	RU	Декодер
 	SV	Avkodare
 	ZH_CN	译解器
+	ZH_TW	解碼器
 
 #
 # Setup preference strings
@@ -4483,6 +4576,7 @@ SETUP_PLAYERNAME
 	RU	Название плеера
 	SV	Spelarnamn
 	ZH_CN	播放机名字
+	ZH_TW	播放器名稱
 
 SETUP_PLAYERNAME_DESC
 	CS	Můžete přehrávači přiřadit název, který bude použit k identifikaci tohoto přehrávače na těchto webových stránkách.
@@ -4502,6 +4596,7 @@ SETUP_PLAYERNAME_DESC
 	RU	Плееру можно присвоить имя, по которому будет производиться его идентификация на этих веб-страницах.
 	SV	Du kan ange ett namn för spelaren. Namnet användas sedan för att identifiera spelaren på de här webbsidorna.
 	ZH_CN	为了方便在网页中的辨认，您可以为这个播放机取名。
+	ZH_TW	為了在網路介面中辨識，您可以為這個播放器命名。
 
 SETUP_RESET_PLAYER
 	CS	Obnovení předvoleb přehrávače
@@ -4517,6 +4612,7 @@ SETUP_RESET_PLAYER
 	PL	Resetuj preferencje odtwarzacza
 	RU	Сброс настроек плеера
 	SV	Återställ spelarinställningar
+	ZH_TW	重置播放器偏好設定
 
 SETUP_RESET_PLAYER_DESC
 	CS	Můžete vynulovat nastavení přehrávače, jako je název přehrávače, formát názvu, nabídky atd. na výchozí nastavení od výrobce. Tím se ovšem nevynulují hardwarová nastavení přehrávače, např. síťové parametry.
@@ -4532,6 +4628,7 @@ SETUP_RESET_PLAYER_DESC
 	PL	Możliwe jest przywrócenie ustawień odtwarzacza, takich jak nazwa odtwarzacza, format tytułu, menu itp. do domyślnych wartości fabrycznych. Należy pamiętać, że nie spowoduje to zresetowania ustawień sprzętowych odtwarzacza, np. parametrów sieciowych.
 	RU	Можно сбросить такие настройки плеера, как название, формат названия, меню и др., вернув заводские значения по умолчанию. Обратите внимание, что аппаратные настройки (например, параметры сети) сброшены не будут.
 	SV	Du kan återställa en spelares inställningar, t.ex. spelarnamn, titelformat och menyer, till fabriksinställningarna. Observera att spelarens maskinvaruinställningar, t.ex. nätverksparametrar, inte återställs.
+	ZH_TW	您可以針對播放器的名稱、標題格式或選單等選項進行恢復原廠設定。請注意此舉將不會針對播放器的硬體設定進行重置，如網路參數設定。
 
 SETUP_RESET_PLAYER_CONFIRM
 	CS	Přejete si opravdu obnovit nastavení přehrávače na výchozí hodnoty výrobce?
@@ -4547,6 +4644,7 @@ SETUP_RESET_PLAYER_CONFIRM
 	PL	Czy na pewno chcesz przywrócić domyślne ustawienia fabryczne odtwarzacza?
 	RU	Вернуть заводские настройки плеера по умолчанию?
 	SV	Vill du återställa spelarens fabriksinställningar?
+	ZH_TW	您確定要對此播放器進行恢復原廠設定嗎？
 
 SETUP_POWERONBRIGHTNESS
 	CS	Jas při zapnutí
@@ -4562,6 +4660,7 @@ SETUP_POWERONBRIGHTNESS
 	PL	Jasność po włączeniu
 	RU	Включить яркость
 	SV	Ljusstyrka när strömmen slås på
+	ZH_TW	亮度
 
 SETUP_POWEROFFBRIGHTNESS
 	CS	Jas při vypnutí
@@ -4577,6 +4676,7 @@ SETUP_POWEROFFBRIGHTNESS
 	PL	Jasność po wyłączeniu zasilania
 	RU	Выключить яркость
 	SV	Ljusstyrka i avstängt läge
+	ZH_TW	關閉時亮度
 
 SETUP_IDLEBRIGHTNESS
 	CS	Jas při nečinnosti
@@ -4592,6 +4692,7 @@ SETUP_IDLEBRIGHTNESS
 	PL	Jasność w trybie bezczynności
 	RU	Яркость при неактивности
 	SV	Ljusstyrka i viloläge
+	ZH_TW	待機時亮度
 
 SETUP_POWERONBRIGHTNESS_ABBR
 	CS	Pokud je aktivní
@@ -4607,6 +4708,7 @@ SETUP_POWERONBRIGHTNESS_ABBR
 	PL	Gdy aktywne
 	RU	При активности
 	SV	I aktivt läge
+	ZH_TW	當啟動時
 
 SETUP_POWEROFFBRIGHTNESS_ABBR
 	CS	Během vypnutí
@@ -4622,6 +4724,7 @@ SETUP_POWEROFFBRIGHTNESS_ABBR
 	PL	Po wyłączeniu
 	RU	При выкл.
 	SV	I avstängt läge
+	ZH_TW	當關閉時
 
 SETUP_IDLEBRIGHTNESS_ABBR
 	CS	Nečinný
@@ -4637,6 +4740,7 @@ SETUP_IDLEBRIGHTNESS_ABBR
 	PL	Bezczynne
 	RU	Неактивен
 	SV	Inaktiv
+	ZH_TW	待機
 
 SETUP_MINAUTOBRIGHTNESS
 	CS	Minimální jas (automaticky)
@@ -4652,6 +4756,7 @@ SETUP_MINAUTOBRIGHTNESS
 	PL	Minimalna jasność (automatycznie)
 	RU	Минимальная яркость (Авто)
 	SV	Minimal ljusstyrka (automatiskt)
+	ZH_TW	最低亮度（自動）
 
 SETUP_MINAUTOBRIGHTNESS_ABBR
 	CS	Min. jas (auto)
@@ -4667,6 +4772,7 @@ SETUP_MINAUTOBRIGHTNESS_ABBR
 	PL	Min. jasność (auto)
 	RU	Мин. яркость (Авто)
 	SV	Min. ljusstyrka (auto)
+	ZH_TW	最低亮度（自動）
 
 SETUP_MINAUTOBRIGHTNESS_DESC
 	CS	Nastavte minimální úroveň jasu pro automatické nastavení jasu.
@@ -4682,6 +4788,7 @@ SETUP_MINAUTOBRIGHTNESS_DESC
 	PL	Ustaw minimalną wartość automatycznego ustawienia jasności.
 	RU	Задайте минимальный уровень яркости для автоматической настройки яркости.
 	SV	Justera den minsta möjliga ljusnivån för den automatiska inställningen av ljusstyrkan.
+	ZH_TW	調整自動亮度設定的最低亮度值
 
 SETUP_SENSAUTOBRIGHTNESS
 	CS	Citlivost jasu (automaticky)
@@ -4697,6 +4804,7 @@ SETUP_SENSAUTOBRIGHTNESS
 	PL	Czułość jasności (automatyczna)
 	RU	Чувствительность яркости (Авто)
 	SV	Känslighet för ljusstyrka (automatiskt)
+	ZH_TW	亮度敏感度（自動）	
 
 SETUP_SENSAUTOBRIGHTNESS_ABBR
 	CS	Citl. jasu (auto)
@@ -4712,6 +4820,7 @@ SETUP_SENSAUTOBRIGHTNESS_ABBR
 	PL	Jasność czułości (auto)
 	RU	Чувст. яркости (Авто)
 	SV	Käns. för ljusstyrkan (auto)
+	ZH_TW	亮度敏感度（自動）
 
 SETUP_SENSAUTOBRIGHTNESS_DESC
 	CS	Upravit citlivost pro automatické nastavení jasu.
@@ -4727,6 +4836,7 @@ SETUP_SENSAUTOBRIGHTNESS_DESC
 	PL	Dostosowuje czułość ustawień automatycznej jasności.
 	RU	Задать чувствительность автоматических настроек яркости.
 	SV	Ändra känsligheten för automatisk ljusstyrka.
+	ZH_TW	調整自動亮度設定的亮度敏感度
 
 SETUP_PLAYINGDISPLAYMODE
 	CS	Informace o "Právě hraje"
@@ -4745,6 +4855,7 @@ SETUP_PLAYINGDISPLAYMODE
 	RU	Информация о воспроизводимой дорожке
 	SV	Nu spelas-information
 	ZH_CN	播放中信息
+	ZH_TW	播放中的資訊
 
 SETUP_PLAYINGDISPLAYMODE_ABBR
 	CS	Inf. o "Právě hraje"
@@ -4760,6 +4871,7 @@ SETUP_PLAYINGDISPLAYMODE_ABBR
 	PL	Informacje o teraz odtwarzanych
 	RU	Информация о воспроизводимой дорожке
 	SV	Nu spelas-information
+	ZH_TW	播放中的資訊
 
 SETUP_PLAYINGDISPLAYMODE_DESC
 	CS	Přehrávač může zobrazit informaci o průběhu přehrávání skladby. Můžete si zvolit, jaké informace se budou standardně zobrazovat a můžete povolit nebo zakázat režimy, které chcete mít k dispozici. Opakovaným tisknutím tlačítka Právě hraje na dálkovém ovladači můžete těmito režimy procházet.
@@ -4779,6 +4891,7 @@ SETUP_PLAYINGDISPLAYMODE_DESC
 	RU	В плеере может выводиться информация о ходе воспроизведения песни. Можно выбрать, какая информация будет отображаться по умолчанию, и включить режимы, которые необходимо сделать доступными. Переключаться между этими режимами можно с помощью циклических нажатий кнопки "Воспроизводится" на пульте ДУ.
 	SV	Uppspelningsinformation om den aktuella låten kan visas på spelarens skärm. Du kan välja vilken information som ska visas som standard och aktivera/avaktivera andra lägen som du vill ska vara tillgängliga. Du kan växla mellan de olika lägena genom att trycka på knappen NOW PLAYING på fjärrkontrollen upprepade gånger.
 	ZH_CN	当前播放歌曲的信息都能显示在播放机的显示屏上。您可以选择您所要显示的信息。
+	ZH_TW	當前播放歌曲的資訊將顯示在播放器的螢幕上，您可以選擇要顯示的資訊，且可以啟用或禁用想要顯示的模式。您可以在當前播放設定中勾選要輪替出現的選項
 
 SETUP_SYNCHRONIZE
 	CS	Synchronizace
@@ -4799,6 +4912,7 @@ SETUP_SYNCHRONIZE
 	RU	Синхронизация
 	SV	Synkronisera
 	ZH_CN	同步
+	ZH_TW	同步
 
 SETUP_SYNCHRONIZE_DESC
 	CS	Přehrávač může být synchronizován s jinými přehrávači a umožnit jim přehrávat současně stejnou skladbu. Ze seznamu dostupných synchronizačních skupin si vyberte přehrávače, s kterými chcete synchronizovat. Synchronizaci ukončíte volbou Bez synchronizace.
@@ -4819,6 +4933,7 @@ SETUP_SYNCHRONIZE_DESC
 	RU	Плеер можно синхронизовать с другими плеерами, чтобы они воспроизводили одну и ту же музыку одновременно. Выберите синхронизуемые плееры из списка доступных групп синхронизации. Чтобы остановить синхронизацию, выберите "Без синхронизации".
 	SV	Spelaren kan synkroniseras med andra spelare så att de alla spelar upp samma musik samtidigt. Välj de spelare du vill synkronisera med i listan över tillgängliga synkroniseringsgrupper. Om du vill stoppa synkroniseringen väljer du Ingen synkronisering.
 	ZH_CN	这个播放机能和其他播放机进行同步，以便让所有播放机同时播放同样的音乐。您可以从同步小组名单中选择同步对象。若要撤销同步请选择不要同步。
+	ZH_TW	這個播放器能夠與其他播放器進行同步，以便讓所有播放器同時播放同樣的媒體，您可以從同步群組清單中選擇同步對象。若要取消同步請選擇不要同步。
 
 SETUP_NO_SYNCHRONIZATION
 	CS	Bez synchronizace
@@ -4839,6 +4954,7 @@ SETUP_NO_SYNCHRONIZATION
 	RU	Без синхронизации
 	SV	Ingen synkronisering
 	ZH_CN	不要同步
+	ZH_TW	不要同步
 
 SETUP_SYNCVOLUME_ON
 	CS	Synchronizovat hlasitost přehrávače
@@ -4858,6 +4974,7 @@ SETUP_SYNCVOLUME_ON
 	RU	Синхронизация громкости плеера
 	SV	Synkronisera spelarens volym
 	ZH_CN	把播放机的音量同步化
+	ZH_TW	將播放器的音量同步
 
 SETUP_SYNCVOLUME_OFF
 	CS	Nesynchronizovat hlasitost přehrávače
@@ -4877,6 +4994,7 @@ SETUP_SYNCVOLUME_OFF
 	RU	Не синхронизовать громкость плеера
 	SV	Synkronisera inte spelarens volym
 	ZH_CN	不要把播放机的音量同步化
+	ZH_TW	不要將播放器的音量同步
 
 SETUP_SYNCVOLUME
 	CS	Synchronizace hlasitosti
@@ -4897,6 +5015,7 @@ SETUP_SYNCVOLUME
 	RU	Синхронизовать громкость
 	SV	Synkronisera volym
 	ZH_CN	音量同步化
+	ZH_TW	音量同步
 
 SETUP_SYNCVOLUME_DESC
 	CS	Můžete si zvolit, zda se budou úrovně hlasitosti synchronizovaných přehrávačů navzájem sledovat nebo budou nezávislé. Níže proveďte volbu a klikněte na Změnit.
@@ -4916,6 +5035,7 @@ SETUP_SYNCVOLUME_DESC
 	RU	Можно задать синхронизируемые или независимые уровни громкости для синхронизованных плееров. Выберите нужный вариант и нажмите кнопку "Изменить".
 	SV	Du kan välja om synkroniserade spelare ska ha samma volymnivå eller om de ska vara oberoende. Välj nedan och klicka sedan på Ändra.
 	ZH_CN	您可以选择将同步小组内的播放机的音量独立化或进行全体音量即时追踪同步化。请选择并点击《更动》。
+	ZH_TW	您可以選擇將同步群組內的播放器進行音量同步或獨立調整。請選擇後點擊"變更"來使設定生效。
 
 SETUP_SYNCPOWER_ON
 	CS	Zapnout/vypnout se skupinou
@@ -4934,6 +5054,7 @@ SETUP_SYNCPOWER_ON
 	RU	Вкл./выкл. вместе с группой
 	SV	På/av med gruppen
 	ZH_CN	电源开关小组化
+	ZH_TW	電源狀態群組化
 
 SETUP_SYNCPOWER_OFF
 	CS	Zapnout/vypnout odděleně
@@ -4952,6 +5073,7 @@ SETUP_SYNCPOWER_OFF
 	RU	Отдельное выкл/вкл питания
 	SV	På/av individuellt
 	ZH_CN	电源开关独立化
+	ZH_TW	電源狀態獨立化
 
 SETUP_SYNCPOWER
 	CS	Synchronizace napájení
@@ -4971,6 +5093,7 @@ SETUP_SYNCPOWER
 	RU	Синхронизовать мощность
 	SV	Synkronisera av/på
 	ZH_CN	电源同步化
+	ZH_TW	電源狀態同步
 
 SETUP_SYNCPOWER_DESC
 	CS	Můžete si zvolit, aby se tento přehrávač vypnul sám nebo se vypnul ve skupině se všemi ostatními přehrávači. Níže proveďte volbu a klikněte na Změnit.
@@ -4989,6 +5112,7 @@ SETUP_SYNCPOWER_DESC
 	RU	Можно выбрать, будет ли данный плеер выключаться отдельно или вместе с другими плеерами данной группы. Выберите нужный вариант и нажмите кнопку "Изменить".
 	SV	Du kan välja att låta den här spelaren stängas av oberoende av andra spelare, eller tillsammans med andra spelare i en grupp. Gör dina val nedan och klicka sedan på Ändra.
 	ZH_CN	您可以选择将这个播放机的电源切断独立化、或与其他播放机小组一起切断。请选择并点击《更动》。
+	ZH_TW	您可以選擇將這個播放器的電源狀態與其他播放器進行同步或獨立調整，請選擇後點擊"變更"來使設定生效。
 
 SETUP_DIGITALVOLUMECONTROL_ON
 	CS	Úprava ovládání hlasitosti výstupu
@@ -5004,6 +5128,7 @@ SETUP_DIGITALVOLUMECONTROL_ON
 	PL	Wyjścia elementów regulacji głośności
 	RU	Выходы выравнивания громкости
 	SV	Utsignalen justeras med volymkontrollerna
+	ZH_TW	輸出的音量控制
 
 SETUP_DIGITALVOLUMECONTROL_OFF
 	CS	Výstupní úroveň je pevně stanovena na 100%
@@ -5019,6 +5144,7 @@ SETUP_DIGITALVOLUMECONTROL_OFF
 	PL	Poziom sygnału wyjściowego jest stały i ma wartość 100%
 	RU	Заданный уровень выхода — 100%
 	SV	Nivån för utsignalen är konstant 100 %
+	ZH_TW	輸出音量固定為 100%
 
 SETUP_DIGITALVOLUMECONTROL
 	CS	Ovládání hlasitosti
@@ -5034,6 +5160,7 @@ SETUP_DIGITALVOLUMECONTROL
 	PL	Regulacja głośności
 	RU	Регулировка громкости
 	SV	Volymknappar
+	ZH_TW	音量控制
 
 SETUP_DIGITALVOLUMECONTROL_DESC
 	CS	Ovládání hlasitosti můžete zafixovat na 100%, pokud hlasitost ovládáte na svém zesilovači nebo potřebujete dokonalý digitální průchod. Bude tím ovlivněna digitální i analogová hlasitost.
@@ -5049,6 +5176,7 @@ SETUP_DIGITALVOLUMECONTROL_DESC
 	PL	Jeżeli do sterowania głośnością używany jest regulator wzmacniacza lub wymagane jest przesyłanie sygnału cyfrowego wysokiej jakość, możliwe jest stałe ustawienie poziomu głośności na 100%. Ma to wpływ na głośność cyfrową i analogową.
 	RU	Можно установить уровень громкости 100%, если громкость настраивается на усилителе или требуется безупречное качество цифровой передачи. Этот параметр влияет на громкость цифрового и аналогового сигнала.
 	SV	Du kan ställa in volymen på 100% om du använder volymkontrollen på förstärkaren för att justera ljudnivån eller om du vill ha perfekt digital genomströmning. Detta påverkar både digital och analog volym.
+	ZH_TW	如果您的擴大機或是其他設備具有音量控制的機制，或需要完美數位直通輸出時，您可以將播放器的音量固定在最大值。此舉將會同時影響數位和類比音量。
 
 SETUP_PREAMPVOLUMECONTROL
 	CS	Ovládání hlasitosti předzesilovače
@@ -5066,6 +5194,7 @@ SETUP_PREAMPVOLUMECONTROL
 	RU	Управление громкостью предусилителя
 	SV	Volymkontroll för förförstärkare
 	ZH_CN	前级音量控制
+	ZH_TW	前級音量控制
 
 SETUP_PREAMPVOLUMECONTROL_DESC
 	CS	Jedná se o sekundární ovládání hlasitosti, které se vztahuje pouze na analogové výstupy Squeezeboxu. Zadejte hladinu útlumu v decibelech. Rozsah je 0,0 až 63,0 v 0,5 db krocích. Výchozí nastavení je 0 (pro plnou hlasitost). UPOZORNĚNÍ: pokud je váš zesilovač dostatečně výkonný, aby poškodil reproduktory, měl by být jako bezpečnostní opatření přesto použit receiver, předzesilovač nebo linkový atenuátor!
@@ -5083,6 +5212,7 @@ SETUP_PREAMPVOLUMECONTROL_DESC
 	RU	Это вспомогательный регулятор громкости, воздействующий только на аналоговые выходы Squeezebox. Введите ослабление в дБ. Значение может находиться в диапазоне 0,0–63,0 и изменяется с шагом 0,5 дБ. По умолчанию задано значение 0 (полная громкость). ПРЕДУПРЕЖДЕНИЕ. Если ваш усилитель достаточно мощный, чтобы повредить динамики, в целях безопасности следует использовать ресивер, предварительный усилитель или линейный аттенюатор!
 	SV	Det här är en sekundär volymkontroll som endast gäller Squeezebox-spelarens analoga utgångar. Ange dämpningen i decibel. Det giltiga intervallet är 0,0–63,0 i steg på 0,5. Standardinställningen är 0 (full volym). VARNING! Om förstärkaren är så kraftfull att högtalarna kan sprängas bör en mottagare, förförstärkare eller linjedämpare ändå användas som en säkerhetsåtgärd.
 	ZH_CN	这项功能是针对Squeezebox模拟输出音量的控制。以分贝为单位输入减益比量。设置范围为0.0至63.0，间隔为0.5分贝。确省为0（最大音量）。
+	ZH_TW	此項輔助設定僅適用於 Squeezebox 上的類比輸出。以分貝為單位輸入增益比。設定的範圍是 0.0 至 63.0 間隔為 0.5 分貝。預設為 0 （最大音量）。
 
 SETUP_BUFFERSECS
 	CS	Sekundy vyrovnávací paměti rozhlasové stanice
@@ -5100,6 +5230,7 @@ SETUP_BUFFERSECS
 	RU	Секунд буферизации для радиостанции
 	SV	Storlek på buffert för Internetradio i sekunder
 	ZH_CN	收音机频道缓冲秒数
+	ZH_TW	收音機電台的緩衝秒數
 
 SETUP_BUFFERSECS_DESC
 	CS	Při přehrávání datového proudu z Internetu si přehrávač před začátkem přehrávání uloží do vyrovnávací paměti malý objem dat. Zadejte velikost zvukových dat ve vyrovnávací paměti, v sekundách od 3 do 30. Výchozí hodnota je 3 sekundy. Pokud pozorujete zadrhávání zvuku, může pomoci zvýšení této hodnoty.
@@ -5116,6 +5247,7 @@ SETUP_BUFFERSECS_DESC
 	PL	Podczas odtwarzania strumienia internetowego odtwarzacz buforuje niewielką ilość danych przed rozpoczęciem odtwarzania. Określ ilość danych audio do buforowania w sekundach od 3 do 30. Wartość domyślna to 3 sekundy. Jeżeli dźwięk będzie odtwarzany z przerwami, zwiększenie tej wartości może rozwiązać problem.
 	RU	Перед воспроизведением интернет-потока плеер буферизует небольшой объем данных. Укажите размер буферизуемых аудиоданных в секундах, от 3 до 30. Значение по умолчанию — 3 с. Увеличив это значение, можно устранить прерывистость воспроизведения аудио.
 	SV	När strömmat innehåll spelas upp från Internet så buffrar spelaren en liten mängd data innan uppspelningen börjar. Ange mängden data som ska buffras, i sekunder från 3 till 20. Standardvärdet är 3 sekunder. Om uppspelningen hackar kan det hjälpa att öka det här värdet.
+	ZH_TW	當播放網路串流媒體時，播放器將會在開始播放前緩衝一段時間。以秒為單位設定要緩衝的時間，設定的範圍是 3 秒至 30 秒，預設值為 3 秒。如果您在串流時遇到播放不順暢的現象，請提高緩衝的時間。
 
 SETUP_MAXWMARATE
 	CS	Maximální přenosová rychlost (bitrate) datového proudu WMA
@@ -5133,6 +5265,7 @@ SETUP_MAXWMARATE
 	RU	Максимальная скорость потоковой передачи WMA
 	SV	Maximal bithastighet för WMA-ström
 	ZH_CN	最高WMA频流比特率
+	ZH_TW	最高的 WMA 串流位元速率
 
 SETUP_MAXWMARATE_DESC
 	CS	Některé datové proudy WMA mají několik hodnot přenosové rychlosti (bitrate) pro přehrávání datových proudů. Standardně Logitech Media Server vybírá proud s nejvyšší hodnotou přenosové rychlosti, který je k dispozici, ale pokud máte pomalejší připojení k Internetu, můžete zde nastavit nižší hodnotu a omezit tak maximální rychlost, kterou lze vybrat z těchto proudů s několika hodnotami přenosové rychlosti.
@@ -5149,6 +5282,7 @@ SETUP_MAXWMARATE_DESC
 	PL	W niektóre strumieniach WMA dostępnych jest kilka szybkości transmisji bitów do przesyłania strumieniowego. Domyślnie program Logitech Media Server wybierze strumień z najwyższą dostępną szybkością transmisji bitów, ale jeżeli używane jest wolniejsze połączenie internetowe, można w tym miejscu ustawić niższą wartość w celu ograniczenia maksymalnej szybkości, jaką można wybrać w przypadku strumieni o kilku szybkościach.
 	RU	В некоторых потоках WMA доступно несколько скоростей передачи для потокового воспроизведения. По умолчанию Logitech Media Server выбирает поток с самой высокой скоростью передачи. Но при медленном соединении с Интернетом можно ограничить максимально доступное значение скорости передачи, сделав его более низким.
 	SV	Vissa WMA-strömmar har flera olika bithastigheter. Som standard väljer Logitech Media Server den högsta tillgängliga bithastigheten. Om du har en långsammare Internetuppkoppling kan du ange ett lägre värde här, så sänks gränsen för hur snabba hastigheter som kan väljas.
+	ZH_TW	某些 WMA 串流媒體具有多個位元速率。Logitech Media Server 預設將會採用最高的位元速率來播放，但是如果您的網路速度較慢，可以在多個位元速率中選取較低者進行串流。
 
 SETUP_SYNCSTARTDELAY
 	CS	Synchronizované zpoždění startu přehrávačů (ms)
@@ -5165,6 +5299,7 @@ SETUP_SYNCSTARTDELAY
 	PL	Opóźnienie uruchomienia zsynchronizowanych odtwarzaczy (ms)
 	RU	Задержка при запуске синхронизованных плееров (мс)
 	SV	Fördröjning vid start av synkroniserade spelare (ms)
+	ZH_TW	同步播放器的起始延遲時間（ms）
 
 SETUP_SYNCSTARTDELAY_DESC
 	CS	Když je synchronizováno více přehrávačů, Logitech Media Server přikáže každému přehrávači, aby začal přehrávat skladbu ve stejnou dobu. Pro to je nutno zajistit, aby každý přehrávač měl čas příjmout příkazu startu před tím, než začnou všechny společně, a tedy odešle příkaz startu předem, aby každý přehrávač čekal na správný okamžik startu. Pokud je přetížená síť, což může nastat zvláště když je na síti příliš mnoho přehrávačů a u bezdrátových sítí, výchozí hodnota prodlevy 200 ms může být příliš krátká. Tuto výchozí hodnotu zde můžete v případě potřeby změnit.
@@ -5181,6 +5316,7 @@ SETUP_SYNCSTARTDELAY_DESC
 	PL	W przypadku zsynchronizowania kilku odtwarzaczy program Logitech Media Server wysyła do każdego odtwarzacza polecenie rozpoczęcia odtwarzania utworu w tym samym czasie. Program musi sprawdzić, czy każdy odtwarzacz ma czas na odebranie polecenia rozpoczęcia przed rozpoczęciem jednoczesnego odtwarzania, więc wysyła wcześniej polecenie rozpoczęcia, a odtwarzacze rozpoczynają pracę w odpowiedniej chwili. W przypadku nadmiernego przeciążenia sieci, które występuje szczególnie wtedy, gdy w sieciach standardowych i bezprzewodowych używana jest duża liczba odtwarzaczy, domyślne opóźnienie o długości 200 ms może być niewystarczające. W razie potrzeby wartość domyślną można zmienić tutaj.
 	RU	При синхронизации нескольких плееров Logitech Media Server дает каждому из них команду начать воспроизведение дорожки в одно и то же время. Для этого необходимо убедиться, что каждый плеер получит команду запуска до всеобщего начала воспроизведения, поэтому данная команда отправляется ему заранее. После получения команды каждый плеер ожидает запуска. При сильной загрузке сети, что особенно характерно для сетей со множеством плееров и для беспроводных сетей, задержка по умолчанию, равная 200 мс, может быть недостаточной. При необходимости это значение можно изменить.
 	SV	När flera spelare synkroniserats ser Logitech Media Server till att alla spelare börjar spela upp låten samtidigt. Det måste finnas tid för startkommandot att gå fram till var och en av spelarna innan låten börjar spelas upp. Därför skickas kommandot i förväg, och spelarna väntar sedan till rätt startögonblick. Om trafiken på nätverket är mycket tät, något som kan hända framför allt när många spelare anslutits och med trådlösa nätverk, kanske inte standardfördröjningen på 200 millisekunder räcker till. Du kan ändra standardinställningen här vid behov.
+	ZH_TW	當多個播放器組成同步群組時，Logitech Media Server 會通知每個播放器同時開始播放曲目，為了確保每個播放器在一起開始之前都有時間接收到開始指令，它會提前發送開始指令，並且對每個播放器都會等待合適的開始時間。如果網絡過度擁塞，特別是當網絡上有多個播放器且使用無線網絡時，可能會發生這種情況，那麼 200 毫秒的預設延遲可能還不夠。如有必要，您可以在此處更改預設值。
 
 SETUP_STARTDELAY
 	CS	Zpoždění spuštění přehrávače (ms)
@@ -5196,6 +5332,7 @@ SETUP_STARTDELAY
 	PL	Opóźnienie uruchomienia odtwarzacza (ms)
 	RU	Задержка запуска плеера (мс)
 	SV	Fördröjning för spelarstart (ms)
+	ZH_TW	播放器起始延遲（ms）
 
 SETUP_STARTDELAY_DESC
 	CS	Přehrávači může trvat nezanedbatelnou dobu, než spustí přehrávání (než začnete poslouchat hudbu) po zpracování příkazu ke startu od Logitech Media Serveru. To může nastat v případě, když se používají digitální výstupy (v závislosti na připojením zařízení) nebo u softwarových přehrávačů na určitých platformách. V těchto případech lze nastavit zde toto zpoždění tak, aby Logitech Media Server věděl, o kolik dříve musí spustit tento přehrávač, aby hudba ze všech synchronizovaných přehrávačů začala ve stejnou dobu. Poznámka: toto se přičítá k případnému "Zpoždění zvuku přehrávače" (níže).
@@ -5211,6 +5348,7 @@ SETUP_STARTDELAY_DESC
 	PL	Rozpoczęcie odtwarzania (zanim usłyszysz dźwięk) po przetworzeniu przez odtwarzacz polecenia uruchomienia z programu Logitech Media Server może być zauważalnie opóźnione. Może to mieć miejsce w przypadku korzystania z wyjść cyfrowych (w zależności od podłączonych urządzeń) lub odtwarzaczy programowych na niektórych platformach. W takich przypadkach opóźnienie to można ustawić tutaj, aby program Logitech Media Server uruchomił odtwarzacz odpowiednio wcześniej w celu jednoczesnego uruchomienia wszystkich zsynchronizowanych odtwarzaczy. Uwaga: opcja ta stanowi dodatek dla ustawienia „Opóźnienie dźwięku odtwarzacza” (poniżej).
 	RU	После обработки команды запуска Logitech Media Server плеер может начать воспроизведение лишь через некоторое время (до того, как появится звук). Обычно это происходит при работе с цифровыми выходами (в зависимости от подключенного оборудования) или с программными плеерами на некоторых платформах. В этих случаях можно настроить длительность задержки таким образом, чтобы Logitech Media Server запускал данный плеер заблаговременно и звук со всех синхронизованных плееров появлялся в одно и то же время. Примечание: этот параметр дополняет любое из текущих значений "Задержка звука плеера" (см. ниже).
 	SV	Det kan ta en ganska lång stund från det att en spelare tar emot startkommandot från Logitech Media Server till det att du hör musiken börja spelas upp. Det här kan inträffa när digitala utgångar används (beroende på den anslutna utrustningen) eller med programvarubaserade spelare på vissa plattformar. För att undvika problemet kan du ange fördröjningen här. Då kan den här spelaren startas motsvarande antal sekunder i förväg, så att ljudet från alla de synkroniserade spelarna börjar spelas upp samtidigt. Obs! det här läggs till eventuell Ljudfördröjning för spelare (se nedan).
+	ZH_TW	播放器在處理來自 Logitech Media Server 的開始指令後，可能需要花費相當長的時間才能開始播放（在您開始聽到音樂之前）。當使用數位輸出（取決於所連接的設備）或某些平台上的軟體播放器時，可能會出現這種情況。在這些情況下，可以在此處設置此延遲，以便 Logitech Media Server 知道提前多少時間啟動此播放器，使所有同步播放器的音訊同時啟動。 注意：這是對任何正在進行的“播放器音訊延遲”的補充（如下）。
 
 SETUP_MAINTAINSYNC
 	CS	Udržovat synchronizaci
@@ -5227,6 +5365,7 @@ SETUP_MAINTAINSYNC
 	PL	Zachowaj synchronizację
 	RU	Сохранять синхронизацию
 	SV	Upprätthåll synkronisering
+	ZH_TW	持續同步
 
 SETUP_MAINTAINSYNC_DESC
 	CS	I když přehrávače začnou přehrávat skladbu v dokonalé synchronizaci, mohou se za určitou dobu rozejít (obvykle během několika minut). Rozdíl o více než 30 ms (milisekund) již bude znatelný, pokud posloucháte současně výstup z několika přehrávačů. Logitech Media Server tento problém řeší nepřetržitým sledováním, kolik každý přehrávač odehrál a prováděním případných malých úprav. Tuto funkci můžete zapnout nebo vypnout.
@@ -5243,6 +5382,7 @@ SETUP_MAINTAINSYNC_DESC
 	PL	Nawet jeżeli kilka odtwarzaczy rozpocznie odtwarzanie utworu dokładnie w tym samym momencie, po pewnym czasie (zwykle po kilku minutach) nie będą już zsynchronizowane. Różnica większa niż 30 ms (milisekund) będzie zauważana w przypadku słuchania dźwięku z kilku odtwarzaczy jednocześnie. Program Logitech Media Server rozwiązuje ten problem przez stałe śledzenie, jaka część utworu została odtworzona przez dany odtwarzacz i wprowadzanie niewielkich zmian w razie potrzeby. Funkcję tę można włączyć lub wyłączyć.
 	RU	Даже если несколько плееров начинают воспроизводить дорожку абсолютно синхронно, со временем (обычно через несколько минут) могут появиться расхождения. Расхождения более 30 мс будут заметны, если одновременно слушать музыку из нескольких плееров. Logitech Media Server решает эту проблему, отслеживая время работы каждого плеера и корректируя ход воспроизведения. Эту функцию можно включать и отключать.
 	SV	Även om när flera spelare är perfekt synkroniserade när en låt börjar spelas upp, kan de komma i otakt senare (vanligtvis efter ett par minuter). Det går att höra tidsskillnader på över 30 millisekunder från flera spelare samtidigt. I Logitech Media Server hanteras det här problemet med att speltiden för varje spelare spåras, så att justeringar kan göras vid behov. Du kan aktivera eller avaktivera den här funktionen.
+	ZH_TW	即便多個播放器完美同步地開始播放一首曲目，它們也可能隨著時間的推移（通常在幾分鐘後）而逐漸失去同步。如果您可以同時聽到多個播放器的輸出，超過約 30ms（毫秒）的差異將會變得很明顯。Logitech Media Server 通過持續追蹤每個播放器的播放時間並根據需求自動進行小幅調整來解決此問題。您可以開啟或關閉此設定。
 
 SETUP_MAINTAINSYNC_ON
 	CS	Udržovat synchronizaci během přehrávání
@@ -5259,6 +5399,7 @@ SETUP_MAINTAINSYNC_ON
 	PL	Zachowaj synchronizację podczas odtwarzania
 	RU	Сохранять синхронизацию во время воспроизведения
 	SV	Upprätthåll synkronisering vid uppspelning
+	ZH_TW	於播放時持續同步
 
 SETUP_MAINTAINSYNC_OFF
 	CS	Neudržovat synchronizaci
@@ -5275,6 +5416,7 @@ SETUP_MAINTAINSYNC_OFF
 	PL	Nie zachowuj synchronizacji
 	RU	Не сохранять синхронизацию
 	SV	Upprätthåll inte synkronisering
+	ZH_TW	不使用持續同步
 
 SETUP_PLAYDELAY
 	CS	Zpoždění zvuku přehrávače (ms)
@@ -5290,6 +5432,7 @@ SETUP_PLAYDELAY
 	PL	Opóźnienie dźwięku odtwarzacza (ms)
 	RU	Задержка звука плеера (мс)
 	SV	Ljudfördröjning för spelare (ms)
+	ZH_TW	播放器音訊延遲（ms）
 
 SETUP_PLAYDELAY_DESC
 	CS	Může být výrazný rozdíl mezi tím, kolik přehraného času ze skladby oznamuje přehrávač do Logitech Media Server a jaký čas byl skutečně přehrán. To může nastat v případě použití digitálních výstupů (v závislosti na připojeném zařízení) nebo u softwarových přehrávačů na určitých platformách. V těchto případech lze toto zpoždění nastavit zde, takže Logitech Media Server je může při úpravě synchronizace vzít v úvahu.
@@ -5305,6 +5448,7 @@ SETUP_PLAYDELAY_DESC
 	PL	Różnica między czasem odtworzenia utworu przesłanym przez odtwarzacz do programu Logitech Media Server, a odtworzonym dźwiękiem może być znaczna. Może to mieć miejsce w przypadku korzystania z wyjść cyfrowych (w zależności od podłączonych urządzeń) lub odtwarzaczy programowych na niektórych platformach. W takich przypadkach opóźnienie to można ustawić tutaj, aby program Logitech Media Server uwzględniał je podczas dostosowywania synchronizacji.
 	RU	Существует значительная разница между отчетом плеера о воспроизведенной части дорожки Logitech Media Server и фактической продолжительностью прослушанного аудио. Это бывает при использовании цифровых выходов (в зависимости от подключенного оборудования) или программных плееров на некоторых платформах. Для таких случаев здесь можно задать величину задержки, учитываемую Logitech Media Server при настройке синхронизации.
 	SV	Det kan vara en märkbar skillnad mellan hur mycket ett spår som spelaren rapporterar till Logitech Media Server att den har spelat upp och hur mycket av spåret som lyssnaren faktiskt hört. Det här kan inträffa när digitala utgångar används (beroende på den anslutna utrustningen) eller med programvarubaserade spelare på vissa plattformar. Här kan du ange fördröjningen så att den kan tas med i beräkningen när synkroniseringen justeras i Logitech Media Server.
+	ZH_TW	播放器向 Logitech Media Server 回報的曲目已播放長度與已聽到的音訊長度之間可能存在明顯差異。當使用數位輸出（取決於所連接的設備）或某些平台上的軟體播放器時，可能會出現這種情況。在這些情況下，可以在此處設定延遲，使 Logitech Media Server 在調整同步時可以將其考慮在內。
 
 SETUP_MINSYNCADJUST
 	CS	Úprava minimální synchronizace (ms)
@@ -5321,6 +5465,7 @@ SETUP_MINSYNCADJUST
 	PL	Minimalna regulacja synchronizacji (ms)
 	RU	Мин. корректировка синхронизации (мс)
 	SV	Minsta justering vid synkronisering (ms)
+	ZH_TW	最低同步調整（ms）
 
 SETUP_MINSYNCADJUST_DESC
 	CS	Pokud Logitech Media Server zjistí, že dva synchronizované přehrávače jsou poněkud mimo vzájemnou synchronizaci, provede malou úpravu, obvykle na přehrávači, který je pozadu. Můžete konfigurovat minimální velikost těchto úprav pro tento přehrávač. Čím větší je tento interval, tím méně často budou prováděny tyto úpravy, ale tím více bude přehrávačům povoleno se rozejít.
@@ -5337,6 +5482,7 @@ SETUP_MINSYNCADJUST_DESC
 	PL	Gdy program Logitech Media Server wykryje, że dwa zsynchronizowane odtwarzacze są nieznacznie rozsynchronizowane, dokona niewielkich zmian, zwykle dotyczących odtwarzacza, w którym występuje opóźnienie. Możliwe jest skonfigurowanie minimalnego dostosowania dla tego odtwarzacza. Im większy jest interwał, tym rzadziej nastąpi zmiana, ale więcej odtwarzaczy nie będzie zsynchronizowanych.
 	RU	Когда Logitech Media Server обнаруживает некоторое отклонение в синхронизации двух плееров, проводится небольшая регулировка, обычно по отношению к отставшему плееру. Можно настроить минимальный размер регулировки данного плеера. Чем больше заданный интервал, тем реже выполняется регулировка, но тем больше размер возможного отклонения синхронизованных плееров.
 	SV	Om två synkroniserade spelare börjar komma i otakt åtgärdas detta av Logitech Media Server, oftast genom att spelaren som hamnat efter justeras. Du kan ändra den undre gränsen för vilka skillnader som justeras för den här spelaren. Ju högre tal du anger, desto mindre ofta görs justeringar, men då kommer också spelarna att tillåtas komma mer i otakt.
+	ZH_TW	當 Logitech Media Server 檢測到兩個同步播放器彼此開始出現不同步時，通常會針對落後的播放器做出微小調整。您可以為此播放器配置此類調整的最小時間。此時間值越大，調整的頻率就越低，但播放器之間的延遲也就越嚴重。
 
 SETUP_PACKETLATENCY
 	CS	Zpoždění síťových paketů (ms)
@@ -5352,6 +5498,7 @@ SETUP_PACKETLATENCY
 	PL	Opóźnienie pakietów sieciowych (ms)
 	RU	Задержка сетевых пакетов (мс)
 	SV	Svarstid för nätverkspaket (ms)
+	ZH_TW	網路封包延遲（ms）
 
 SETUP_PACKETLATENCY_DESC
 	CS	Logitech Media Server automaticky měří zpoždění sítě mezi ním a přehrávačem. To je důležité při udržování synchronizace. Občas mohou být tato měření příliš nekonzistentní, než aby byla užitečná a v tomto případě zde můžete zadat obvyklou hodnotu.
@@ -5368,6 +5515,7 @@ SETUP_PACKETLATENCY_DESC
 	PL	Program Logitech Media Server automatycznie mierzy opóźnienie sieci między nim a odtwarzaczem. Jest to ważne w celu zachowania synchronizacji. Czasami te pomiary mogą być bardzo niespójne, a przez to nieprzydatne. W takim przypadku można określić typową wartość w tym miejscu.
 	RU	Logitech Media Server автоматически измеряет задержку в сети между ним и плеером. Это важно для сохранения синхронизации. Иногда эти измерения могут слишком отличаться друг от друга, чтобы выявить какую-то закономерность: в этом случае можно ввести типичное значение в данное поле.
 	SV	Logitech Media Server mäter automatiskt nätverksfördröjningen mellan sig själv och spelaren. Det här är viktigt när du vill upprätthålla synkronisering. Ibland ger mätningarna så spridda resultat att de inte är användbara. I så fall anger du ett typvärde här.
+	ZH_TW	Logitech Media Server 會自動測量其與播放器之間的網絡延遲。這在保持同步很重要。有時，這些測量值可能會不一致而失去作用，在這種情況下，您可以在此處指定一個預設值。
 
 SETUP_MAXBITRATE
 	CS	Omezení přenosové rychlosti (bitrate)
@@ -5386,6 +5534,7 @@ SETUP_MAXBITRATE
 	RU	Ограничение скорости передачи
 	SV	Gräns för bithastighet
 	ZH_CN	限制比特率
+	ZH_TW	限制位元速率
 
 SETUP_MAXBITRATE_DESC
 	CS	Logitech Media Server může automaticky konvertovat vaše hudební soubory do WAV/AIFF nebo MP3 průběžně a snížit tak přenosovou rychlost (bitrate) dat přenášených datovým proudem do vašeho přehrávače. To je užitečné, pokud připojujete přehrávač k Logitech Media Serveru přes Internet, nebo pokud máte problémy s přerušováním bezdrátové sítě. Můžete si zvolit maximální přenosovou rychlost, jakou bude Logitech Media Server posílat datový proud do vašeho přehrávače. Skladby MP3 kódované na nižší přenosovou rychlost, než je maximální přenosová rychlost, nebudou konvertovány. Pokud zvolíte Bez omezení, Logitech Media Server bude posílat datový proud vašich MP3 souborů bez konverze a vaše soubory jiných typů jako nekomprimovaný zvuk PCM.
@@ -5404,6 +5553,7 @@ SETUP_MAXBITRATE_DESC
 	RU	Logitech Media Server может автоматически преобразовывать музыкальные файлы в формат WAV/AIFF или MP3 в режиме реального времени, чтобы уменьшить скорость передачи данных на плеер. Это удобно при подключении плеера к Logitech Media Server через Интернет или при неустойчивой работе беспроводной сети. Можно задать максимальную скорость передачи со Logitech Media Server на плеер. MP3-файлы со скоростью передачи ниже указанного значения преобразованы не будут. Если выбрать параметр "Без ограничений", Logitech Media Server будет передавать MP3-файлы без преобразования, а другие типы файлов — в виде PCM-аудио без сжатия.
 	SV	Logitech Media Server kan automatiskt konvertera dina musikfiler till WAV/AIFF eller mp3 när de spelas upp. På så sätt minskas datamängden som överförs till spelaren. Det kan vara användbart om du ansluter spelaren till servern via Internet eller om du har tillfälliga problem med anslutningen till ett trådlöst nätverk. Du kan ange en maximal bithastighet för data som Logitech Media Server överför till spelaren. Mp3-låtar som kodats med lägre bithastigheter än den maximala bithastigheten konverteras inte. Om du väljer Ingen gräns överförs mp3-filer utan konvertering och andra filtyper som okomprimerat PCM-ljud.
 	ZH_CN	Logitech Media Server可以将您的音乐文件自动并即时转换成WAV/AIFF或MP3格式，以降低流出到播放机的比特率。如果您的播放机与Logitech Media Server的联系经过互联网或您的无线网络有堵塞的问题存在，这个功能将会提供很好的帮助。您可以选择Logitech Media Server流出到播放机的最大比特率。如果MP3歌曲原有比特率低于如下则不被转换。如果您选择不限制比特率，Logitech Media Server将不会对您的MP3文件流出到播放机前进行任何转换。其他文件类型也会以未压缩的PCM音像格式流出到播放机。
+	ZH_TW	Logitech Media Server 可以自動將您的音樂文件即時轉換為 WAV/AIFF 或 MP3 格式，以降低傳輸到播放器的位元速率。 如果您是通過網際網路將播放器連接到服務器或使用無線網絡時遇到壅塞問題，這將非常幫助。您可以選擇 Logitech Media Server 串流到播放器的最大位元速率。以低於最大位元速率編碼的 MP3 歌曲將不會被轉換。如果您選擇“無限制”，Logitech Media Server 將不進行轉換而直接串流您的 MP3 檔案，並將其他檔案類型作為未壓縮的 PCM 音訊進行串流。
 
 SETUP_MP3BITRATE_DESC
 	CS	Logitech Media Server může automaticky konvertovat vaše hudební soubory do MP3 průběžně a tak přehrávat i jiné formáty než MP3. Může rovněž provést rekompresi vašich souborů MP3 pro snížení přenosové rychlosti (bitrate) dat přenášených v proudu do vašeho přehrávače. To je užitečné, pokud připojujete přehrávač k serveru přes Internet, nebo pokud máte problémy s přerušováním bezdrátové sítě. Můžete si zvolit maximální přenosovou rychlost, jakou bude Logitech Media Server posílat datový proud do vašeho přehrávače. Skladby MP3 kódované na nižší přenosovou rychlost, než je maximální přenosová rychlost, nebudou konvertovány.
@@ -5422,6 +5572,7 @@ SETUP_MP3BITRATE_DESC
 	RU	Logitech Media Server может автоматически преобразовывать в формат MP3 музыкальные файлы других форматов в режиме реального времени и воспроизводить их. Logitech Media Server может также повторно сжимать MP3-файлы, чтобы снизить скорость передачи данных на плеер. Это удобно при подключении плеера к Logitech Media Server через Интернет или при неустойчивой работе беспроводной сети. Можно задать максимальную скорость передачи со Logitech Media Server на плеер. MP3-файлы со скоростью передачи ниже указанного значения преобразованы не будут.
 	SV	Logitech Media Server kan automatiskt konvertera dina musikfiler till mp3 samtidigt som de spelas upp. På så sätt kan du lyssna på musikfiler i andra format. Logitech Media Server kan också komprimera om mp3-filerna till en lägre bithastighet, vilket minskar mängden data som skickas till spelaren. Det kan vara användbart om du ansluter spelaren till servern via Internet eller om du har tillfälliga problem med anslutningen till ett trådlöst nätverk. Du kan ange en maximal bithastighet för data som Logitech Media Server överför till spelaren. Mp3-låtar som kodats med lägre bithastigheter än den maximala bithastigheten konverteras inte.
 	ZH_CN	Logitech Media Server可以将您的非MP3音乐文件自动并即时转换成MP3格式。Logitech Media Server也可以把MP3文件重新压缩以降低流出到播放机的比特率。如果您的播放机与Logitech Media Server的联系横跨互联网或您的无线网络有堵塞的问题存在，这个功能将会提供很好的帮助。您可以选择Logitech Media Server流出到播放机的最大比特率。如果MP3歌曲原有比特率低于如下则不被转换。
+	ZH_TW	Logitech Media Server 可以自動將您的音樂文件即時轉換為 MP3 格式，以降低傳輸到播放器的位元速率。 如果您是通過網際網路將播放器連接到服務器或使用無線網絡時遇到壅塞問題，這將非常幫助。您可以選擇 Logitech Media Server 串流到播放器的最大位元速率。以低於最大位元速率編碼的 MP3 歌曲將不會被轉換。如果您選擇“無限制”，Logitech Media Server 將不進行轉換而直接串流您的 MP3 檔案，並將其他檔案類型作為未壓縮的 PCM 音訊進行串流。
 
 CONVERTED_TO
 	CS	Zkonvertováno do
@@ -5440,6 +5591,7 @@ CONVERTED_TO
 	RU	Преобразовано в
 	SV	Konverterad till
 	ZH_CN	已转换成
+	ZH_TW	已轉換為
 
 SETUP_LAME_NOT_FOUND
 	CS	(<b>Poznámka</b>: Zřejmě nemáte nainstalovaný LAME. Logitech Media Server potřebuje nainstalovaný kodér LAME MP3 ve vašem systému, aby mohl převádět hudbu do MP3. Více o LAME najdete <a href="http://lame.sourceforge.net/" target="_blank">zde</a>.)
@@ -5458,6 +5610,7 @@ SETUP_LAME_NOT_FOUND
 	RU	(<b>Примечание</b>. Кодировщик LAME не установлен. Чтобы Logitech Media Server мог выполнить преобразование в MP3, в системе должен быть установлен кодировщик LAME MP3. Дополнительные сведения о кодировщике LAME см. <a href="http://lame.sourceforge.net/" target="_blank">здесь</a>.)
 	SV	(<b>Obs!</b> Det verkar inte som om du har installerat LAME. Mp3-kodaren LAME krävs för att Logitech Media Server ska kunna konvertera filer till mp3-format. Mer information om LAME finns <a href="http://lame.sourceforge.net/" target="_blank">här</a>.)
 	ZH_CN	(<b>注意</b>: 您似乎没有在此计算机内安装LAME。Logitech Media Server需要用到您计算机的LAME MP3编码器进行MP3格式转换。您能从<a href="http://lame.sourceforge.net/" target="_blank">这里</a>查阅更多有关LAME的资料。)
+	ZH_TW	（<b>注意</b>：您似乎沒有安裝 LAME。Logitech Media Server 需要在您的系統上安裝 LAME MP3 編碼器才能進行 MP3 的格式轉換。您可以從<a href="http://lame.sourceforge.net/" target="_blank">這裡</a>了解更多有關 LAME 的相關資訊。）
 
 SETUP_LAME_FOUND
 	CS	Kodér LAME je na vašem systému zřejmě správně instalován.
@@ -5476,6 +5629,7 @@ SETUP_LAME_FOUND
 	RU	Кодировщик LAME корректно установлен в вашей системе.
 	SV	LAME-omkodaren verkar vara korrekt installerat.
 	ZH_CN	LAME编码器看来已正确的被安装在您的计算机内。
+	ZH_TW	LAME 編碼器似乎已正確安裝在您的系統上。
 
 LAME0
 	CS	Nejvyšší kvalita, velmi pomalé
@@ -5493,6 +5647,7 @@ LAME0
 	RU	Макс. высокое качество, очень медленно
 	SV	Högsta kvalitet, mycket långsamt
 	ZH_CN	最高质量，过程缓慢
+	ZH_TW	最高品質，非常緩慢
 
 LAME9
 	CS	Nízká kvalita, ale rychlé
@@ -5510,6 +5665,7 @@ LAME9
 	RU	Низкое качество, но быстро
 	SV	Dålig kvalitet, men snabbt
 	ZH_CN	最低质量，过程迅速
+	ZH_TW	最高品質，非常快速
 
 SETUP_LAMEQUALITY
 	CS	Úroveň kvality LAME
@@ -5527,6 +5683,7 @@ SETUP_LAMEQUALITY
 	RU	Уровень качества LAME
 	SV	Kvalitetsnivå för LAME
 	ZH_CN	LAME质量水平
+	ZH_TW	LAME 轉換品質
 
 SETUP_LAMEQUALITY_DESC
 	CS	Kodér LAME MP3 lze použít pro konverzi vaší hudby do formátu MP3 vhodného pro datový proud. Můžete upravit nastavení kvality pro LAME v rozsahu od 0 do 9. 9 je výchozí nastavení, které zní velmi dobře při vysokých přenosových rychlostech a spotřebovává nejméně výpočetního výkonu. 0 je nejvyšší kvalita, ale může zpomalovat váš počítač. Některé počítače, na nichž běží Logitech Media Server, nemusí být schopny při vyšším nastavení kvality provádět konverzi dostatečně rychle.
@@ -5544,6 +5701,7 @@ SETUP_LAMEQUALITY_DESC
 	RU	С помощью кодировщика LAME MP3 можно преобразовать музыку в формат MP3 для потоковой передачи. Можно настроить качество для LAME, выбрав значение от 0 до 9. 9 — это значение по умолчанию, которое обеспечивает очень хорошее звучание при высоких скоростях передачи и требует минимальных вычислительных ресурсов. 0 — это значение обеспечивает высокое качество, но может замедлить работу компьютера. Некоторые компьютеры, на которых выполняется Logitech Media Server, могут недостаточно быстро преобразовывать музыку при высоких значениях настройки качества.
 	SV	Mp3-omkodaren LAME kan användas för konvertering av musik till mp3-format innan den strömmas. Du kan ändra kvalitetsinställningen för LAME inom intervallet 0–9. Standardinställningen är 9, vilket ger bra ljud vid höga bithastigheter och kräver minsta möjliga datorkraft. Värdet 0 ger högsta möjliga kvalitet, men kan göra att datorn arbetar långsamt. Vissa datorer där Logitech Media Server körs kanske inte klarar att konvertera tillräckligt snabbt vid högre kvalitetsinställningar.
 	ZH_CN	LAME MP3编码器可将您的音乐转换成MP3格式流出。您能在0至9的设置范围内调节LAME MP3编码器的输出质量。缺省值为5的设置以高比特率编码的音效会相當的好，同时计算量也較小。0是最高质量，但其高计算量可能对计算机的性能表现造成负面影响。有一些运行Logitech Media Server的计算机也许不足以迅速的应付更加优质的LAME设置。
+	ZH_TW	LAME MP3 編碼器可用於將您的音樂轉換為 MP3 格式以進行串流。您可以在 0 到 9 的範圍內調整 LAME 的品質設定。9 為預設值，在高位元速率下聽起來非常好，並且使用最少的計算能力。0 是最高品質，但可能會降低系統速度。某些運行 Logitech Media Server 的系統可能無法以較快的速度進行高品質的轉換。
 
 SETUP_MP3SILENCEPRELUDE
 	CS	Čas spuštění zvuku
@@ -5562,6 +5720,7 @@ SETUP_MP3SILENCEPRELUDE
 	RU	Время запуска аудио
 	SV	Starttid för ljud
 	ZH_CN	音频开始的时间
+	ZH_TW	音訊開始時間
 
 SETUP_MP3SILENCEPRELUDE_DESC
 	CS	Některé přijímače a D/A převodníky potřebují o něco více času, než začnou dekódovat zvuk z přehrávače při přehrávání hudby MP3. Můžete zadat, jakou dobu po stisknutí tlačítka přehrávání, v sekundách, je třeba čekat, než se začne odesílat zvuk MP3. Výchozí hodnota je 0, hodnota 0,25 funguje u většiny přijímačů.
@@ -5580,6 +5739,7 @@ SETUP_MP3SILENCEPRELUDE_DESC
 	RU	Некоторым приемникам и цифроаналоговым преобразователям (ЦАП) требуется определенное время, чтобы начать перекодирование аудио с плеера при воспроизведении аудио в формате MP3. Можно указать время ожидания (в секундах), которое должно пройти с момента нажатия клавиши воспроизведения до передачи аудио в формате MP3. Значение по умолчанию — 0, для многих плееров рекомендуется задавать значение 0,25 с.
 	SV	Vissa mottagare och D/A-omvandlare kräver lite längre tid innan avkodningen av ljud från spelaren kan börja när mp3-filer spelas upp. Du kan ange fördröjningen, i sekunder, från det att du trycker på uppspelningsknappen tills det att mp3-ljudet börjar sändas. Standardvärdet är 0, ett värde på 0,25 passar många mottagare.
 	ZH_CN	当播放MP3音频时，一些音频接收器和数模转换器开始对播放机的输出进行转换前需要一些额外的等待时间。您可以以秒为单位指定在按播放键后何时开始发送MP3音频。缺省值为0。0.25秒的值对许多接收器都已相当足够。
+	ZH_TW	播放 MP3 音訊時，某些音訊接收器和 D/A 轉換器需要一點額外的時間才能開始解碼播放器中的音訊。您可以指定按下播放鍵後開始發送 MP3 音訊要等待的時間（以秒為單位）。預設值為 0，0.25 秒的值適用於許多接收器。
 
 SETUP_REPLAYGAINMODE
 	CS	Úprava hlasitosti (Replay Gain)
@@ -5597,6 +5757,7 @@ SETUP_REPLAYGAINMODE
 	RU	Выравнивание громкости/Replay Gain
 	SV	Volymjustering (Replay Gain)
 	ZH_CN	音量调整/重播增益
+	ZH_TW	音量調整 / Replay Gain
 
 SETUP_REPLAYGAINMODE_DESC
 	CS	Některé zvukové skladby obsahují informace o nastavení hlasitosti, neboli "Replay Gain", které lze použít při přehrávání, aby skladby a alba zněly stejně hlasitě. Pokud je tato informace přítomna, přehrávač ji může použít. "Zesílení skladby" lze použít pro to, aby všechny skladby zněly stejně hlasitě. "Zesílení alba" lze použít pro to, aby všechna alba zněla stejně hlasitě, ale aby byly zachovány rozdíly v hlasitosti mezi skladbami v rámci alba. Volba "Inteligentní zesílení" používá zesílení alba, pokud jsou po sobě jdoucí skladby ze stejného alba nebo zesílení skladby pro smíšený seznam skladeb.
@@ -5613,6 +5774,7 @@ SETUP_REPLAYGAINMODE_DESC
 	PL	Niektóre utwory audio zwierają informacje o regulacji głośności lub wzmocnieniu przy ponownym odtwarzaniu, których można użyć podczas odtwarzania w celu uzyskania jednakowej głośności odtwarzania utworów i albumów. Odtwarzacz może użyć tych informacji, jeżeli są dostępne. Opcja „Wzmocnienie utworu” umożliwia uzyskanie jednakowej głośności wszystkich utworów. Opcja „Wzmocnienie albumu” umożliwia uzyskanie jednakowej głośności albumów, ale różnice głośności między utworami w albumie zostaną zachowane. Opcja „Inteligentne” dotycząca wzmocnienia korzysta ze wzmocnienia albumu, jeżeli kolejne utwory pochodzą z tego samego albumu lub wzmocnienia utworu dla mieszanej listy odtwarzania.
 	RU	На некоторых аудиодорожках содержатся сведения выравнивания громкости (алгоритм Replay Gain), которые обеспечивают одинаковую громкость воспроизведения дорожек и альбомов. Плеер может использовать эту информацию (если она есть). При выравнивании громкости по дорожкам достигается одинаковая громкость всех дорожек. При выравнивании громкости по альбомам — одинаковая громкость для всех альбомов, при этом различия в громкости дорожек в пределах одного альбома сохраняются. При интеллектуальном выравнивании используется выравнивание по альбомам, если последующие песни входят в тот же альбом, либо выравнивание по дорожкам, если плей-лист состоит из песен разных альбомов.
 	SV	Vissa ljudspår innehåller volymjusteringar (Replay Gain), information som kan användas för att få alla spår och album att spelas upp med samma volym Om det finns sådan här information kan spelaren använda den. Volymutjämning av spår (Track Gain) kan användas för att se till att alla spår har samma volym. Volymutjämning av album kan användas för att se till att alla album har samma volym utan att volymskillnader mellan olika låtar på ett album ändras. Smart volymutjämning innebär att ser till att volymutjämningen av album används när låtar som spelas upp efter varandra kommer från samma album, medan volymutjämningen av spår används med blandade spellistor.
+	ZH_TW	某些音軌檔案包含音量調整或“Replay Gain”資訊，可在播放期間使用這些資訊來確保曲目和專輯聽起來有相同音量。如果存在該資訊，則播放器可以使用該訊息。“Track gain”可用於確保所有曲目聽起來有相同音量。“Album gain”可用於確保所有專輯聽起來有相同音量，但專輯內的曲目之間可能會音量差異。如果在混合的播放清單中的接續的歌曲來自同樣的“Track gain”或是“Album gain”，那麼“Smart gain”將會選擇使用“Album gain”。
 
 SETUP_REPLAYGAIN_REMOTE
 	CS	Výchozí úprava pro vzdálené datové proudy
@@ -5623,6 +5785,7 @@ SETUP_REPLAYGAIN_REMOTE
 	NO	Standardvolum for internetstrømming
 	PL	Domyślna wartość dla zdalnych strumieni
 	SV	Standardanpassning av volymen för strömningstjänster
+	ZH_TW	預設遠端串流音量調整值
 
 SETUP_REPLAYGAIN_REMOTE_DESC
 	CS	Služba přehrávání vzdáleného datového proudu často nepodporuje žádnou formu úpravy hlasitosti. Pokud přehráváte vzdálené skladby spolu s místními, může to vést k nežádoucím změnám hlasitosti. Definujte výchozí hodnotu, která by měla být použita pro každý vzdálený datový proud, který sám nedefinuje hodnotu úpravy hlasitosti.
@@ -5633,6 +5796,7 @@ SETUP_REPLAYGAIN_REMOTE_DESC
 	NO	Strømmetjenester støtter ofte ikke volumjustering. Du kan få uønskede volumendringer hvis du veksler mellom spor fra strømmetjenester og lokale musikkfiler. Sett et standardvolum som skal brukes på alle internettstrømmer.
 	PL	Zdalne strumienie często nie przesyłają żadnych danych, które pozwalałyby na automatyczne dopasowanie głośności. Odtwarzanie utworów ze zdalnych strumieni wymieszanych z lokalnymi utworami może doprowadzić do niepożądanych zmian głośności. Ustal domyślną wartość, która będzie użyta dla każdego zdalnego strumienia, który nie określa własnego poziomu głośności.
 	SV	Strömningstjänster understöder för det mesta inte volymnormalisering. Därför kan du uppleva plötsliga volymskillnader när du byter mellan lokal musik och strömningstjänster. Bestäm ett standardvärde för volymjustering som skall användas på strömningstjänster.
+	ZH_TW	遠端串流媒體服務通常不支援任何形式的音量調整。如果您將遠端曲目與本地曲目混合播放，這可能會導致意外的音量變化。定義一個預設值，該值應用於任何未定義音量調整值的遠端串流檔案。
 
 REPLAYGAIN_DISABLED
 	CS	Žádná úprava hlasitosti
@@ -5650,6 +5814,7 @@ REPLAYGAIN_DISABLED
 	RU	Без выравнивания громкости
 	SV	Ingen volymjustering
 	ZH_CN	关闭音量调整
+	ZH_TW	關閉音量調整
 
 REPLAYGAIN_DISABLED_ABBR
 	CS	Žádná
@@ -5665,6 +5830,7 @@ REPLAYGAIN_DISABLED_ABBR
 	PL	Brak
 	RU	Нет
 	SV	Inget
+	ZH_TW	無
 
 REPLAYGAIN_TRACK_GAIN
 	CS	Zesílení skladby
@@ -5682,6 +5848,7 @@ REPLAYGAIN_TRACK_GAIN
 	RU	Выровнять по дорожкам
 	SV	Volymutjämning av spår
 	ZH_CN	利用音轨增益（如有）
+	ZH_TW	使用“Track gain”
 
 REPLAYGAIN_ALBUM_GAIN
 	CS	Zesílení alba
@@ -5699,6 +5866,7 @@ REPLAYGAIN_ALBUM_GAIN
 	RU	Выровнять по альбомам
 	SV	Volymutjämning av album
 	ZH_CN	利用专辑增益（如有）
+	ZH_TW	使用“Album gain”
 
 REPLAYGAIN_SMART_GAIN
 	CS	Inteligentní zesílení
@@ -5716,6 +5884,7 @@ REPLAYGAIN_SMART_GAIN
 	RU	Интеллектуальное усиление
 	SV	Smart volymjustering
 	ZH_CN	智慧型增益选择
+	ZH_TW	使用“Smart gain”
 
 REPLAYGAIN
 	CS	Úprava hlasitosti
@@ -5733,6 +5902,7 @@ REPLAYGAIN
 	RU	Регулировка громкости
 	SV	Volymjustering
 	ZH_CN	音量调整
+	ZH_TW	音量調整
 
 ALBUMREPLAYGAIN
 	CS	Úprava hlasitosti alba
@@ -5750,6 +5920,7 @@ ALBUMREPLAYGAIN
 	RU	Выравнивание громкости альбома
 	SV	Volymjustering för album
 	ZH_CN	专辑音量调整
+	ZH_TW	專輯音量調整
 
 SETUP_MP3STREAMINGMETHOD
 	CS	Metoda přehrávání datového proudu
@@ -5765,6 +5936,7 @@ SETUP_MP3STREAMINGMETHOD
 	PL	Metoda strumieniowego przesyłania plików
 	RU	Метод потоковой передачи
 	SV	Strömningsmetod
+	ZH_TW	串流模式
 
 SETUP_MP3STREAMINGMETHOD_DESC
 	CS	Při přehrávání datového proudu z Internetu, může být přehrávání datových proudů provedeno jedním ze dvou způsobů. Při volbě "Přímé přehrávání datového proudu" přehrávač provede přímé spojení se serverem přehrávání zvukových proudů a tím mírně sníží zatížení Logitech Media Serveru a umožní přehrávání proudu i po ztrátě spojení s Logitech Media Serverem. Volba "Přehrávání datového proudu přes proxy" způsobí, že Logitech Media Server zajistí spojení a přehraje zvuk prostřdnictvím přehrávače. "Přímé přehrávání datového proudu" je výchozí nastavení, ale jestliže budete mít potíže s proudy, zkuste změnit nastavení na "Přehrávání datového proudu přes proxy". Pamatujte na to, že pokud jsou s proudem synchronizovány dva a více přehrávačů, použije se vždy "Přehrávání datového proudu přes proxy", aby se snížilo využití šířky pásma.
