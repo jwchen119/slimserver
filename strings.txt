@@ -34,6 +34,7 @@ LANGUAGE_CHOICES
 	RU	Русский
 	SV	Svenska
 	ZH_CN	简体中文 *
+	ZH_TW	繁體中文 *
 
 LOCALE_WIN
 # SLT: please do not translate this value
@@ -54,6 +55,7 @@ LOCALE_WIN
 	RU	rus_rus
 	SV	sve_swe
 	ZH_CN	chs_chn
+	ZH_TW	cht_chn
 
 LOCALE
 # SLT: please do not translate this value
@@ -75,6 +77,7 @@ LOCALE
 	RU	ru_RU
 	SV	sv_SE
 	ZH_CN	zh
+	ZH_TW	zh_TW
 
 CREDITS
 	CS	Roman Smetak
@@ -136,6 +139,7 @@ VERSION
 	PL	Wersja 8.4.0 / r%s
 	RU	Версия 8.4.0 / r%s
 	SV	Version 8.4.0 / r%s
+	ZH_TW	Version 8.4.0 / r%s
 
 CHOOSE_A_LANGUAGE
 	CS	Zvolte prosím jazyk
@@ -155,6 +159,7 @@ CHOOSE_A_LANGUAGE
 	RU	Выберите язык
 	SV	Välj ett språk
 	ZH_CN	请选择语言
+	ZH_TW	請選擇語言
 
 LOADING_SQUEEZEBOX_SERVER
 	CS	Načítání Logitech Media Serveru...
@@ -170,6 +175,7 @@ LOADING_SQUEEZEBOX_SERVER
 	PL	Trwa ładowanie programu Logitech Media Server...
 	RU	Загрузка Logitech Media Server...
 	SV	Logitech Media Server startas
+	ZH_TW	Logitech Media Server 載入中...
 
 EN_SKIN
 # SLT: please use "Light" as in "light weight", not "illumination"
@@ -190,6 +196,7 @@ EN_SKIN
 	RU	Светлый
 	SV	Lätt
 	ZH_CN	清淡
+	ZH_TW	輕量
 
 DEFAULT_SKIN
 	CS	Výchozí
@@ -208,6 +215,7 @@ DEFAULT_SKIN
 	RU	По умолчанию
 	SV	Standard
 	ZH_CN	缺省
+	ZH_TW	預設
 
 SCREENREADER_SKIN
 	CS	Čtečka obrazovky
@@ -223,6 +231,7 @@ SCREENREADER_SKIN
 	PL	Moduł odczytywania zawartości ekranu
 	RU	Программа чтения с экрана
 	SV	Skärmläsare
+	ZH_TW	螢幕閱讀器
 
 DEFAULT_MAP
 	CS	Standardní
@@ -242,6 +251,7 @@ DEFAULT_MAP
 	RU	Стандартный
 	SV	Standard
 	ZH_CN	标准
+	ZH_TW	標準
 
 SERVER_VERSION
 	CS	Verze Logitech Media Serveru
@@ -259,6 +269,7 @@ SERVER_VERSION
 	PT	Versão do Logitech Media Server
 	SV	Logitech Media Server-version
 	ZH_CN	Logitech Media Server版本
+	ZH_TW	Logitech Media Server 版本
 
 PERL_VERSION
 	CS	Verze Perlu
@@ -277,6 +288,7 @@ PERL_VERSION
 	RU	Версия Perl
 	SV	Perl-version
 	ZH_CN	Perl版本
+	ZH_TW	Perl 版本
 
 DATABASE_VERSION
 	CS	Verze databáze
@@ -292,6 +304,7 @@ DATABASE_VERSION
 	PL	Wersja bazy danych
 	RU	Версия базы данных
 	SV	Databasversion
+	ZH_TW	資料庫版本
 
 PLAYER_VERSION
 	CS	Verze firmwaru přehrávače
@@ -311,6 +324,7 @@ PLAYER_VERSION
 	RU	Версия микропрограммы плеера
 	SV	Spelarens inbyggda programvaruversion
 	ZH_CN	播放机韧件版本
+	ZH_TW	播放器版本
 
 ABOUT_SLIMDEVICES
 	CS	O společnosti Slim Devices/Logitech
@@ -330,6 +344,7 @@ ABOUT_SLIMDEVICES
 	RU	О компании Slim Devices/Logitech
 	SV	Om Slim Devices/Logitech
 	ZH_CN	关于Slim Devices/Logitech
+	ZH_TW	關於 Slim Devices/Logitech
 
 #
 # Player user interface, sent by the server
@@ -354,6 +369,7 @@ SLIMP3_HOME
 	RU	Главное меню SLIMP3
 	SV	SLIMP3 Hem
 	ZH_CN	SLIMP3主页
+	ZH_TW	SLIMP3 首頁
 
 SQUEEZEBOX_HOME
 	CS	Squeezebox - Doma
@@ -373,6 +389,7 @@ SQUEEZEBOX_HOME
 	RU	Главное меню Squeezebox
 	SV	Squeezebox Hem
 	ZH_CN	Squeezebox主页
+	ZH_TW	Squeezebox 首頁
 
 SQUEEZEBOX2_HOME
 	CS	Squeezebox - Doma
@@ -392,6 +409,7 @@ SQUEEZEBOX2_HOME
 	RU	Главное меню Squeezebox
 	SV	Squeezebox Hem
 	ZH_CN	Squeezebox主页
+	ZH_TW	Squeezebox 首頁
 
 TRANSPORTER_HOME
 	CS	Transporter - Doma
@@ -410,6 +428,7 @@ TRANSPORTER_HOME
 	PT	Início Transporter
 	RU	Главное меню Transporter
 	SV	Transporter Hem
+	ZH_TW	Transporter 首頁
 
 SOFTSQUEEZE_HOME
 	CS	SoftSqueeze - Doma
@@ -429,6 +448,7 @@ SOFTSQUEEZE_HOME
 	RU	Главное меню SoftSqueeze
 	SV	SoftSqueeze huvudmeny
 	ZH_CN	SoftSqueeze主页
+	ZH_TW	SoftSqueeze 首頁
 
 HOMEMENU
 	CS	Doma
@@ -448,6 +468,7 @@ HOMEMENU
 	RU	Главное меню
 	SV	Hem
 	ZH_CN	主页
+	ZH_TW	首頁
 
 LIBRARY_CONTAINS
 	CS	Vaše knihovna médií obsahuje
@@ -467,6 +488,7 @@ LIBRARY_CONTAINS
 	RU	Ваша библиотека мультимедиа содержит
 	SV	Mediebiblioteket innehåller
 	ZH_CN	您的音乐库存有
+	ZH_TW	您的音樂庫內容
 
 MUSIC
 	CS	Hudba
@@ -483,6 +505,7 @@ MUSIC
 	PT	Música
 	RU	Музыка
 	SV	Musik
+	ZH_TW	音樂
 
 PICTURES
 	CS	Obrázky
@@ -498,6 +521,7 @@ PICTURES
 	PL	Obrazy
 	RU	Изображения
 	SV	Bilder
+	ZH_TW	圖片
 
 PICTURE
 	CS	Obrázek
@@ -513,6 +537,7 @@ PICTURE
 	PL	Obraz
 	RU	Фото
 	SV	Bild
+	ZH_TW	圖片
 
 SETTINGS
 	CS	Nastavení
@@ -532,6 +557,7 @@ SETTINGS
 	RU	Настройки
 	SV	Inställningar
 	ZH_CN	设置
+	ZH_TW	設定
 
 EMPTY
 	CS	Prázdné
@@ -551,6 +577,7 @@ EMPTY
 	RU	Пусто
 	SV	Tom
 	ZH_CN	空
+	ZH_TW	空白
 
 NOTHING
 	CS	Žádná
@@ -570,6 +597,7 @@ NOTHING
 	RU	Ничего
 	SV	Ingenting
 	ZH_CN	无
+	ZH_TW	無
 
 ONLY_ONE
 	CS	Zde je pouze jedna položka!
@@ -589,6 +617,7 @@ ONLY_ONE
 	RU	Доступен только один элемент!
 	SV	Det finns bara ett objekt!
 	ZH_CN	此处只有一个项目！
+	ZH_TW	此處只有一個項目！
 
 SCREENSAVERS
 	CS	Spořiče obrazovky
@@ -607,6 +636,7 @@ SCREENSAVERS
 	RU	Экранные заставки
 	SV	Skärmsläckare
 	ZH_CN	屏幕保护程序
+	ZH_TW	螢幕保護程式
 
 RADIO
 	CS	Rádio
@@ -622,6 +652,7 @@ RADIO
 	PL	Radio
 	RU	Радиостанция
 	SV	Radio
+	ZH_TW	Radio
 
 MUSIC_SERVICES
 	CS	Hudební služby
@@ -637,6 +668,7 @@ MUSIC_SERVICES
 	PL	Usługi muzyczne
 	RU	Музыкальные службы
 	SV	Musiktjänster
+	ZH_TW	音樂伺服器
 
 MY_MUSIC
 	CS	Moje hudba
@@ -652,6 +684,7 @@ MY_MUSIC
 	PL	Moja muzyka
 	RU	Моя музыка
 	SV	Min musik
+	ZH_TW	我的音樂
 
 MUSIC_STORES
 	CS	Hudební obchody
@@ -667,6 +700,7 @@ MUSIC_STORES
 	PL	Sklepy muzyczne
 	RU	Музыкальные магазины
 	SV	Musikaffärer
+	ZH_TW	音樂商店
 
 GAMES
 	CS	Hry
@@ -685,6 +719,7 @@ GAMES
 	RU	Игры
 	SV	Spel
 	ZH_CN	游戏
+	ZH_TW	遊戲
 
 PLAYLIST
 	CS	Seznam skladeb
@@ -704,6 +739,7 @@ PLAYLIST
 	RU	Плей-лист
 	SV	Spellista
 	ZH_CN	播放表
+	ZH_TW	播放清單
 
 PLAYLIST_SHORT
 #SLT: please keep this _very_ short. The German "Wiedergabeliste" is by far too long. This should be shorter than the English Playlist, as it's being used togethe with "Repeat" on one line of the small Controller display.
@@ -721,6 +757,7 @@ PLAYLIST_SHORT
 	PT	Playlist
 	RU	Плей-лист
 	SV	Lista
+	ZH_TW	播放清單
 
 CURRENT_PLAYLIST
 	CS	Aktuální seznam skladeb
@@ -740,6 +777,7 @@ CURRENT_PLAYLIST
 	RU	Текущий плей-лист
 	SV	Aktuell spellista
 	ZH_CN	当前播放表
+	ZH_TW	目前播放清單
 
 PLAYLISTS
 	CS	Seznamy skladeb
@@ -757,6 +795,7 @@ PLAYLISTS
 	RU	Плей-листы
 	SV	Spellistor
 	ZH_CN	播放表
+	ZH_TW	播放清單
 
 PAUSED_ON
 	CS	Nyní pozastaveno na
@@ -776,6 +815,7 @@ PAUSED_ON
 	RU	Приостановлено на
 	SV	Nu pausad på
 	ZH_CN	暂停于
+	ZH_TW	暫停
 
 STOPPED_ON
 	CS	Nyní zastaveno na
@@ -795,6 +835,7 @@ STOPPED_ON
 	RU	Остановлено на
 	SV	Nu stoppad på
 	ZH_CN	停止
+	ZH_TW	停止
 
 NOW_PLAYING
 	CS	Právě hraje
@@ -814,6 +855,7 @@ NOW_PLAYING
 	RU	Воспроизводится
 	SV	Nu spelas
 	ZH_CN	播放中
+	ZH_TW	目前播放
 
 NOW_SCANNING
 	CS	Prohledávání
@@ -833,6 +875,7 @@ NOW_SCANNING
 	RU	Сканируется
 	SV	Söker nu igenom
 	ZH_CN	扫描中
+	ZH_TW	掃描中
 
 NOW_REWINDING
 	CS	Převíjení zpět
@@ -852,6 +895,7 @@ NOW_REWINDING
 	RU	Перематывается
 	SV	Spolar tillbaka
 	ZH_CN	回转中
+	ZH_TW	倒轉中
 
 EVERYTHING
 	CS	Vše
@@ -871,6 +915,7 @@ EVERYTHING
 	RU	Все
 	SV	Allt
 	ZH_CN	全部
+	ZH_TW	全部
 
 EXECUTE
 	CS	Spustit
@@ -886,6 +931,7 @@ EXECUTE
 	PL	Wykonaj
 	RU	Выполнить
 	SV	Utför
+	ZH_TW	執行
 
 PLAYING
 	CS	Právě hraje
@@ -905,6 +951,7 @@ PLAYING
 	RU	Воспроизводится
 	SV	Nu spelas
 	ZH_CN	播放中
+	ZH_TW	播放中
 
 OUT_OF
 	CS	z
@@ -924,6 +971,7 @@ OUT_OF
 	RU	из
 	SV	av
 	ZH_CN	的
+	ZH_TW	的
 
 PAUSED
 	CS	Pozastaveno
@@ -943,6 +991,7 @@ PAUSED
 	RU	Пауза
 	SV	Pausad
 	ZH_CN	已暂停
+	ZH_TW	暫停
 
 SQUEEZEBOX_SERVER
 	CS	Logitech Media Server
@@ -960,6 +1009,7 @@ SQUEEZEBOX_SERVER
 	RU	Logitech Media Server
 	SV	Logitech Media Server
 	ZH_CN	Logitech Media Server
+	ZH_TW	Logitech Media Server
 
 ABOUT
 	CS	Logitech Media Server V.%s, autor:
@@ -978,6 +1028,7 @@ ABOUT
 	PT	Logitech Media Server v.%s, escrito por
 	SV	Logitech Media Server v.%s, skriven av:
 	ZH_CN	Logitech Media Server V.%s, 制作:
+	ZH_TW	Logitech Media Server V.%s, 製作：
 
 REMOVING_FROM_PLAYLIST
 	CS	Odstraňování ze seznamu skladeb:
@@ -997,6 +1048,7 @@ REMOVING_FROM_PLAYLIST
 	RU	Удаление из плей-листа:
 	SV	Tar bort från spellistan:
 	ZH_CN	正在从播放表中删除：
+	ZH_TW	於播放清單中刪除：
 
 ZAPPING_FROM_PLAYLIST
 	CS	Přesun do seznamu přepínaných skladeb:
@@ -1016,6 +1068,7 @@ ZAPPING_FROM_PLAYLIST
 	RU	В плей-лист "Стертые песни":
 	SV	Flyttar till spellistan med ignorerade låtar.
 	ZH_CN	迁往废弃播放表中：
+	ZH_TW	於播放清單中刪除：
 
 ZAPPED_SONGS
 	CS	Přepnuté skladby
@@ -1035,6 +1088,7 @@ ZAPPED_SONGS
 	RU	Стертые песни
 	SV	Ignorerade låtar
 	ZH_CN	已废弃的歌曲
+	ZH_TW	已刪除的歌曲
 
 ADDING_TO_PLAYLIST
 	CS	Přidávání na konec seznamu skladeb:
@@ -1054,6 +1108,7 @@ ADDING_TO_PLAYLIST
 	RU	Добавление в конец плей-листа:
 	SV	Läggs till sist i spellistan:
 	ZH_CN	列入播放表中：
+	ZH_TW	於播放清單結尾處加入：
 
 ADDING_TO_PLAYLIST_DBL
 	CS	Přidávání
@@ -1071,6 +1126,7 @@ ADDING_TO_PLAYLIST_DBL
 	RU	Добавление
 	SV	Lägger till
 	ZH_CN	列入中
+	ZH_TW	加入中
 
 INSERT_TO_PLAYLIST
 	CS	Přidávání na přehrání jako další:
@@ -1090,6 +1146,7 @@ INSERT_TO_PLAYLIST
 	RU	Добавление для воспроизведения:
 	SV	Lägger till som nästa låt:
 	ZH_CN	列入并紧接在下一首播放
+	ZH_TW	列為下一首播放
 
 INSERT_TO_PLAYLIST_DBL
 	CS	Přidávání
@@ -1107,6 +1164,7 @@ INSERT_TO_PLAYLIST_DBL
 	RU	Добавление
 	SV	Lägger till
 	ZH_CN	列入中
+	ZH_TW	列入中
 
 STOPPING
 	CS	Zastavování
@@ -1126,6 +1184,7 @@ STOPPING
 	RU	Остановка
 	SV	Stoppar
 	ZH_CN	停止中
+	ZH_TW	停止中
 
 PLAYING_RANDOMLY_FROM
 	CS	Přehrávání v náhodném pořadí z:
@@ -1145,6 +1204,7 @@ PLAYING_RANDOMLY_FROM
 	RU	Перемешать начиная с:
 	SV	Spelar blandat från:
 	ZH_CN	随机抽样播放中：
+	ZH_TW	隨機播放：
 
 PLAYING_RANDOMLY_FROM_DBL
 	CS	Přehrát v náhodném pořadí
@@ -1162,6 +1222,7 @@ PLAYING_RANDOMLY_FROM_DBL
 	RU	В случайном порядке
 	SV	Spela blandat
 	ZH_CN	随机抽样播放
+	ZH_TW	隨機播放
 
 CLEARING_PLAYLIST
 	CS	Čištění seznamu skladeb...
@@ -1181,6 +1242,7 @@ CLEARING_PLAYLIST
 	RU	Очистка плей-листа...
 	SV	Rensar spellistan...
 	ZH_CN	正在清除播放表...
+	ZH_TW	正在清除播放清單...
 
 VIEWING_PLAYLIST
 	CS	Právě hraje...
@@ -1200,6 +1262,7 @@ VIEWING_PLAYLIST
 	RU	Воспроизводится...
 	SV	Nu spelas...
 	ZH_CN	播放中...
+	ZH_TW	現正播放...
 
 PLAYLIST_EMPTY
 	CS	Seznam skladeb je prázdný
@@ -1219,6 +1282,7 @@ PLAYLIST_EMPTY
 	RU	Плей-лист пуст
 	SV	Spellistan är tom
 	ZH_CN	播放表为空
+	ZH_TW	播放清單為空
 
 PLAYLIST_CANT_WRITE
 	CS	Seznam skladeb nemohl být uložen.
@@ -1234,6 +1298,7 @@ PLAYLIST_CANT_WRITE
 	PL	Nie można zapisać listy odtwarzania.
 	RU	Не удалось сохранить плей-лист.
 	SV	Spellistan gick inte att spara.
+	ZH_TW	無法儲存播放清單
 
 NOW_PLAYING_FROM
 	CS	Právě hraje z:
@@ -1253,6 +1318,7 @@ NOW_PLAYING_FROM
 	RU	Воспроизводится с:
 	SV	Nu spelas från:
 	ZH_CN	播放中：
+	ZH_TW	現正播放中：
 
 NOW_PLAYING_FROM_DBL
 	CS	Přehrávání
@@ -1270,6 +1336,7 @@ NOW_PLAYING_FROM_DBL
 	RU	Воспроизведение
 	SV	Spelar
 	ZH_CN	播放中
+	ZH_TW	播放中
 
 REPEAT_OFF
 	CS	Opakování vypnuto
@@ -1289,6 +1356,7 @@ REPEAT_OFF
 	RU	Откл. повтор
 	SV	Repetition avaktiverat
 	ZH_CN	关闭重复模式
+	ZH_TW	關閉重複模式
 
 CHOICE_OFF
 	CS	Vypnuto
@@ -1304,6 +1372,7 @@ CHOICE_OFF
 	PL	Wył.
 	RU	Выкл
 	SV	Av
+	ZH_TW	關閉
 
 REPEAT_ONE
 	CS	Opakovat aktuální skladbu
@@ -1323,6 +1392,7 @@ REPEAT_ONE
 	RU	Повторить текущую песню
 	SV	Repetera aktuell låt
 	ZH_CN	重复一曲模式
+	ZH_TW	重複一次
 
 REPEAT_ONE_ABBR
 	CS	Opakovat skladbu
@@ -1338,6 +1408,7 @@ REPEAT_ONE_ABBR
 	PL	Powtórz utwór
 	RU	Повторить песню
 	SV	Upprepa låt
+	ZH_TW	重複歌曲
 
 REPEAT_ALL
 	CS	Opakovat seznam skladeb
@@ -1357,6 +1428,7 @@ REPEAT_ALL
 	RU	Повтор плей-листа
 	SV	Upprepa spellista
 	ZH_CN	重复播放表
+	ZH_TW	重複播放清單
 
 CANCEL_SLEEP
 	CS	Usínání zrušeno.
@@ -1376,6 +1448,7 @@ CANCEL_SLEEP
 	RU	Спящий режим отменен.
 	SV	Viloläge avbrutet.
 	ZH_CN	倒数关机功能已消除
+	ZH_TW	睡眠計時器功能已關閉
 
 SLEEP_CANCEL
 	CS	Zrušit usínání
@@ -1391,6 +1464,7 @@ SLEEP_CANCEL
 	PL	Anuluj uśpienie
 	RU	Отменить спящий режим
 	SV	Avbryt viloläge
+	ZH_TW	關閉睡眠計時器
 
 SLEEPING_IN_X_MINUTES
 	CS	Usínání za %s minut
@@ -1406,6 +1480,7 @@ SLEEPING_IN_X_MINUTES
 	PL	Uśpienie za %s min
 	RU	Спящий режим через %s мин.
 	SV	Växlar till viloläge om %s minuter.
+	ZH_TW	將於 %s 分鐘後進行睡眠
 
 X_MINUTES
 	CS	%s minut
@@ -1421,6 +1496,7 @@ X_MINUTES
 	PL	%s min
 	RU	%s мин
 	SV	%s minuter
+	ZH_TW	%s 分鐘
 
 SLEEPING_IN
 	CS	Usínání
@@ -1440,6 +1516,7 @@ SLEEPING_IN
 	RU	Спящий режим после
 	SV	Viloläge aktiveras om
 	ZH_CN	关机倒数进行中
+	ZH_TW	睡眠中
 
 SLEEP_AT_END_OF_SONG
 	CS	Usnout na konci skladby
@@ -1455,6 +1532,7 @@ SLEEP_AT_END_OF_SONG
 	PL	Włącz uśpienie po zakończeniu utworu
 	RU	Спящий режим в конце песни
 	SV	Viloläge när låten har tagit slut
+	ZH_TW	歌曲結束後進行睡眠
 
 SLEEPING_AT_END_OF_SONG
 	CS	Usnout na konci skladby
@@ -1470,6 +1548,7 @@ SLEEPING_AT_END_OF_SONG
 	PL	Usypianie po zakończeniu utworu
 	RU	Спящий режим в конце песни
 	SV	Viloläge när låten har tagit slut
+	ZH_TW	歌曲結束後進行睡眠
 
 NOTHING_CURRENTLY_PLAYING
 	CS	Nyní se nic nepřehrává
@@ -1485,6 +1564,7 @@ NOTHING_CURRENTLY_PLAYING
 	PL	Brak aktualnie odtwarzanych elementów
 	RU	Сейчас воспроизведение остановлено
 	SV	Just nu spelas inget upp
+	ZH_TW	目前沒有任何歌曲正在播放
 
 SLEEP
 	CS	Usínání
@@ -1502,6 +1582,7 @@ SLEEP
 	RU	Спящий режим
 	SV	Viloläge
 	ZH_CN	睡眠状态
+	ZH_TW	睡眠中
 
 SLEEPING_AT
 	CS	Usínání v
@@ -1519,6 +1600,7 @@ SLEEPING_AT
 	RU	Спящий режим в
 	SV	Viloläge vid
 	ZH_CN	进入睡眠状态
+	ZH_TW	睡眠中
 
 POWERING_OFF
 	CS	Přechod do pohotovosti...
@@ -1538,6 +1620,7 @@ POWERING_OFF
 	RU	В режим ожидания...
 	SV	Går till viloläge...
 	ZH_CN	进入备用状态中...
+	ZH_TW	進入待機狀態...
 
 POWER
 #SLT: This is "power" as in the "Power on/off" button
@@ -1557,6 +1640,7 @@ POWER
 	RU	Питание
 	SV	Av/på
 	ZH_CN	电源开关
+	ZH_TW	電源
 
 EXPAND
 	CS	Roztáhnout
@@ -1572,6 +1656,7 @@ EXPAND
 	PL	Rozwiń
 	RU	Развернуть
 	SV	Expandera
+	ZH_TW	展開
 
 COLLAPSE
 	CS	Sbalit
@@ -1587,6 +1672,7 @@ COLLAPSE
 	PL	Zwiń
 	RU	Свернуть
 	SV	Komprimera
+	ZH_TW	收疊
 
 UNDOCK_PLAYER_PANEL
 	CS	Vyjmout panel přehrávače
@@ -1602,6 +1688,7 @@ UNDOCK_PLAYER_PANEL
 	PL	Oddokuj okienko odtwarzacza
 	RU	Разблокировать панель плеера
 	SV	Frigör spelarpanelen
+	ZH_TW	解鎖播放面板
 
 ALARM
 	CS	Budík
@@ -1621,6 +1708,7 @@ ALARM
 	RU	Будильник
 	SV	Alarmfunktion
 	ZH_CN	闹钟
+	ZH_TW	鬧鐘
 
 ALARM_ALARM
 	CS	Budík
@@ -1636,6 +1724,7 @@ ALARM_ALARM
 	PL	Budzik
 	RU	Будильник
 	SV	Alarm
+	ZH_TW	鬧鐘
 
 ALARM_SET
 	CS	Čas budíku
@@ -1651,6 +1740,7 @@ ALARM_SET
 	PL	Godzina alarmu
 	RU	Время будильника
 	SV	Alarmtid
+	ZH_TW	鬧鐘時間
 
 ALARM_ON
 	CS	Zapnuto
@@ -1670,6 +1760,7 @@ ALARM_ON
 	RU	Вкл
 	SV	På
 	ZH_CN	启用
+	ZH_TW	開啟
 
 ALARM_OFF
 	CS	Vypnuto
@@ -1689,6 +1780,7 @@ ALARM_OFF
 	RU	Выкл
 	SV	Av
 	ZH_CN	撤销
+	ZH_TW	關閉
 
 ALARM_SELECT_PLAYLIST
 	CS	Zvuk budíku
@@ -1704,6 +1796,7 @@ ALARM_SELECT_PLAYLIST
 	PL	Dźwięk alarmu
 	RU	Сигнал будильника
 	SV	Larmsignal
+	ZH_TW	鬧鐘音效
 
 ALARM_USE_CURRENT_PLAYLIST
 	CS	Použít aktuální seznam skladeb
@@ -1719,6 +1812,7 @@ ALARM_USE_CURRENT_PLAYLIST
 	PL	Użyj aktualnej listy odtwarzania
 	RU	Использовать текущий плей-лист
 	SV	Använd aktuell spellista
+	ZH_TW	使用目前的播放清單
 
 ALARM_VOLUME
 	CS	Hlasitost budíku
@@ -1734,6 +1828,7 @@ ALARM_VOLUME
 	PL	Głośność alarmu
 	RU	Громкость будильника
 	SV	Alarmvolym
+	ZH_TW	鬧鐘音量
 
 ALARM_VOLUME_DESC
 	CS	Toto nastavení vám dovoluje zvolit úroveň hlasitosti, která bude použita při spuštění budíku.
@@ -1749,6 +1844,7 @@ ALARM_VOLUME_DESC
 	PL	To ustawienie umożliwia wybranie poziomu głośności używanego po uruchomieniu alarmu.
 	RU	С помощью этой настройки можно выбрать уровень громкости будильника.
 	SV	Med den här inställningen väljer du volymen för alarmet.
+	ZH_TW	透過此設定，可以調整鬧鐘響起的音量
 
 ALARM_NEXT_ALARM
 	CS	Další budík:
@@ -1764,6 +1860,7 @@ ALARM_NEXT_ALARM
 	PL	Następny alarm:
 	RU	Следующий будильник:
 	SV	Nästa alarm:
+	ZH_TW	下個鬧鐘
 
 ALARM_ADD
 	CS	Přidat budík
@@ -1779,6 +1876,7 @@ ALARM_ADD
 	PL	Dodaj alarm
 	RU	Добавить будильник
 	SV	Lägg till alarm
+	ZH_TW	新增鬧鐘
 
 ALARM_ADD_DESC
 	CS	Můžete přidat tolik budíků, kolik chcete. Každý budík může být nastaven na každý den, pouze na určité dny nebo jen jednou. Nový budík přidáte volbou "Přidat budík".
@@ -1794,6 +1892,7 @@ ALARM_ADD_DESC
 	PL	Możesz dodać dowolną liczbę alarmów. Każdy alarm może zostać uruchomiony codziennie, w wybranym dniu lub tylko raz. Aby rozpocząć dodawanie nowego alarmu, wybierz opcję „Dodaj alarm”.
 	RU	Можно добавить любое число будильников. Каждый будильник может звонить ежедневно, только по определенным дням или один раз. Щелкните "Добавить будильник", чтобы добавить новый будильник.
 	SV	Du kan ställa in hur många alarm du vill. För varje alarm kan du ange om det ska ringa varje dag, vissa bestämda dagar eller bara vid ett tillfälle. Välj Lägg till alarm om du vill ställa in ett nytt alarm.
+	ZH_TW	您可以依據需求認益增加鬧鐘數量，每個鬧鐘可以被獨立設定為每天響, 特定天數響或是只響一次。選擇"新增鬧鐘"來設定一個新的鬧鐘
 
 ALARM_NEW
 	CS	Nový budík
@@ -1809,6 +1908,7 @@ ALARM_NEW
 	PL	Nowy alarm
 	RU	Новый будильник
 	SV	Nytt alarm
+	ZH_TW	新增鬧鐘
 
 ALARM_DELETE
 	CS	Odstranit budík
@@ -1824,6 +1924,7 @@ ALARM_DELETE
 	PL	Usuń alarm
 	RU	Удалить будильник
 	SV	Ta bort alarm
+	ZH_TW	移除鬧鐘
 
 ALARM_ALARM_ENABLED
 	CS	Povoleno
@@ -1839,6 +1940,7 @@ ALARM_ALARM_ENABLED
 	PL	Włączony
 	RU	Включено
 	SV	Aktiverat
+	ZH_TW	啟用
 
 ALARM_ALL_ALARMS_ENABLED
 	CS	Všechny budíky povoleny
@@ -1854,6 +1956,7 @@ ALARM_ALL_ALARMS_ENABLED
 	PL	Wszystkie alarmy włączone
 	RU	Все будильники включены
 	SV	Alla alarm har aktiverats
+	ZH_TW	已啟用所有鬧鐘
 
 ALARM_ALL_ALARMS_DISABLED
 	CS	Všechny budíky vypnuty
@@ -1869,6 +1972,7 @@ ALARM_ALL_ALARMS_DISABLED
 	PL	Wszystkie alarmy wyłączone
 	RU	Все будильники выключены
 	SV	Alla alarm har avaktiverats
+	ZH_TW	已關閉所有鬧鐘
 
 ALARM_ALARM_REPEAT
 	CS	Opakovaný budík
@@ -1884,6 +1988,7 @@ ALARM_ALARM_REPEAT
 	PL	Powtórz alarm
 	RU	Повторить будильник
 	SV	Upprepa alarm
+	ZH_TW	重複鬧鐘
 
 ALARM_ALARM_ONETIME
 	CS	Jednorázový budík
@@ -1899,6 +2004,7 @@ ALARM_ALARM_ONETIME
 	PL	Alarm jednorazowy
 	RU	Одноразовый будильник
 	SV	Engångsalarm
+	ZH_TW	只響一次
 
 ALARM_ALARM_REPEAT_DESC
 	CS	Toto nastavení vám umožní zvolit, zda se tento budík spustí více než jednou. Je-li nastaveno na Ne, tento budík se automaticky po spuštění vypne. Tento budík se tedy opět nespustí, pokud jej nezapnete.
@@ -1914,6 +2020,7 @@ ALARM_ALARM_REPEAT_DESC
 	PL	To ustawienie umożliwia określenie, czy alarm zostanie uruchomiony więcej niż raz. Po wybraniu opcji Nie alarm wyłączy się automatycznie po uruchomieniu. Ten alarm nie zostanie uruchomiony, aż do ponownego włączenia.
 	RU	Данная настройка позволяет выбрать, будет ли будильник звонить больше одного раза. Если выбрано значение "Нет", будильник автоматически отключится после первого звонка. Он не будет больше звонить, если не включить его снова.
 	SV	Med den här inställningen väljer du om alarmet ska ringa mer än en gång. Om du anger Nej avaktiveras alarmet automatiskt när det har ringt. Alarmet ringer sedan inte igen förrän du aktiverar det igen.
+	ZH_TW
 
 ALARM_ALL_ALARMS
 	CS	Všechny budíky
@@ -1929,6 +2036,7 @@ ALARM_ALL_ALARMS
 	PL	Wszystkie alarmy
 	RU	Все будильники
 	SV	Alla alarm
+	ZH_TW	所有鬧鐘
 
 ALARM_ALARMS_ENABLED_DESC
 	CS	Toto nastavení vám umožňuje zapnout/vypnout všechny budíky najednou. Je-li nastaveno na Vypnuto, nespustí se žádný budík.
@@ -1944,6 +2052,7 @@ ALARM_ALARMS_ENABLED_DESC
 	PL	Ta opcja umożliwia natychmiastowe włączenie lub wyłączenie alarmów. Po wybraniu ustawienia Wył. alarm nie zostanie uruchomiony.
 	RU	Эта настройка позволяет включить/выключить все будильники. Если она отключена, будильники выключены не будут.
 	SV	Med den här inställningen kan du aktivera/avaktivera alla alarm på en gång.Om du väljer inställningen Av avaktiveras alla alarm.
+	ZH_TW	此選項可以將所有鬧鐘啟用或關閉，如果設定為關閉，那麼沒有鬧鐘會響
 
 ALARM_FADE
 	CS	Zesilování budíku
@@ -1961,6 +2070,7 @@ ALARM_FADE
 	RU	Усиление сигналов будильников
 	SV	Tona in alarm
 	ZH_CN	闹钟缓慢切入
+	ZH_TW	鬧鐘淡入
 
 ALARM_SET_TIME
 	CS	Nastavte čas
@@ -1976,6 +2086,7 @@ ALARM_SET_TIME
 	PL	Ustaw godzinę
 	RU	Установка времени
 	SV	Ställ klockan
+	ZH_TW	設定鬧鐘時間
 
 ALARM_SET_DAYS
 	CS	Vyberte dny
@@ -1991,6 +2102,7 @@ ALARM_SET_DAYS
 	PL	Wybierz dni
 	RU	Выбрать дни
 	SV	Välj dagar
+	ZH_TW	設定鬧鐘天數
 
 ALARM_SAVING
 	CS	Ukládání budíku...
@@ -2006,6 +2118,7 @@ ALARM_SAVING
 	PL	Zapisywanie alarmu...
 	RU	Сохранение будильника...
 	SV	Sparar alarm...
+	ZH_TW	鬧鐘儲存中...
 
 ALARM_DELETING
 	CS	Odstraňování budíku...
@@ -2021,6 +2134,7 @@ ALARM_DELETING
 	PL	Usuwanie alarmu...
 	RU	Удаление будильника...
 	SV	Tar bort alarm...
+	ZH_TW	鬧鐘刪除中...
 
 ALARM_NOW_PLAYING
 	CS	Budík "Právě hraje"
@@ -2040,6 +2154,7 @@ ALARM_NOW_PLAYING
 	RU	Звонящий будильник
 	SV	Alarmfunktionen Nu spelas
 	ZH_CN	闹钟播放中
+	ZH_TW	鬧鐘播放中
 
 ALARM_SNOOZE
 	CS	Opakovaný budík...
@@ -2055,6 +2170,7 @@ ALARM_SNOOZE
 	PL	Drzemka...
 	RU	В режим повтора сигнала...
 	SV	Aktiverar snoozefunktion...
+	ZH_TW	鬧鐘推遲中...
 
 ALARM_SNOOZE_ENDED
 	CS	Opakovaný budík ukončen
@@ -2070,6 +2186,7 @@ ALARM_SNOOZE_ENDED
 	PL	Drzemka zakończona
 	RU	Выход из режима повторения сигнала
 	SV	Snoozefunktion avslutad
+	ZH_TW	推遲結束
 
 SETUP_SNOOZE_MINUTES
 	CS	Doba opakování budíku (v minutách)
@@ -2085,6 +2202,7 @@ SETUP_SNOOZE_MINUTES
 	PL	Czas drzemki (w minutach)
 	RU	Интервал повтора сигнала (мин.)
 	SV	Snoozetid (i minuter)
+	ZH_TW	推遲長度（分鐘）
 
 SETUP_SNOOZE_MINUTES_DESC
 	CS	Toto nastavení vám umožňuje zvolit dobu, po kterou je budík přerušen, když stisknete tlačítko Přerušovaný budík.
@@ -2100,6 +2218,7 @@ SETUP_SNOOZE_MINUTES_DESC
 	PL	To ustawienie umożliwia określenie czasu wstrzymania alarmu po naciśnięciu przycisku drzemki.
 	RU	С помощью этой настройки можно выбрать длительность паузы будильника после нажатия кнопки повтора сигнала.
 	SV	Med den här inställningen anger du hur länge alarmet ska avaktiveras när du trycker på snoozeknappen.
+	ZH_TW	通過此設定可以調整鬧鐘推遲的時間
 
 SETUP_ALARM_TIMEOUT
 	CS	Doba do vypnutí budíku (v minutách)
@@ -2115,6 +2234,7 @@ SETUP_ALARM_TIMEOUT
 	PL	Limit czasu alarmu (w minutach)
 	RU	Перерыв в работе будильника (мин.)
 	SV	Tidsgräns för alarm (i minuter)
+	ZH_TW	鬧鐘關閉時間（分鐘）
 
 SETUP_ALARM_TIMEOUT_DESC
 	CS	Toto nastavení vám umožňuje zvolit, jak dlouho budou budíky hrát, než se automaticky vypnou. Pokud je nastaveno na 0, budíky budou hrát, dokud nebudou zastaveny ručně.
@@ -2130,6 +2250,7 @@ SETUP_ALARM_TIMEOUT_DESC
 	PL	To ustawienie umożliwia określenie czasu działania alarmu przed automatycznym zatrzymaniem. Ustawienie wartości 0 spowoduje działanie alarmów, aż do ręcznego zatrzymania.
 	RU	С помощью данной настройки можно задать длительность звонка будильников до автоматической остановки. Если задано значение 0, звонки будильника можно остановить только вручную.
 	SV	Med den här inställningen anger du hur länge alarmen ringer innan de stängs av automatiskt. Om du anger 0 ringer alarmen tills de stängs av manuellt.
+	ZH_TW	此設定可以調整鬧鐘在響起多久之後自動關閉，將此值設為 0 將會持續播放到手動關閉為止
 
 ALARM_STOPPED
 	CS	Budík zastaven
@@ -2145,6 +2266,7 @@ ALARM_STOPPED
 	PL	Alarm zatrzymany
 	RU	Будильники остановлены
 	SV	Alarm stoppat
+	ZH_TW	鬧鐘關閉
 
 ALARM_EVERY_DAY
 	CS	Každý den
@@ -2162,6 +2284,7 @@ ALARM_EVERY_DAY
 	RU	Ежедневно
 	SV	Varje dag
 	ZH_CN	每一天
+	ZH_TW	每一天
 
 ALARM_DAY0
 	CS	Neděle
@@ -2179,6 +2302,7 @@ ALARM_DAY0
 	RU	Воскресенье
 	SV	Söndag
 	ZH_CN	星期日
+	ZH_TW	星期日
 
 ALARM_DAY1
 	CS	Pondělí
@@ -2196,6 +2320,7 @@ ALARM_DAY1
 	RU	Понедельник
 	SV	Måndag
 	ZH_CN	星期一
+	ZH_TW	星期一
 
 ALARM_DAY2
 	CS	Úterý
@@ -2213,6 +2338,7 @@ ALARM_DAY2
 	RU	Вторник
 	SV	Tisdag
 	ZH_CN	星期二
+	ZH_TW	星期二
 
 ALARM_DAY3
 	CS	Středa
@@ -2230,6 +2356,7 @@ ALARM_DAY3
 	RU	Среда
 	SV	Onsdag
 	ZH_CN	星期三
+	ZH_TW	星期三
 
 ALARM_DAY4
 	CS	Čtvrtek
@@ -2247,6 +2374,7 @@ ALARM_DAY4
 	RU	Четверг
 	SV	Torsdag
 	ZH_CN	星期四
+	ZH_TW	星期四
 
 ALARM_DAY5
 	CS	Pátek
@@ -2264,6 +2392,7 @@ ALARM_DAY5
 	RU	Пятница
 	SV	Fredag
 	ZH_CN	星期五
+	ZH_TW	星期五
 
 ALARM_DAY6
 	CS	Sobota
@@ -2281,6 +2410,7 @@ ALARM_DAY6
 	RU	Суббота
 	SV	Lördag
 	ZH_CN	星期六
+	ZH_TW	星期六
 
 ALARM_SHORT_DAY_0
 	CS	Ne
@@ -2296,6 +2426,7 @@ ALARM_SHORT_DAY_0
 	PL	Ni
 	RU	Вс
 	SV	Sö
+	ZH_TW	日
 
 ALARM_SHORT_DAY_1
 	CS	Po
@@ -2311,6 +2442,7 @@ ALARM_SHORT_DAY_1
 	PL	Po
 	RU	Пн
 	SV	Må
+	ZH_TW	一
 
 ALARM_SHORT_DAY_2
 	CS	Út
@@ -2326,6 +2458,7 @@ ALARM_SHORT_DAY_2
 	PL	Wt
 	RU	Вт
 	SV	Ti
+	ZH_TW	二
 
 ALARM_SHORT_DAY_3
 	CS	St
@@ -2341,6 +2474,7 @@ ALARM_SHORT_DAY_3
 	PL	Śr
 	RU	Ср
 	SV	On
+	ZH_TW	三
 
 ALARM_SHORT_DAY_4
 	CS	Čt
@@ -2356,6 +2490,7 @@ ALARM_SHORT_DAY_4
 	PL	Czw
 	RU	Чт
 	SV	To
+	ZH_TW	四
 
 ALARM_SHORT_DAY_5
 	CS	Pá
@@ -2371,6 +2506,7 @@ ALARM_SHORT_DAY_5
 	PL	Pi
 	RU	Пт
 	SV	Fr
+	ZH_TW	五
 
 ALARM_SHORT_DAY_6
 	CS	So
@@ -2386,6 +2522,7 @@ ALARM_SHORT_DAY_6
 	PL	So
 	RU	Сб
 	SV	Lö
+	ZH_TW	六
 
 SLIMP3
 	CS	SLIMP3
@@ -2402,6 +2539,7 @@ SLIMP3
 	PL	SLIMP3
 	RU	SLIMP3
 	SV	SLIMP3
+	ZH_TW	SLIMP3
 
 SQUEEZEBOX
 	CS	Squeezebox
@@ -2418,6 +2556,7 @@ SQUEEZEBOX
 	PL	Squeezebox
 	RU	Squeezebox
 	SV	Squeezebox
+	ZH_TW	Squeezebox
 
 SQUEEZEBOX2
 	CS	Squeezebox2/v3
@@ -2434,6 +2573,7 @@ SQUEEZEBOX2
 	PL	Squeezebox2/v3
 	RU	Squeezebox2/v3
 	SV	Squeezebox 2/v3
+	ZH_TW	Squeezebox 2/v3
 
 TRANSPORTER
 	CS	Transporter
@@ -2450,6 +2590,7 @@ TRANSPORTER
 	PL	Transporter
 	RU	Transporter
 	SV	Transporter
+	ZH_TW	Transporter
 
 SOFTSQUEEZE
 	CS	SoftSqueeze
@@ -2466,6 +2607,7 @@ SOFTSQUEEZE
 	PL	SoftSqueeze
 	RU	SoftSqueeze
 	SV	SoftSqueeze
+	ZH_TW	SoftSqueeze
 
 WELCOME_TO_SLIMP3
 	CS	Vítejte v SLIMP3
@@ -2485,6 +2627,7 @@ WELCOME_TO_SLIMP3
 	RU	Добро пожаловать в SLIMP3!
 	SV	Välkommen till SLIMP3!
 	ZH_CN	欢迎使用SLIMP3
+	ZH_TW	觀迎使用 SLIMP3
 
 WELCOME_TO_SQUEEZEBOX_SERVER
 	CS	Vítejte v Logitech Media Serveru
@@ -2504,6 +2647,7 @@ WELCOME_TO_SQUEEZEBOX_SERVER
 	RU	Добро пожаловать в Logitech Media Server
 	SV	Välkommen till Logitech Media Server
 	ZH_CN	欢迎使用Logitech Media Server
+	ZH_TW	歡迎使用 Logitech Media Server
 
 WELCOME_TO_SQUEEZEBOX
 	CS	Vítejte ve Squeezeboxu
@@ -2523,6 +2667,7 @@ WELCOME_TO_SQUEEZEBOX
 	RU	Добро пожаловать в Squeezebox
 	SV	Välkommen till Squeezebox!
 	ZH_CN	欢迎使用Squeezebox
+	ZH_TW	歡迎使用 Squeezebox
 
 WELCOME_TO_SQUEEZEBOX2
 	CS	Vítejte ve Squeezeboxu
@@ -2542,6 +2687,7 @@ WELCOME_TO_SQUEEZEBOX2
 	RU	Добро пожаловать в Squeezebox
 	SV	Välkommen till Squeezebox!
 	ZH_CN	欢迎使用Squeezebox
+	ZH_TW	歡迎使用 Squeezebox
 
 WELCOME_TO_TRANSPORTER
 	CS	Vítejte v Transporteru
@@ -2561,6 +2707,7 @@ WELCOME_TO_TRANSPORTER
 	RU	Добро пожаловать в Transporter!
 	SV	Välkommen till Transporter!
 	ZH_CN	欢迎使用Transporter
+	ZH_TW	歡迎使用 Transporter
 
 WELCOME_TO_SOFTSQUEEZE
 	CS	Vítejte v SoftSqueeze
@@ -2580,6 +2727,7 @@ WELCOME_TO_SOFTSQUEEZE
 	RU	Добро пожаловать в SoftSqueeze!
 	SV	Välkommen till SoftSqueeze!
 	ZH_CN	欢迎使用SoftSqueeze
+	ZH_TW	歡迎使用 SoftSqueeze
 
 WELCOME_TO_RECEIVER
 	CS	Vítejte ve Squeezeboxu
@@ -2595,6 +2743,7 @@ WELCOME_TO_RECEIVER
 	PL	Squeezebox — Zapraszamy
 	RU	Добро пожаловать в Squeezebox
 	SV	Välkommen till Squeezebox!
+	ZH_TW	歡迎使用 Squeezebox
 
 WELCOME_TO_SQUEEZESLAVE
 	CS	Vítejte ve SqueezeSlave
@@ -2610,6 +2759,7 @@ WELCOME_TO_SQUEEZESLAVE
 	PL	SqueezeSlave - Zapraszamy
 	RU	Добро пожаловать в SqueezeSlave!
 	SV	Välkommen till SqueezeSlave!
+	ZH_TW	歡迎使用 SqueezeSlzve
 
 WELCOME_TO_BOOM
 	CS	Vítejte ve Squeezeboxu
@@ -2625,6 +2775,7 @@ WELCOME_TO_BOOM
 	PL	Squeezebox — Zapraszamy
 	RU	Добро пожаловать в Squeezebox
 	SV	Välkommen till Squeezebox!
+	ZH_TW	歡迎使用 Squeezebox
 
 WELCOME_TO_SQUEEZEPLAY
 	CS	Vítejte ve SqueezePlay
@@ -2640,6 +2791,7 @@ WELCOME_TO_SQUEEZEPLAY
 	PL	SqueezePlay - Zapraszamy
 	RU	Добро пожаловать в SqueezePlay
 	SV	Välkommen till SqueezePlay
+	ZH_TW	歡迎使用 SqueezePlay
 
 WELCOME_TO_CONTROLLER
 	CS	Vítejte v Controlleru
@@ -2655,6 +2807,7 @@ WELCOME_TO_CONTROLLER
 	PL	Controller - Zapraszamy
 	RU	Добро пожаловать в Controller
 	SV	Välkommen till Controller
+	ZH_TW	歡迎使用 Controller
 
 LOGIN
 	CS	Přihlásit se
@@ -2670,6 +2823,7 @@ LOGIN
 	PL	Zarejestruj się
 	RU	Войти
 	SV	Logga in
+	ZH_TW	登入
 
 FREE_YOUR_MUSIC
 	CS	Odvaž svou hudbu
@@ -2689,6 +2843,7 @@ FREE_YOUR_MUSIC
 	RU	Свободу музыке
 	SV	Släpp musiken fri!
 	ZH_CN	释放您的音乐！
+	ZH_TW	釋放您的音樂
 
 UPDATING_FIRMWARE_SQUEEZEBOX
 	CS	Aktualizování firmwaru Squeezeboxu.
@@ -2708,6 +2863,7 @@ UPDATING_FIRMWARE_SQUEEZEBOX
 	RU	Обновление микропрограммы Squeezebox.
 	SV	Uppdaterar Squeezebox inbyggda programvara
 	ZH_CN	更新Squeezebox韧件
+	ZH_TW	Squeezebox 韌體更新中
 
 UPDATING_FIRMWARE_SQUEEZEBOX2
 	CS	Aktualizování firmwaru Squeezeboxu.
@@ -2727,6 +2883,7 @@ UPDATING_FIRMWARE_SQUEEZEBOX2
 	RU	Обновление микропрограммы Squeezebox.
 	SV	Uppdaterar Squeezebox inbyggda programvara
 	ZH_CN	更新Squeezebox韧件
+	ZH_TW	Squeezebox 韌體更新中
 
 UPDATING_FIRMWARE_TRANSPORTER
 	CS	Aktualizace firmwaru Transporteru.
