@@ -109,6 +109,7 @@ COPYRIGHT
 	PL	© 2001-2022 Logitech wersja 8.4.0
 	RU	© Logitech, 2001-2022. Версия 8.4.0
 	SV	© 2001–2022 Logitech Version 8.4.0
+	ZH_TW	© 2001–2022 Logitech Version 8.4.0
 
 COPYRIGHT_LOGITECH
 	CS	© 2001-2022 Logitech
@@ -124,6 +125,7 @@ COPYRIGHT_LOGITECH
 	PL	© 2001-2022 Logitech
 	RU	© Logitech, 2001-2022
 	SV	© 2001-2022 Logitech
+	ZH_TW	© 2001-2022 Logitech
 
 VERSION
 	CS	Verze 8.4.0 / r%s
@@ -577,7 +579,7 @@ EMPTY
 	RU	Пусто
 	SV	Tom
 	ZH_CN	空
-	ZH_TW	空白
+	ZH_TW	空
 
 NOTHING
 	CS	Žádná
@@ -668,7 +670,7 @@ MUSIC_SERVICES
 	PL	Usługi muzyczne
 	RU	Музыкальные службы
 	SV	Musiktjänster
-	ZH_TW	音樂伺服器
+	ZH_TW	音樂服務
 
 MY_MUSIC
 	CS	Moje hudba
@@ -1262,7 +1264,7 @@ VIEWING_PLAYLIST
 	RU	Воспроизводится...
 	SV	Nu spelas...
 	ZH_CN	播放中...
-	ZH_TW	現正播放...
+	ZH_TW	現在播放...
 
 PLAYLIST_EMPTY
 	CS	Seznam skladeb je prázdný
@@ -1318,7 +1320,7 @@ NOW_PLAYING_FROM
 	RU	Воспроизводится с:
 	SV	Nu spelas från:
 	ZH_CN	播放中：
-	ZH_TW	現正播放中：
+	ZH_TW	現在播放：
 
 NOW_PLAYING_FROM_DBL
 	CS	Přehrávání
@@ -1844,7 +1846,7 @@ ALARM_VOLUME_DESC
 	PL	To ustawienie umożliwia wybranie poziomu głośności używanego po uruchomieniu alarmu.
 	RU	С помощью этой настройки можно выбрать уровень громкости будильника.
 	SV	Med den här inställningen väljer du volymen för alarmet.
-	ZH_TW	透過此設定，可以調整鬧鐘響起的音量
+	ZH_TW	透過此設定，可以調整鬧鐘的音量
 
 ALARM_NEXT_ALARM
 	CS	Další budík:
@@ -1892,7 +1894,7 @@ ALARM_ADD_DESC
 	PL	Możesz dodać dowolną liczbę alarmów. Każdy alarm może zostać uruchomiony codziennie, w wybranym dniu lub tylko raz. Aby rozpocząć dodawanie nowego alarmu, wybierz opcję „Dodaj alarm”.
 	RU	Можно добавить любое число будильников. Каждый будильник может звонить ежедневно, только по определенным дням или один раз. Щелкните "Добавить будильник", чтобы добавить новый будильник.
 	SV	Du kan ställa in hur många alarm du vill. För varje alarm kan du ange om det ska ringa varje dag, vissa bestämda dagar eller bara vid ett tillfälle. Välj Lägg till alarm om du vill ställa in ett nytt alarm.
-	ZH_TW	您可以依據需求認益增加鬧鐘數量，每個鬧鐘可以被獨立設定為每天響, 特定天數響或是只響一次。選擇"新增鬧鐘"來設定一個新的鬧鐘
+	ZH_TW	您可以依據需求任意增加鬧鐘數量，每個鬧鐘可以被獨立設定為每天啟動, 特定天數啟動或是只啟動一次。選擇"新增鬧鐘"來設定一個新的鬧鐘
 
 ALARM_NEW
 	CS	Nový budík
@@ -2004,7 +2006,7 @@ ALARM_ALARM_ONETIME
 	PL	Alarm jednorazowy
 	RU	Одноразовый будильник
 	SV	Engångsalarm
-	ZH_TW	只響一次
+	ZH_TW	只啟用一次
 
 ALARM_ALARM_REPEAT_DESC
 	CS	Toto nastavení vám umožní zvolit, zda se tento budík spustí více než jednou. Je-li nastaveno na Ne, tento budík se automaticky po spuštění vypne. Tento budík se tedy opět nespustí, pokud jej nezapnete.
@@ -2020,7 +2022,7 @@ ALARM_ALARM_REPEAT_DESC
 	PL	To ustawienie umożliwia określenie, czy alarm zostanie uruchomiony więcej niż raz. Po wybraniu opcji Nie alarm wyłączy się automatycznie po uruchomieniu. Ten alarm nie zostanie uruchomiony, aż do ponownego włączenia.
 	RU	Данная настройка позволяет выбрать, будет ли будильник звонить больше одного раза. Если выбрано значение "Нет", будильник автоматически отключится после первого звонка. Он не будет больше звонить, если не включить его снова.
 	SV	Med den här inställningen väljer du om alarmet ska ringa mer än en gång. Om du anger Nej avaktiveras alarmet automatiskt när det har ringt. Alarmet ringer sedan inte igen förrän du aktiverar det igen.
-	ZH_TW	這個設定允許您中是否會多次觸發，如果設定為否，則此鬧鐘在觸發後就會自動關閉，且除非您將其再次打開，否則此鬧鐘將不會再觸發。
+	ZH_TW	這個設定允許您中是否會多次啟用，如果設定為否，則此鬧鐘在啟用後就會自動關閉，且除非您將其再次打開，否則此鬧鐘將不會再啟用。
 
 ALARM_ALL_ALARMS
 	CS	Všechny budíky
@@ -2052,7 +2054,7 @@ ALARM_ALARMS_ENABLED_DESC
 	PL	Ta opcja umożliwia natychmiastowe włączenie lub wyłączenie alarmów. Po wybraniu ustawienia Wył. alarm nie zostanie uruchomiony.
 	RU	Эта настройка позволяет включить/выключить все будильники. Если она отключена, будильники выключены не будут.
 	SV	Med den här inställningen kan du aktivera/avaktivera alla alarm på en gång.Om du väljer inställningen Av avaktiveras alla alarm.
-	ZH_TW	這個設定可以將所有鬧鐘啟用或關閉，如果設定為關閉，那麼沒有鬧鐘會響
+	ZH_TW	這個設定可以將所有鬧鐘啟用或關閉，如果設定為關閉，那麼沒有鬧鐘會啟用。
 
 ALARM_FADE
 	CS	Zesilování budíku
@@ -2218,7 +2220,7 @@ SETUP_SNOOZE_MINUTES_DESC
 	PL	To ustawienie umożliwia określenie czasu wstrzymania alarmu po naciśnięciu przycisku drzemki.
 	RU	С помощью этой настройки можно выбрать длительность паузы будильника после нажатия кнопки повтора сигнала.
 	SV	Med den här inställningen anger du hur länge alarmet ska avaktiveras när du trycker på snoozeknappen.
-	ZH_TW	通過此設定可以調整鬧鐘推遲的時間
+	ZH_TW	通過此設定可以調整鬧鐘推遲的時間。
 
 SETUP_ALARM_TIMEOUT
 	CS	Doba do vypnutí budíku (v minutách)
@@ -2250,7 +2252,7 @@ SETUP_ALARM_TIMEOUT_DESC
 	PL	To ustawienie umożliwia określenie czasu działania alarmu przed automatycznym zatrzymaniem. Ustawienie wartości 0 spowoduje działanie alarmów, aż do ręcznego zatrzymania.
 	RU	С помощью данной настройки можно задать длительность звонка будильников до автоматической остановки. Если задано значение 0, звонки будильника можно остановить только вручную.
 	SV	Med den här inställningen anger du hur länge alarmen ringer innan de stängs av automatiskt. Om du anger 0 ringer alarmen tills de stängs av manuellt.
-	ZH_TW	此設定可以調整鬧鐘在響起多久之後自動關閉，將此值設為 0 將會持續播放到手動關閉為止
+	ZH_TW	此設定可以調整鬧鐘在啟用多久之後自動關閉，將此值設為 0 將會持續播放到手動關閉為止。
 
 ALARM_STOPPED
 	CS	Budík zastaven
@@ -2971,7 +2973,7 @@ FIRMWARE_MISSING_DESC
 	RU	Серверу не удается подключиться к Интернету для обновления микропрограммы.
 	SV	Servern kan inte ansluta till Internet och hämta spelarens inbyggda programvara.
 	ZH_CN	服务器无法连接互联网并取得韧件更新。
-	ZH_TW	伺服器無法連接網路以取得韌體更新
+	ZH_TW	伺服器無法連接至網路取得韌體更新
 
 CHECKING_STREAM
 	CS	Kontrola datového proudu...
@@ -3169,7 +3171,7 @@ PROBLEM_OPENING_REMOTE_URL
 	RU	Ошибка: сбой открытия удаленного URL
 	SV	Fel: Fel: Det går inte att öppna den externa webbadressen.
 	ZH_CN	失误：无法连接网址
-	ZH_TW	錯誤：無法開啟遙控網址
+	ZH_TW	錯誤：無法開啟遠端網址
 
 PROBLEM_CONVERT_FILE
 	CS	Problém: Nelze přehrát typ souboru pro:
@@ -3412,7 +3414,7 @@ WEB_XML_ERROR
 	RU	Ошибка при загрузке удаленного веб-канала для %s: (%s)
 	SV	Ett fel uppstod när fjärrflödet för %s lästes in: (%s)
 	ZH_CN	载入远方信息时发生失误%s: (%s)
-	ZH_TW	載入遙控訊息時發生錯誤 %s: (%s)
+	ZH_TW	載入遠端訊息時發生錯誤 %s: (%s)
 
 XML_ERROR
 	CS	Chyba
@@ -3734,7 +3736,7 @@ SETUP_GROUP_BRIGHTNESS_DESC
 	RU	Можно настроить яркость экрана плеера во включенном, выключенном или неактивном состоянии (экранная заставка). Она также может настраиваться автоматически, когда пользователь нажимает кнопку, начинает воспроизведение песни или на какое-то время перестает пользоваться устройством. Это автоматическое поведение можно отключить.
 	SV	Du kan ange olika inställningar för spelarskärmens ljusstyrka beroende på om spelaren är påslagen, avstängd eller i viloläge (skärmsläckare). Ljusstyrkan kan också justeras automatiskt när du trycker på en knapp, börjar spela upp en låt, eller inte rör spelaren på ett tag. De här automatiska justeringarna kan avaktiveras.
 	ZH_CN	播放机显示屏可以根据不同的操作状态如开机、关机、或屏幕保护程序进行时设置不同的光亮度。播放机也会随着按键、开始播放音乐等活动而自行调节显示屏光亮度。用户可选择是否采用此项自动光亮度调节功能。
-	ZH_TW	播放器的螢幕可以依據不同的狀態如開啟、關閉或待機(螢幕保護程式)來設定不同的亮度。當您按下按鈕、開始播放歌曲或讓它閒置一段時間時，也可以自動調整亮度。您可以選擇關閉這個自動調節的設定
+	ZH_TW	播放器的螢幕可以依據不同的狀態如開啟、關閉或待機（螢幕保護程式）來設定不同的亮度。當您按下按鈕、開始播放歌曲或讓它閒置一段時間後，也可以自動調整亮度。您可以選擇關閉這個自動調節亮度的設定
 
 SETUP_GROUP_TCP_PARAMS
 	CS	Parametry TCP
@@ -3854,7 +3856,7 @@ SETUP_GROUP_MENUITEMS_DESC
 	RU	Можно настроить элементы, доступные для выбора в главном меню верхнего уровня на экране плеера. Щелкайте элементы меню, перемещая их вверх и вниз или удаляя. Нажмите кнопку "Добавить", чтобы вернуть удаленный элемент обратно в меню.
 	SV	Du kan anpassa vilka alternativ som visas på rotmenyn på spelarens skärm. Flytta ett menyalternativ uppåt och nedåt eller ta bort alternativet genom att klicka. Klicka på Lägg till om du vill lägga till ett borttaget alternativ på menyn igen.
 	ZH_CN	您可将播放机最高阶层的主页菜单加以用户化。单击以调整排序或除去该菜单项目。如要列入已被除去的菜单项目，请单击"Add"。
-	ZH_TW	您可以自定義播放器中主頁面的顯示項目。 點擊可上下移動項目或刪除項目。 點擊“添加”將刪除的項目返回主頁面。
+	ZH_TW	您可以自定義播放器中主頁面的顯示項目。 點擊可上下移動項目或刪除項目。 點擊"添加"將刪除的項目返回主頁面。
 
 SETUP_GROUP_NONMENUITEMS_INTRO
 	CS	Neaktivní položky nabídky:
@@ -4046,7 +4048,7 @@ SETUP_SCROLLPAUSE_DESC
 	RU	Можно задать время, по истечении которого плеер начинает горизонтальную прокрутку текста на экране. Введите значение в секундах для времени ожидания до начала прокрутки или между прокрутками. Для немедленной прокрутки без пауз введите «0». Значение по умолчанию — 3,6 с.
 	SV	Du kan justera fördröjningen innan textremsan börja rulla över spelarens skärm. Ange ett värde (i sekunder) innan textremsan börjar rulla, eller innan den börjar på nytt efter att ha rullat en gång över skärmen. Ange noll om du vill att textremsan börjar rulla direkt utan fördröjning. Standard är 3,6 sekunder.
 	ZH_CN	您可调整播放机开始进行横跨文字卷动前的等待值。输入一个以秒为单位的等待值为在卷动之前或在卷动之间的等待时间。如要立刻进行卷动请输入零为等待值。缺省值为3.6秒。
-	ZH_TW	您可以調整播放器開始捲動文字前的等待時間，輸入一個以秒為單位的時間，當輸入值為0時將會立即進行捲動。預設值為3.6秒。
+	ZH_TW	您可以調整播放器開始捲動文字前的等待時間，輸入一個以秒為單位的時間，當輸入值為 0 時將會立即進行捲動。預設值為3.6秒。
 
 SETUP_SCROLLRATE
 	CS	Rychlost rolování
@@ -4891,7 +4893,7 @@ SETUP_PLAYINGDISPLAYMODE_DESC
 	RU	В плеере может выводиться информация о ходе воспроизведения песни. Можно выбрать, какая информация будет отображаться по умолчанию, и включить режимы, которые необходимо сделать доступными. Переключаться между этими режимами можно с помощью циклических нажатий кнопки "Воспроизводится" на пульте ДУ.
 	SV	Uppspelningsinformation om den aktuella låten kan visas på spelarens skärm. Du kan välja vilken information som ska visas som standard och aktivera/avaktivera andra lägen som du vill ska vara tillgängliga. Du kan växla mellan de olika lägena genom att trycka på knappen NOW PLAYING på fjärrkontrollen upprepade gånger.
 	ZH_CN	当前播放歌曲的信息都能显示在播放机的显示屏上。您可以选择您所要显示的信息。
-	ZH_TW	當前播放歌曲的資訊將顯示在播放器的螢幕上，您可以選擇要顯示的資訊，且可以啟用或禁用想要顯示的模式。您可以在當前播放設定中勾選要輪替出現的選項
+	ZH_TW	當前播放歌曲的資訊將顯示在播放器的螢幕上，您可以選擇要顯示的資訊，且可以啟用或關閉想要顯示的模式。您可以在當前播放設定中勾選要輪替出現的選項
 
 SETUP_SYNCHRONIZE
 	CS	Synchronizace
@@ -5647,7 +5649,7 @@ LAME0
 	RU	Макс. высокое качество, очень медленно
 	SV	Högsta kvalitet, mycket långsamt
 	ZH_CN	最高质量，过程缓慢
-	ZH_TW	最高品質，非常緩慢
+	ZH_TW	最高品質，轉換速度非常緩慢
 
 LAME9
 	CS	Nízká kvalita, ale rychlé
@@ -5665,7 +5667,7 @@ LAME9
 	RU	Низкое качество, но быстро
 	SV	Dålig kvalitet, men snabbt
 	ZH_CN	最低质量，过程迅速
-	ZH_TW	最高品質，非常快速
+	ZH_TW	最高品質，轉換速度非常快速
 
 SETUP_LAMEQUALITY
 	CS	Úroveň kvality LAME
@@ -5952,6 +5954,7 @@ SETUP_MP3STREAMINGMETHOD_DESC
 	PL	Podczas odtwarzania internetowego strumienia przesyłanie strumieniowe wykonywane jest na dwa sposoby. Bezpośrednie przesyłanie strumieniowe powoduje połączenie z serwerem strumieniowego przesyłania dźwięku, co nieznacznie zmniejsza obciążenie programu Logitech Media Server i umożliwia kontynuację odtwarzania strumienia, jeżeli połączenie z programem Logitech Media Server zostanie utracone. Przesyłanie strumieniowe z wykorzystaniem serwera proxy powoduje, że program Logitech Media Server obsługuje połączenie, przekazując dźwięk do odtwarzacza. Bezpośrednie przesyłanie strumieniowe to metoda domyślna, ale w przypadku problemów ze strumieniami należy zmienić ustawienie na Przesyłanie strumieniowe przez serwer proxy. Należy pamiętać, że jeżeli ze strumieniem zsynchronizowane są co najmniej dwa odtwarzacze, zawsze używane jest przesyłanie strumieniowe przez serwer proxy w celu ograniczenia użycia przepustowości.
 	RU	Поддерживается два способа потоковой передачи из Интернета. При прямой передаче плеер напрямую подключается к серверу потокового аудио, что несколько уменьшает нагрузку на Logitech Media Server и позволяет продолжать воспроизведение потока в случае разрыва подключения к Logitech Media Server. При передаче через прокси Logitech Media Server обслуживает подключение, передавая аудиоданные плееру. По умолчанию задана прямая потоковая передача, но если возникают проблемы с потоком, можно попробовать переключиться на опосредованную передачу. Помните: если два и более плееров настраиваются на один поток, всегда применяется опосредованная передача для сужения полосы пропускания.
 	SV	När du spelar upp en ström från Internet kan det ske på två olika sätt. Direktströmning innebär att spelaren ansluts direkt till servern som strömmen kommer ifrån, vilket minskar belastningen på Logitech Media Server något och gör det möjligt att fortsätta spela även om anslutningen till Logitech Media Server skulle brytas. Proxyströmmning innebär att Logitech Media Server ansluts till servern och sedan vidarebefordrar ljudet till spelaren. Direktströmning är standard. Om du har problem med strömmar kan du prova att ändra inställningen till Proxyströmning. Observera att proxyströmning alltid används när flera spelare synkroniseras för att spela upp samma ström, eftersom detta sparar bandbredd.
+	ZH_TW	使用網路串流時，有兩種模式可供選擇。直接串流模式使播放器直接與音訊伺服器連接，從而稍微減輕 Logitech Media Server 的負載，同時允許與 Logitech Media Server 斷線後仍然可以繼續播放。代理串流模式使 Logitech Media Server 處理連結後再將音訊傳到播放器。預設值為直接串流模式，但如果您在串流時遇到傳輸問題請長是將此設定更改為代理串流模式。請注意，如果同時有兩個或多個播放器群組播放串流時，則始終使用代理串流模式來減少頻寬消耗。
 
 MP3_STREAMING_DIRECT
 	CS	Přímé přehrávání datového proudu
@@ -5968,6 +5971,7 @@ MP3_STREAMING_DIRECT
 	PL	Bezpośrednie przesyłanie strumieniowe
 	RU	Прямая потоковая передача
 	SV	Direktströmning
+	ZH_TW	直接串流模式
 
 MP3_STREAMING_PROXIED
 	CS	Přehrávání datového proudu přes proxy
@@ -5984,6 +5988,7 @@ MP3_STREAMING_PROXIED
 	PL	Strumieniowe przesyłanie za pomocą serwera proxy
 	RU	Проксированная потоковая передача
 	SV	Proxyströmning
+	ZH_TW	代理串流模式
 
 SETUP_OUTPUT_CHANNELS
 	CS	Režim výstupních kanálů
@@ -5999,6 +6004,7 @@ SETUP_OUTPUT_CHANNELS
 	PL	Tryb kanału wyjściowego
 	RU	Режим выходного канала
 	SV	Utgångskanalläge
+	ZH_TW	輸出聲道模式
 
 SETUP_OUTPUT_CHANNELS_DESC
 	CS	Tento přehrávač můžete nakonfigurovat tak, aby přehrával pouze levý nebo pravý kanál. To lze použít například k vytvoření stereofonního obrazu ze 2 synchronizovaných rádií Squeezebox. Oba kanály lze také zkombinovat do monofonní podoby.
@@ -6014,6 +6020,7 @@ SETUP_OUTPUT_CHANNELS_DESC
 	PL	Ten odtwarzacz można skonfigurować tak, aby odtwarzał tylko kanał prawy lub lewy. W ten sposób można na przykład utworzyć obraz stereo z 2 zsynchronizowanych odtwarzaczy Squeezebox Radio.
 	RU	Можно настроить этот плеер для воспроизведения только левого или правого канала. Например, с помощью этой функции можно создать стереоэффект, используя два синхронизированных радио Squeezebox.
 	SV	Du kan konfigurera den här spelaren att bara spela upp vänster eller höger kanal. Funktionen kan exempelvis användas för att skapa stereoeffekt med två synkroniserade Squeezebox Radio.
+	ZH_TW	您可以將此播放器設定為僅播放左聲道或右聲道。例如，這可用於從兩個同步的 Squeezebox Radio 組成立體聲。兩個聲道也可以組成 mono 聲道。
 
 OUTPUT_CHANNELS_NORMAL
 	CS	Oba kanály (stereo)
@@ -6029,6 +6036,7 @@ OUTPUT_CHANNELS_NORMAL
 	PL	Oba kanały (stereo)
 	RU	Оба канала (стерео)
 	SV	Båda kanalerna (stereo)
+	ZH_TW	雙聲道（立體聲）
 
 OUTPUT_CHANNELS_LEFT
 	CS	Levý kanál
@@ -6044,6 +6052,7 @@ OUTPUT_CHANNELS_LEFT
 	PL	Kanał lewy
 	RU	Левый канал
 	SV	Vänster kanal
+	ZH_TW	左聲道
 
 OUTPUT_CHANNELS_RIGHT
 	CS	Pravý kanál
@@ -6059,6 +6068,7 @@ OUTPUT_CHANNELS_RIGHT
 	PL	Kanał prawy
 	RU	Правый канал
 	SV	Höger kanal
+	ZH_TW	右聲道
 
 OUTPUT_CHANNELS_COMBINED
 	CS	Oba kanály (mono)
@@ -6066,6 +6076,7 @@ OUTPUT_CHANNELS_COMBINED
 	EN	Both Channels (Mono)
 	FR	Deux Canaux (Mono)
 	NL	Beide kanalen (mono)
+	ZH_TW	雙聲道（mono）
 
 SETUP_TRANSITIONTYPE
 	CS	Prolínání
@@ -6083,6 +6094,7 @@ SETUP_TRANSITIONTYPE
 	RU	Перекрестное затухание
 	SV	Korstoning
 	ZH_CN	音频同时淡出淡入
+	ZH_TW	交叉淡化
 
 SETUP_TRANSITIONTYPE_DESC
 	CS	Přehrávač může postupně přecházet mezi skladbami, buď vzájemným prolínáním nebo zeslabováním a zesilováním skladeb. Zvolte typ prolínání, který si přejete.
@@ -6100,6 +6112,7 @@ SETUP_TRANSITIONTYPE_DESC
 	RU	Плеер может плавно переходить между песнями: либо с помощью перекрестного затухания, либо с помощью усиления или затухания песен. Выберите необходимый тип перехода.
 	SV	Spelaren kan göra mjuka övergångar mellan låtarna, antingen genom att korstona eller genom att tona ut och in. Välj typ av övergång.
 	ZH_CN	Squeezebox能在歌曲之间逐渐转折。两首歌曲能交互或进行个别的淡出淡入。请选择您想要的音频同时淡出淡入模式。
+	ZH_TW	播放器可以加入交叉淡化或是淡出淡入來使歌曲在轉換之間更有連續感。選擇您想要的交叉淡入淡出類型。
 
 SETUP_TRANSITIONDURATION
 	CS	Doba trvání prolínání
@@ -6117,6 +6130,7 @@ SETUP_TRANSITIONDURATION
 	RU	Длительность перекрестного затухания
 	SV	Korstoningslängd
 	ZH_CN	音频同时淡出淡入的持久时间
+	ZH_TW	交叉淡化持續時間
 
 SETUP_TRANSITIONDURATION_DESC
 	CS	Zadejte dobu, po kterou má trvat prolínání mezi skladbami, v sekundách. Maximum je 10 sekund.
@@ -6134,6 +6148,7 @@ SETUP_TRANSITIONDURATION_DESC
 	RU	Введите временной интервал для перекрестного затухания между песнями (в секундах). Максимум — 10 с.
 	SV	Ange varaktighet för korstoningen i sekunder. Maximalt värde är 10 sekunder.
 	ZH_CN	请以秒为单位输入在歌曲之间音频同时淡出淡入的持久时间。最大值为10秒。
+	ZH_TW	輸入歌曲之間交叉淡化所持續的時間（以秒為單位）。最長為 10 秒。
 
 SETUP_FADEINDURATION
 	CS	Doba trvání zesilování při přehrávání nebo obnovení
@@ -6142,6 +6157,7 @@ SETUP_FADEINDURATION
 	FR	Durée de montée en volume
 	NL	Tijdsduur infaden
 	SV	Intoningslängd
+	ZH_TW	開始播放或恢復播放的淡入持續時間
 
 SETUP_FADEINDURATION_DESC
 	CS	Při přehrávání nebo obnovení skladby lze postupně zvyšovat hlasitost. To není jako prolínání, které se provádí pouze mezi skladbami.
@@ -6150,6 +6166,7 @@ SETUP_FADEINDURATION_DESC
 	FR	Lors du démarrage or de la reprise de la lecture, le volume peut être augmenté progressivement. Ce n'est pas la transition entre pistes.
 	NL	Het volume van een gestart nummer kan toenemend worden verhoogd (infaden). Dit in tegestelling tot crossfade, waar dit tussen de nummers gebeurt.
 	SV	När en låt börjar kan den tonas in, d.v.s. att volymen ökas långsamt. Det här är inte som korstoning som bara sker mellan två låtar.
+	ZH_TW	當開始播放或恢復播放曲目時，音量可以逐漸增加。這與交叉淡化不同，交叉淡化僅發生在曲目之間。
 
 TRANSITION_NONE
 	CS	Žádné
@@ -6167,6 +6184,7 @@ TRANSITION_NONE
 	RU	Нет
 	SV	Ingen
 	ZH_CN	无
+	ZH_TW	無
 
 TRANSITION_CROSSFADE
 	CS	Prolínání
@@ -6184,6 +6202,7 @@ TRANSITION_CROSSFADE
 	RU	Перекрестное затухание
 	SV	Korstoning
 	ZH_CN	音频同时淡出淡入
+	ZH_TW	交叉淡化
 
 TRANSITION_FADE_IN
 	CS	Zesilování
@@ -6201,6 +6220,7 @@ TRANSITION_FADE_IN
 	RU	Усиление
 	SV	Tona in
 	ZH_CN	音频淡入
+	ZH_TW	淡入
 
 TRANSITION_FADE_OUT
 	CS	Zeslabování
@@ -6218,6 +6238,7 @@ TRANSITION_FADE_OUT
 	RU	Затухание
 	SV	Tona ut
 	ZH_CN	音频淡出
+	ZH_TW	淡出
 
 TRANSITION_FADE_IN_OUT
 	CS	Zesilování a zeslabování
@@ -6235,6 +6256,7 @@ TRANSITION_FADE_IN_OUT
 	RU	Усиление и затухание
 	SV	Tona in och ut.
 	ZH_CN	音频同时淡出淡入
+	ZH_TW	淡入與淡出
 
 SETUP_TRANSITIONSMART
 	CS	Inteligentní prolínání
@@ -6250,6 +6272,7 @@ SETUP_TRANSITIONSMART
 	PL	Inteligentne przenikanie
 	RU	Интеллект. перекрестное затухание
 	SV	Smart korstoning
+	ZH_TW	智慧淡化
 
 SETUP_TRANSITIONSMART_DESC
 	CS	Pokud je povoleno Inteligentní prolínání, po sobě jdoucí skladby přehrávané ze stejného alba nebudou používat nastavení Prolínání.
@@ -6265,6 +6288,7 @@ SETUP_TRANSITIONSMART_DESC
 	PL	Jeżeli opcja Inteligentne przenikanie jest włączona, w przypadku kolejnych ścieżek z tego samego albumu opcja Przenikanie nie będzie używana.
 	RU	Если включен параметр "Интеллект. перекрестное затухание", к последующим дорожкам того же альбома настройка "Перекрестное затухание" применяться не будет.
 	SV	Om Smart korstoning har aktiverats korstonas inte låtar som ligger efter varandra på samma album.
+	ZH_TW	當啟用智慧淡化時，同一張專輯的下一首曲目將不會套用交叉淡入。
 
 SETUP_TRANSITIONSMART_ON
 	CS	Povolit Inteligentní prolínání
@@ -6280,6 +6304,7 @@ SETUP_TRANSITIONSMART_ON
 	PL	Włącz inteligentne przenikanie
 	RU	Вкл. интеллект. перекрестное затухание
 	SV	Aktivera smart korstoning
+	ZH_TW	啟用智慧淡化
 
 SETUP_TRANSITIONSMART_OFF
 	CS	Vypnout Inteligentní prolínání
@@ -6295,6 +6320,7 @@ SETUP_TRANSITIONSMART_OFF
 	PL	Wyłącz inteligentne przenikanie
 	RU	Откл. интеллект. перекрестное затухание
 	SV	Avaktivera smart korstoning
+	ZH_TW	關閉智慧淡化
 
 SETUP_TRANSITIONSAMPLERESTRICTION
 	CS	Prolínání napříč různými vzorkovacími frekvencemi
@@ -6303,6 +6329,7 @@ SETUP_TRANSITIONSAMPLERESTRICTION
 	FR	Transitions entre différentes fréquences d'échantillonnage
 	SV	Korstona mellan olika samplingshastigheter
 	NL	Crossfade over verschillende samplefrequenties
+	ZH_TW	不同採樣率之間的交叉淡化
 
 SETUP_TRANSITIONSAMPLERESTRICTION_DESC
 	CS	Může být vhodné zakázat prolínání mezi skladbami s různými vzorkovacími frekvencemi. To může být nutné, pokud tento přehrávač při takových přechodech vytváří šum.
@@ -6311,6 +6338,7 @@ SETUP_TRANSITIONSAMPLERESTRICTION_DESC
 	FR	Il peut être approprié de désactiver les transitions entre les pistes ayant des fréquences d'échantillonnage différentes. Cela peut être nécessaire si la platine génère du bruit pendant ces transitions.
 	SV	Ibland kan det vara nödvändigt att avaktivera korstoning mellan spår som har olika samplingshastighet. Det gäller speciellt för spelare som bara genererar oväsen vid sådan korstoning.
 	NL	Het kan passend zijn om crossfading tussen nummers met verschillende samplefrequenties uit te schakelen. Dit kan handig zijn als de muziekspeler een uitbarsting van ruis produceert tijdens dergelijke overgangen.
+	ZH_TW	禁用不同採樣率的曲目之間的交叉淡化是比較建議的。如果該播放器在淡化期間出現噪音，則可能需要這樣做。
 
 SETUP_TITLEFORMAT
 	CS	Formát názvu
@@ -6330,6 +6358,7 @@ SETUP_TITLEFORMAT
 	RU	Формат названия
 	SV	Titelformat
 	ZH_CN	标题格式
+	ZH_TW	標題格式
 
 FOLDER
 	CS	Složka
@@ -6347,6 +6376,7 @@ FOLDER
 	RU	Папка
 	SV	Mapp
 	ZH_CN	文件夹
+	ZH_TW	資料夾
 
 FOLDERS
 	CS	Složky
@@ -6362,6 +6392,7 @@ FOLDERS
 	PL	Foldery
 	RU	Папки
 	SV	Mappar
+	ZH_TW	資料夾
 
 YES
 	CS	Ano
@@ -6379,6 +6410,7 @@ YES
 	RU	Да
 	SV	Ja
 	ZH_CN	是
+	ZH_TW	是
 
 NO
 	CS	Ne
@@ -6396,6 +6428,7 @@ NO
 	RU	Нет
 	SV	Nej
 	ZH_CN	否
+	ZH_TW	否
 
 SETUP_PLAYLISTPREFIX
 	CS	Předpona:
@@ -6413,6 +6446,7 @@ SETUP_PLAYLISTPREFIX
 	RU	Префикс:
 	SV	Prefix:
 	ZH_CN	前缀：
+	ZH_TW	前綴：
 
 SETUP_PLAYLISTSUFFIX
 	CS	Přípona:
@@ -6430,6 +6464,7 @@ SETUP_PLAYLISTSUFFIX
 	RU	Суффикс:
 	SV	Suffix:
 	ZH_CN	词尾：
+	ZH_TW	後綴：
 
 SETUP_SHOWYEAR
 	CS	Zobrazení roku s alby
@@ -6448,6 +6483,7 @@ SETUP_SHOWYEAR
 	RU	Показывать год выхода альбома
 	SV	Visa år med album
 	ZH_CN	年份与专辑一同显示
+	ZH_TW	顯示專輯年份
 
 SETUP_SHOWYEAR_DESC
 	CS	Můžete si zvolit zobrazení roku alba při procházení podle Alb nebo podle Obalů alb. Pokud je tato možnost povolena, rok alba se zobrazí vedle názvu alba.
@@ -6466,6 +6502,7 @@ SETUP_SHOWYEAR_DESC
 	RU	При просмотре альбомов или обложек можно выводить и год выпуска альбома. Когда этот параметр включен, год выпуска альбома будет отображаться рядом с его названием.
 	SV	Du kan välja att visa utgivningsåret när du bläddrar efter album eller albumomslag. Då visas utgivningsåret intill albumtiteln.
 	ZH_CN	您可以选择通过浏览专辑或浏览专辑图象时是否一同显示专辑的年份。当您选择一同显示时，年份信息将显示在专辑标题旁边。
+	ZH_TW	當按照專輯或按作品瀏覽時，您可以選擇顯示專輯年份。啟用後，專輯年份將顯示在專輯標題旁。
 
 SETUP_SHOWARTIST
 	CS	Zobrazení interpreta s alby
@@ -6483,6 +6520,7 @@ SETUP_SHOWARTIST
 	RU	Показать исполнителя с альбомами
 	SV	Visa artist med album
 	ZH_CN	艺人与专辑一同显示
+	ZH_TW	顯示專輯的演出者
 
 SETUP_SHOWARTIST_DESC
 	CS	Můžete si zvolit zobrazení interpreta při procházení Alb. Pokud je tato možnost povolena, interpret alba se zobrazí vedle názvu alba.
@@ -6500,6 +6538,7 @@ SETUP_SHOWARTIST_DESC
 	RU	При просмотре альбомов можно выводить имя исполнителя. При включенном параметре имя исполнителя альбома будет отображаться рядом с его названием.
 	SV	Du kan välja att visa artisten när du bläddrar efter album. Då visas artisten som gjort albumet intill albumtiteln.
 	ZH_CN	您可以选择通过浏览专辑时是否一同显示有关的艺人。当您选择一同显示时，有关艺人将显示在专辑标题旁边。
+	ZH_TW	當按照專輯瀏覽時，您可以選擇顯示專輯的演出者。啟用後，專輯演出者將顯示在專輯標題旁。
 
 SETUP_GUESSFILEFORMATS
 	CS	Odhadnutí formátů štítků (tagů)
@@ -6518,6 +6557,7 @@ SETUP_GUESSFILEFORMATS
 	RU	Определять форматы тегов
 	SV	Gissa taggformat
 	ZH_CN	猜测标签格式
+	ZH_TW	猜測標籤格式
 
 SETUP_GROUP_GUESSFILEFORMATS_DESC
 	CS	U souborů, které nemají srozumitelné tagy, můžete nechat Logitech Media Server odhadnout tagy podle cesty a názvu souboru. Pomocí stejné proměnné jako je Formát názvu můžete vytvořit vzor odpovídající zvyklostem pojmenování vašich souborů tak, aby aplikace mohla provést odhad, jaké by tagy měly být. Priorita je dána v pořadí uvedeném níže. Bude použit první platný soulad se vzorem.
@@ -6536,6 +6576,7 @@ SETUP_GROUP_GUESSFILEFORMATS_DESC
 	RU	Logitech Media Server может угадывать теги на основе пути и имени файла для тех файлов, у которых нет корректных тегов. С помощью переменных, аналогичных формату названия, можно создать шаблон, отвечающий условиям именования файлов, чтобы приложению было легче угадывать возможные теги. Приоритет присваивается в нижеследующем порядке. Используется первое допустимое совпадение шаблона.
 	SV	För filer som inte har taggats korrekt kan du låta Logitech Media Server gissa taggarna med hjälp av sökväg och filnamn. Om du använder samma variabler som i titelformatet kan du skapa ett mönster som överensstämmer med hur man brukar namnge filer, så kan programmet gissa vad taggarna borde vara. Prioriteringsordningen är densamma som i listan nedan. Det första giltiga mönstret används.
 	ZH_CN	那些没有合理标签的文件,您可以让服务器凭着使用路径和文件名为基础进行标签猜测。您可以使用和标题格式一样的变量来建立匹配您的文件命名惯例的样式，以方便服务器对标签的猜测。优先权将取决于下列的排序。第一个被匹配的样式将被接受使用。
+	ZH_TW	對於缺少合理標籤內容的檔案，您可以讓 Logitech Media Server 使用路徑和檔案名稱來猜測標籤內容。使用與標題格式相同的變量，您可以建立一個模式來匹配您的檔案名稱，以便使程式可以猜測出標籤內容。優先級按照下面列出的順序進行。第一個有效的模式匹配。
 
 SETUP_IRMAP
 	CS	Funkce tlačítek dálkového ovladače
@@ -6555,6 +6596,7 @@ SETUP_IRMAP
 	RU	Функции кнопок пульта
 	SV	Fjärrkontrollknapparnas funktioner
 	ZH_CN	遥控键功能
+	ZH_TW	遙控器按鍵功能
 
 SETUP_IRMAP_DESC
 	CS	Můžete si zvolit mezi seznamy funkcí tlačítek. Tyto seznamy přiřazují konkrétní tlačítka na infračerveném dálkovém ovladači ke konkrétním funkcím. "Standardní" seznam je popsán v dokumentaci.
@@ -6574,6 +6616,7 @@ SETUP_IRMAP_DESC
 	RU	Можно выбрать один из наборов функций кнопок. В этих наборах те или иные кнопки ИК-пульта ДУ сопоставляются тем или иным функциям. В документации описан "Стандартный" набор кнопок.
 	SV	Du kan välja mellan olika funktionsuppsättningar för knapparna. De här funktionsuppsättningarna bestämmer vilken funktion de olika knapparna på fjärrkontrollen ska ha. Standarduppsättningen är den som beskrivs i dokumentationen.
 	ZH_CN	您可以从中选择遥控键的功能组合。《标准》设置的描述可在手册中找到。
+	ZH_TW	您可以在按鈕功能集之間進行選擇。這些功能集將紅外遙控器上的特定按鈕對應到特定功能。“標準”設定的功能集可以在文件中找到。
 
 SETTINGS_CHANGED_CONFIRM
 	CS	Některá nastavení byla změněna. Chcete je uložit?
@@ -6589,6 +6632,7 @@ SETTINGS_CHANGED_CONFIRM
 	PL	Niektóre ustawienia zostały zmienione, czy chcesz je zapisać?
 	RU	Некоторые настройки изменились. Сохранить?
 	SV	Vissa inställningar har ändrats. Vill du spara dem?
+	ZH_TW	某些設定發生變化，請問是否要儲存？
 
 SETUP_NO_PREFS
 	CS	Na této stránce pro tento přehrávač nejsou žádná nastavení
@@ -6604,6 +6648,7 @@ SETUP_NO_PREFS
 	PL	Na tej stronie nie ma ustawień dla tego odtwarzacza
 	RU	На странице нет настроек для этого плеера
 	SV	Det finns inga inställningar den här spelaren på den här sidan
+	ZH_TW	此頁面沒有該播放器的設定選項
 
 # Server Settings
 
@@ -6625,6 +6670,7 @@ SETUP_LANGUAGE
 	RU	Язык
 	SV	Språk
 	ZH_CN	语言
+	ZH_TW	語言
 
 SETUP_LANGUAGE_DESC
 	CS	Vyberte jazyk, který chcete používat na Logitech Media Serveru. Položky označené * byly přeloženy komunitou zákazníků Logitech Media Serveru. Pokud zjistíte nějaké problémy nebo budete chtít přispět, kontaktujte vývojáře na adrese <a href="http://forums.slimdevices.com">forums.slimdevices.com</a>.
@@ -6640,6 +6686,7 @@ SETUP_LANGUAGE_DESC
 	PL	Wybierz język programu Logitech Media Server. Tłumaczenia na języki oznaczone * zostały wykonane przez społeczność użytkowników programu Logitech Media Server. W przypadku znalezienia problemów lub jeżeli chcesz rozpocząć współpracę, skontaktuj się z twórcami pod adresem <a href="http://forums.slimdevices.com">forums.slimdevices.com</a>.
 	RU	Выберите язык программы Logitech Media Server. На языки, помеченные звездочкой (*), программа была переведена сообществом пользователей Logitech Media Server. Если вы найдете ошибки или захотите сотрудничать с нами, напишите по адресу <a href="http://forums.slimdevices.com">forums.slimdevices.com</a>.
 	SV	Välj språk för Logitech Media Server. Språkversioner markerade med en asterisk (*) har översatts av Logitech Media Server-användare. Om du stöter på problem eller om du vill hjälpa till med översättningen kan du ta kontakt med programutvecklarna på <a href="http://forums.slimdevices.com">forums.slimdevices.com</a>.
+	ZH_TW	選擇您想要 Logitech Media Server 顯示的語言。標有 * 的內容由 Logitech Media Server 的社群翻譯。如果您發現問題或想要做出貢獻，請由 <a href="http://forums.slimdevices.com">forums.slimdevices.com</a> 連絡開發人員。
 
 SETUP_LIBRARY_NAME
 	CS	Název knihovny médií
@@ -6655,6 +6702,7 @@ SETUP_LIBRARY_NAME
 	PL	Nazwa biblioteki multimedialnej
 	RU	Имя библиотеки мультимедиа
 	SV	Mediebiblioteksnamn
+	ZH_TW	媒體庫名稱
 
 SETUP_LIBRARY_NAME_DESC
 	CS	Tak se bude jmenovat vaše knihovna médií v nabídce "Moje média" vašeho Squeezeboxu.
@@ -6670,6 +6718,7 @@ SETUP_LIBRARY_NAME_DESC
 	PL	Taką nazwę będzie miała biblioteka multimedialna w menu „Moje multimedia” urządzenia Squeezebox.
 	RU	Это имя библиотеки мультимедиа будет отображаться в меню Squeezebox "Мои файлы мультимедиа".
 	SV	Det här är namnet på ditt mediebibliotek som visas i Squeezebox-menyn My Media.
+	ZH_TW	這是於 Squeezebox 的“我的媒體”選單中顯示的媒體庫名稱。
 
 SETUP_AUDIODIR
 	CS	Složka hudby
@@ -6688,6 +6737,7 @@ SETUP_AUDIODIR
 	RU	Папка "Музыка"
 	SV	Musikmapp
 	ZH_CN	音乐文件夹
+	ZH_TW	音樂資料夾
 
 SETUP_AUDIODIR_DESC
 	CS	Můžete zadat složku obsahující hudební soubory, kterou bude Logitech Media Server prohledávat, a přidat do své hudební knihovny. Níže zadejte cestu ke složce. Můžete toto pole ponechat prázdné, pokud importujete informace o své knihovně hudby z iTunes nebo MusicIP.
@@ -6706,6 +6756,7 @@ SETUP_AUDIODIR_DESC
 	RU	Можно задать папку, содержащую музыкальные файлы, которые Logitech Media Server будет сканировать и добавлять в медиатеку. Введите путь к папке ниже. Это поле можно не заполнять, если информация медиатеки импортируется из iTunes или MusicIP.
 	SV	Du kan ange en mapp med de musikfiler som ska sökas igenom och läggas till i ditt musikbibliotek. Ange sökvägen till mappen nedan: Om du importerar musikbibliotek från iTunes eller MusicIP kan du lämna fältet tomt.
 	ZH_CN	您可以指定Logitech Media Server所扫描和用来增加您的音乐库的音乐文件夹。请在以下的资料栏内输入此文件夹的完整路径。如果您从iTunes或MusicIP导入您音乐库信息，您可以让此资料栏空白。
+	ZH_TW	您可以指定一個包含音樂檔案的資料夾，Logitech Media Server 將掃描該資料夾並將其添加到您的音樂庫中。在此處輸入資料夾的路徑。如果您要從 iTunes 或 MusicIP 導入音樂庫，則可以將此字段留空。
 
 SETUP_MEDIADIRS
 	CS	Složky s médii
@@ -6721,6 +6772,7 @@ SETUP_MEDIADIRS
 	PL	Foldery multimedialne
 	RU	Папки мультимедиа
 	SV	Mediemappar
+	ZH_TW	媒體檔案資料夾
 
 SETUP_MEDIADIRS_DESC
 	CS	Můžete určit jednu nebo více složek obsahujících mediální soubory, které Logitech Media Server prohledá a přidá do vaší knihovny médií. Níže zadejte cesty k těmto složkám.
@@ -6736,6 +6788,7 @@ SETUP_MEDIADIRS_DESC
 	PL	Można określić folder zawierający pliki multimedialne, który program Logitech Media Server przeszuka w celu dodania ich do biblioteki multimedialnej. Wprowadź ścieżki do folderu poniżej.
 	RU	Можно указать одну или несколько папок, содержащую файлы мультимедиа, которые Logitech Media Server будет сканировать и добавлять в библиотеку мультимедиа.  Введите пути к папкам ниже.
 	SV	Du kan ange en eller flera mappar som innehåller mediefiler som Logitech Media Server ska söka igenom och lägga till i ditt mediebibliotek. Ange sökvägarna till mappen nedan.
+	ZH_TW	您可以指定一個或多個包含媒體檔案的資料夾，Logitech Media Server 將掃描這些檔案並將其添加到您的媒體庫中。在此處輸入資料夾的路徑。
 
 SETUP_SKIPSENTINEL
 	CS	Přeskočení označeného názvu souboru
@@ -6743,6 +6796,7 @@ SETUP_SKIPSENTINEL
 	EN	Skip Sentinel Filename
 	FR	Nom du fichier d'exclusion
 	NL	Bestandsnaam voor uitsluitingen
+	ZH_TW	略過受保護的檔案名稱
 
 SETUP_SKIPSENTINEL_DESC
 	CS	(Pod)složky médií, které obsahují soubor s tímto názvem, jsou přeskočeny.
@@ -6750,6 +6804,7 @@ SETUP_SKIPSENTINEL_DESC
 	EN	Media (sub)folders that contain a file with this name are skipped.
 	FR	Les (sous-)dossiers multimédias contenant un fichier portant ce nom sont ignorés.
 	NL	Media (sub)mappen waarin een bestand met deze naam voorkomt worden overgeslagen.
+	ZH_TW	包含具有此名稱的媒體資料夾或子資料夾將會被略過。
 
 SETUP_PLAYLISTDIR
 	CS	Složka seznamu skladeb
@@ -6769,6 +6824,7 @@ SETUP_PLAYLISTDIR
 	RU	Папка "Плей-листы"
 	SV	Mapp för spellistor
 	ZH_CN	播放表文件夹
+	ZH_TW	播放清單資料夾
 
 SETUP_ARTFOLDER
 	CS	Složka obalů alb
@@ -6787,6 +6843,7 @@ SETUP_ARTFOLDER
 	RU	Папка "Обложки"
 	SV	Mapp för omslagsbilder
 	ZH_CN	封面图象文件夹
+	ZH_TW	封面資料夾
 
 SETUP_ARTFOLDER_DESC
 	CS	Můžete si zvolit ukládání všech vašich obalů alb do jedné složky s pomocí volby proměnných názvů souborů výše. Zde zadejte umístění souborů obalů alb. Bez ohledu na toto umístění bude Logitech Media Server stále hledat obaly alb na stejné cestě jako každý zvukový soubor, pokud nebude ve složce obalů alb nalezen žádný odpovídající obal alba.
@@ -6805,6 +6862,7 @@ SETUP_ARTFOLDER_DESC
 	RU	Можно хранить все обложки в единой папке, пользуясь вышеописанной функцией изменяемых имен файлов. Введите в это поле расположение файлов обложек. Независимо от данного расположения Logitech Media Server будет по-прежнему выполнять поиск обложек в папке каждого аудиофайла, если в папке обложек не обнаружится необходимых обложек.
 	SV	Du kan välja att spara alla albumomslag i en och samma mapp med hjälp av alternativet för variabla filnamn ovan. Ange sökvägen till omslagsfilerna här. Oavsett sökvägen du anger här kommer Logitech Media Server att söka efter omslagsbilder i samma mapp som var och en av ljudfilerna om inget omslag hittas i mappen för omslagsfiler.
 	ZH_CN	您可以利用以上的文件名变量选项，把所有的图象集中存放在一个文件夹内。请在这里输入图象文件所在地点。如果服务器未能在所指定的封面图象文件夹中找到匹配图象，便会在各个音像文件所属的文件夹中寻找匹配的图象。
+	ZH_TW	您可以選擇使用上面的變量檔案名稱選項將所有作品存儲在一個資料夾中。在此處輸入作品檔案的路徑。 無論此位置如何，如果在作品檔案資料夾中找不到匹配的作品，Logitech Media Server 仍會在每個音訊檔案的同一路徑中查找作品。
 
 SETUP_BAD_FILE
 	CS	Ouha - "%s" asi nebude platný soubor. Zkuste to znovu.
@@ -6823,6 +6881,7 @@ SETUP_BAD_FILE
 	RU	"%s" не является допустимым файлом. Повторите попытку.
 	SV	Hoppsan! %s verkar vara en ogiltig fil. Försök igen.
 	ZH_CN	"%s"似乎不是一个合法文件。请再次尝试。
+	ZH_TW	"$s"似乎不是一個正確的檔案，請再試一次。
 
 SETUP_BAD_DIRECTORY
 	CS	Ouha - "%s" asi nebude platný adresář. Zkuste to znovu.
@@ -6842,6 +6901,7 @@ SETUP_BAD_DIRECTORY
 	RU	"%s" не является допустимым каталогом. Попробуйте еще раз.
 	SV	Hoppsan! %s verkar vara en ogiltig mapp. Försök igen.
 	ZH_CN	"%s"似乎不是一个合法文件夹。请再次尝试。
+	ZH_TW	"$s"似乎不是一個正確的資料夾，請再試一次。
 
 SETUP_PLAYLISTDIR_DESC
 	CS	Můžete zadat cestu k adresáři, kde jsou uloženy vaše soubory seznamů skladeb na pevném disku. (Pokud nechcete ukládat seznamy skladeb, ponechte toto pole prázdné.)
@@ -6861,6 +6921,7 @@ SETUP_PLAYLISTDIR_DESC
 	RU	Можно ввести путь к каталогу жесткого диска, где находятся файлы сохраненных плей-листов. (Если сохранять плей-листы не требуется, это поле можно не заполнять.)
 	SV	Ange sökvägen till den mapp på hårddisken där dina spellistor finns. Lämna fältet tomt om du inte vill spara spellistor.
 	ZH_CN	您可以指定一个作为保存播放表的文件夹。（如果您不打算保存任何播放表，请腾空。）
+	ZH_TW	您可以指定一個路徑作為存放播放清單的位置。如果您不打算保存播放清單，請將此路徑留空。
 
 SETUP_RESCAN
 	CS	Znovu prohledání knihovny médií
@@ -6878,6 +6939,7 @@ SETUP_RESCAN
 	RU	Повторное сканирование библиотеки мультимедиа
 	SV	Sök igenom mediebiblioteket igen
 	ZH_CN	重新扫描音乐库
+	ZH_TW	重新掃描媒體庫
 
 SETUP_RESCAN_BUTTON
 	CS	Nové prohledání
@@ -6897,6 +6959,7 @@ SETUP_RESCAN_BUTTON
 	RU	Повтор сканирования
 	SV	Sök igen
 	ZH_CN	重新扫描
+	ZH_TW	重新掃描
 
 SETUP_RESCAN_DESC
 	CS	Po klepnutí na Nové prohledání Logitech Media Server prohledá vaši knihovnu médií a přidá nové média nebo aktualizuje soubory, které byly změněny.
@@ -6914,6 +6977,7 @@ SETUP_RESCAN_DESC
 	RU	Выберите "Повторное сканирование", чтобы Logitech Media Server выполнил сканирование библиотеки мультимедиа и добавил новые файлы мультимедиа или обновил изменившиеся файлы.
 	SV	Klicka på Sök igenom igen om du vill låta Logitech Media Server söka igenom mediebiblioteket och lägga till nya mediefiler eller uppdatera filer som ändrats.
 	ZH_CN	点击《重新扫描》将使Logitech Media Server扫瞄音乐库，把新增或已更新的音乐记录在音乐库内。在点击《重新扫描》前点击复选框将使Logitech Media Server把现有的音乐库删除然后重头扫描重建。
+	ZH_TW	點擊"重新掃描"將使 Logitech Media Server 掃描媒體庫，把新增或變更的媒體檔案一起更新至媒體庫。
 
 SETUP_WIPEDB
 	CS	Vyčistit knihovnu a vše prohledat znovu
@@ -6931,6 +6995,7 @@ SETUP_WIPEDB
 	RU	Очистить медиатеку и пересканировать все
 	SV	Rensa biblioteket och sök igenom allt på nytt.
 	ZH_CN	把现有的音乐库删除然后重新进行扫描
+	ZH_TW	將現有的媒體庫刪除並且重新掃描
 
 SETUP_STANDARDRESCAN
 	CS	Hledat nové a změněné mediální soubory
@@ -6948,6 +7013,7 @@ SETUP_STANDARDRESCAN
 	RU	Поиск новых и измененных файлов мультимедиа
 	SV	Sök efter nya eller ändrade mediefiler
 	ZH_CN	扫描时只寻找新的或已更改的音乐
+	ZH_TW	僅針對新增或變更的媒體進行掃描
 
 SETUP_PLAYLISTRESCAN
 	CS	Pouze znovu prohledat seznamy skladeb
@@ -6965,6 +7031,7 @@ SETUP_PLAYLISTRESCAN
 	RU	Повтор сканирования только плей-листов
 	SV	Sök bara igenom spellistorna på nytt
 	ZH_CN	重新扫描播放表而已。
+	ZH_TW	僅重新掃描播放清單
 
 SETUP_AUTO_RESCAN
 	CS	Automaticky detekovat změny
@@ -6980,6 +7047,7 @@ SETUP_AUTO_RESCAN
 	PL	Automatycznie wykrywaj zmiany
 	RU	Автоматически обнаруживать изменения
 	SV	Upptäck ändringar automatiskt
+	ZH_TW	自動掃描
 
 SETUP_AUTO_RESCAN_DESC
 	CS	Logitech Media Server může sledovat vaší složku s médii a automaticky detekovat změny. Nové a změněné soubory by se měly ve vaší knihovně objevit během několika minut.
@@ -6995,6 +7063,7 @@ SETUP_AUTO_RESCAN_DESC
 	PL	Program Logitech Media Server może monitorować foldery z multimediami i automatycznie wykrywać zmiany. Nowe i zmienione pliki powinny pojawiać się w bibliotece w ciągu kilku minut.
 	RU	Logitech Media Server может автоматически обнаруживать изменения в ваших папках мультимедиа.  Новые и измененные файлы должны отобразиться в библиотеке через несколько минут.
 	SV	Logitech Media Server kan bevaka dina mediemappar och automatiskt upptäcka ändringar. Nya och ändrade filer bör visas i ditt bibliotek inom några minuter.
+	ZH_TW	Logitech Media Server 將監視您的媒體資料夾並自動偵測變更。更改或新的檔案應該會在幾分鐘內出現在您的媒體庫中。
 
 SETUP_AUTO_RESCAN_ENABLE
 	CS	Povoleno, automatické sledování změn
@@ -7010,6 +7079,7 @@ SETUP_AUTO_RESCAN_ENABLE
 	PL	Włączone – automatycznie wykrywaj zmiany
 	RU	Включено, автоматический поиск изменений
 	SV	Aktiverad, sök efter ändringar automatiskt
+	ZH_TW	啟用自動掃描與監視
 
 SETUP_AUTO_RESCAN_DISABLE
 	CS	Zakázáno, pro nové mediální soubory použít ruční prohledávání
@@ -7025,6 +7095,7 @@ SETUP_AUTO_RESCAN_DISABLE
 	PL	Wyłączone – przeszukuj nowe multimedia ręcznie
 	RU	Отключено, выполните поиск новых файлов мультимедиа вручную
 	SV	Avaktiverad. Sök manuellt efter nya mediefiler
+	ZH_TW	關閉自動掃描
 
 SETUP_AUTO_RESCAN_STAT_INTERVAL
 	CS	Interval detekce sdílení sítě
@@ -7040,6 +7111,7 @@ SETUP_AUTO_RESCAN_STAT_INTERVAL
 	PL	Interwał wykrywania udziału sieciowego
 	RU	Интервал между попытками найти общий сетевой ресурс
 	SV	Identifieringsintervall för nätverksresurs
+	ZH_TW	網路共享偵測間隔
 
 SETUP_AUTO_RESCAN_STAT_INTERVAL_DESC
 	CS	Aby mohly být zachyceny změny u vzdálených částí sítě nebo u některých operačních systémů bez domácí podpory detekce změn, musí být soubory v pravidelných intervalech kontrolovány. Zvolte interval této kontroly, v minutách. Továrně nastavená hodnota je 10 minut.
@@ -7055,6 +7127,7 @@ SETUP_AUTO_RESCAN_STAT_INTERVAL_DESC
 	PL	Aby możliwe było wykrywanie zmian w zdalnych udziałach sieciowych lub w niektórych systemach operacyjnych bez wbudowanej obsługi wykrywania zmian, konieczne jest odpytywanie o zmiany plików w regularnych przedziałach czasu. Wybierz interwał takiego sprawdzania (w minutach). Wartość domyślna to 10 minut.
 	RU	Если нужно отслеживать изменения на удаленных сетевых ресурсах или в операционных системах, в которых не поддерживается функция  обнаружения изменений, следует регулярно опрашивать файлы на наличие изменений. Выберите интервал между опросами (в минутах). Значение по умолчанию — 10 минут.
 	SV	För att upptäcka ändringar i fjärrnätverksresurser eller i vissa operativsystem som saknar inbyggt stöd för upptäckt av ändringar, måste filerna avsökas efter ändringar med regelbundna intervall. Välj ett tidsintervall i minuter för kontrollen. Standardvärdet är 10 minuter.
+	ZH_TW	要偵測遠端網絡共享或某些不支援本機更動偵測的操作系統，必須以固定的時間間隔來輪詢檔案。選擇用於此檢查的時間間隔（以分鐘為單位）。預設值為 10 分鐘。
 
 RESCANNING
 	CS	Logitech Media Server znovu prohledává vaši knihovnu médií.
@@ -7074,6 +7147,7 @@ RESCANNING
 	RU	Logitech Media Server выполняет повторное сканирование библиотеки мультимедиа.
 	SV	Logitech Media Server söker nu igenom ditt mediebibliotek igen.
 	ZH_CN	服务器正在重新扫描您的音乐库。
+	ZH_TW	Logitech Media Server 正在重新掃描您的媒體庫。
 
 RESCANNING_SHORT
 	CS	Nové prohledávání knihovny médií...
@@ -7091,6 +7165,7 @@ RESCANNING_SHORT
 	RU	Повторное сканирование библиотеки мультимедиа...
 	SV	Söker igenom mediebibliotek igen...
 	ZH_CN	重新扫描音乐库中...
+	ZH_TW	重新掃描媒體庫中...
 
 ABORT_SCAN
 	CS	Přerušit prohledávání
@@ -7106,6 +7181,7 @@ ABORT_SCAN
 	PL	Przerwij przeszukiwanie
 	RU	Прервать сканирование
 	SV	Avbryt sökning
+	ZH_TW	中止掃描
 
 SCAN_ABORTED
 	CS	Prohledávání bylo přerušeno. Chcete-li mít plný přístup ke své knihovně médií, musíte spustit nové prohledávání.
@@ -7121,6 +7197,7 @@ SCAN_ABORTED
 	PL	Przeszukiwanie zostało przerwane. Należy pamiętać, że w celu uzyskania pełnego dostępu do biblioteki multimediów trzeba będzie ponownie uruchomić przeszukiwanie.
 	RU	Сканирование было прервано. Для полного доступа к библиотеке мультимедиа следует повторить сканирование.
 	SV	Sökningen har avbrutits. Observera att du måste göra en ny sökning innan du får full tillgång till mediebiblioteket.
+	ZH_TW	掃描已中止。請注意，您必須重新執行掃描來獲取媒體庫的訪問權限。
 
 # advanced server settings
 
@@ -7142,6 +7219,7 @@ SETUP_SKIN
 	RU	Веб-интерфейс
 	SV	Webbgränssnitt
 	ZH_CN	网界面
+	ZH_TW	網路介面
 
 SETUP_SKIN_DESC
 	CS	Ze seznamu níže si můžete vybrat vzhled, čili "skin" pro webové rozhraní.
@@ -7161,6 +7239,7 @@ SETUP_SKIN_DESC
 	RU	Можно выбрать внешний вид (или "обложку") веб-интерфейса из списка ниже.
 	SV	Välj ett utseende eller skal för webbgränssnittet i listan nedan:
 	ZH_CN	您可以从如下的选项选择一个外壳作为网界面。
+	ZH_TW	您可以從下面的列表中選擇網路界面的外觀。
 
 SETUP_SKIN_OK
 	CS	Aby vaše změny začaly platit, zavřete prosím okno Logitech Media Serveru a znovu jej načtěte.
@@ -7176,6 +7255,7 @@ SETUP_SKIN_OK
 	PL	Aby zastosować zmiany, zamknij okno programu Logitech Media Server i załaduj go ponownie.
 	RU	Закройте окно Logitech Media Server и перезапустите его, чтобы изменения вступили в силу.
 	SV	Verkställ ändringarna genom att stänga Logitech Media Server-fönstret och öppna det igen.
+	ZH_TW	請關閉 Logitech Media Server 並重新啟動來套用變更。
 
 SETUP_PLUGINS
 	CS	Zásuvné moduly (pluginy)
@@ -7191,6 +7271,7 @@ SETUP_PLUGINS
 	PL	Dodatki
 	RU	Подключаемые модули
 	SV	Plugin-program
+	ZH_TW	插件
 
 SETUP_REFRESHRATE
 	CS	Doba obnovení prohlížeče
@@ -7209,6 +7290,7 @@ SETUP_REFRESHRATE
 	RU	Интервал обновления браузера
 	SV	Uppdateringsintervall för webbläsare
 	ZH_CN	浏览器刷新时间
+	ZH_TW	瀏覽更新時間
 
 SETUP_REFRESHRATE_DESC
 	CS	Nastavte dobu obnovení prohlížeče v sekundách. Při přehrávání skladby se Logitech Media Server obnoví před koncem skladby, pokud je hodnota menší než tato hodnota. (Výchozí nastavení je 30, minimum je 2)
@@ -7227,6 +7309,7 @@ SETUP_REFRESHRATE_DESC
 	RU	Задайте время между перезагрузками браузера в секундах. При воспроизведении Logitech Media Server будет делать обновление в конце песни, если ее длительность меньше этого значения. (По умолчанию — 30, минимум — 2.)
 	SV	Ange (i sekunder) med vilka tidsintervall webbläsaren ska uppdatera sidan.  Standardvärdet är 30 sekunder och minimivärdet är 2 sekunder. När en låt spelas upp sker uppdateringen mot slutet av låten om den är kortare än värdet som anges här.
 	ZH_CN	设置浏览器刷新的间隔时间。当播放歌曲时，如果设的值少于歌曲的长度服务器将在歌曲末端附近设置刷新。（缺省为30，极小值为2）
+	ZH_TW	設定瀏覽重新讀取的時間（以秒為單位）。播放歌曲時，如果小於此值，Logitech Media Server 將在歌曲結尾附近設定更新。（預設為 30 秒，最少為 2 秒）
 
 SETUP_COVERART
 	CS	Obal alba
@@ -7246,6 +7329,7 @@ SETUP_COVERART
 	RU	Обложка
 	SV	Albumomslag
 	ZH_CN	图象
+	ZH_TW	封面
 
 SETUP_COVERART_DESC
 	CS	Obrázky obalů alb, pokud jsou k dispozici, se zobrazují při prohlížení informací o albu nebo skladbě. Obrázky obalů alb se nacházejí v tagách ID3 u jednotlivých skladeb nebo mohou být uloženy ve stejné složce jako soubory skladeb. Standardně se používají názvy obrázků "cover.jpg", "folder.jpg", "album.jpg" nebo "thumb.jpg". Můžete zadat další názvy souborů pro obrázky obalů alb. Můžete zadat jiné názvy pro náhledy nebo pro obrázky plné velikosti. Přidejte před tuto volbu znak % a můžete za něj napsat libovolný řetězec vytvořený ze stejných prvků, které jsou pro Formáty názvů (např. %ARTIST - ALBUM bude hledat Artist - Album.jpg odpovídající nalezenému interpretovi a albu).
@@ -7265,6 +7349,7 @@ SETUP_COVERART_DESC
 	RU	При просмотре информации об альбоме или песне отображаются доступные изображения обложек. Изображения обложек находятся в тегах ID3 отдельных песен или могут располагаться в той же папке, что и файлы песен. По умолчанию используются изображения с именами cover.jpg, folder.jpg, album.jpg или thumb.jpg. Можно указать дополнительное имя файла, используемое для изображений обложек альбома. Можно также задавать различные имена файлов для эскизов и полноразмерных изображений. Введите перед параметром символ "%", а затем укажите любую строку, состоящую из тех же элементов, которые доступны для форматов названия (например, при вводе %ARTIST — ALBUM будет выполнен поиск строки Artist — Album.jpg в соответствии с найденной информацией об исполнителе и альбоме).
 	SV	Omslagsbilder för album, visas (om de finns tillgängliga) när du öppnar album- eller låtinformationen. Omslagsbilderna finns i ID3-taggarna för enskilda låtar eller i samma mapp som låtfilerna. Som standard används bilder med namnen cover.jpg, folder.jpg, album.jpg, och thumb.jpg. Du ange fler filnamn för albumomslagsbilder. Det går att ange olika filnamn för miniatyrer och bilder i full storlek. Om du börjar med prefixet % kan du fortsätta med vilken kombination som helst av samma element som är tillgängliga för Titelformat. %ARTIST – ALBUM genererar t.ex. sökningar efter artist – album.jpg med den artist- och albuminformation som hittats.
 	ZH_CN	若专辑的封面图象存在，观看专辑或歌曲信息时图象将一同显示。图象除了可内藏于个别歌曲文件的ID3标签内，也可以放置在同歌曲文件一起的文件夹内。根据缺省规定，图象名为＇cover.jpg＇、＇albumartsmall.jpg＇、＇folder.jpg＇、＇album.jpg＇、或＇thumb.jpg＇将被接受使用。您可以指定额外的图像文件名。您也可以为指图或大型图象指定不同的文件名字。如果以%为前缀，您可以利用同标题格式一样的元素（例如%ARTIST - ALBUM, 将寻找匹配的ARTIST - Album.jpg。
+	ZH_TW	查看專輯或歌曲資訊時，會顯示專輯封面圖片。作品圖片可以在單曲的 ID3 標籤內容中找到，也可以與歌曲檔案放在同一資料夾中。預設支援的名稱有"cover.jpg"、"folder.jpg"、"album.jpg"或"thumb.jpg"。您可以指定用於專輯封面圖片的副檔名。您可以為縮圖或全尺寸圖片指定不同的檔案名稱。您可以在選項前加上 % 前綴，在其後添加任何與標題格式相關的字串來組合（例如 %ARTIST - ALBUM，將會尋找 Artist - Album.jpg 來對應到演出者與專輯資訊）。
 
 SETUP_DOWNLOAD_ARTWORK
 	CS	Automaticky doplnit obal alba
@@ -7280,6 +7365,7 @@ SETUP_DOWNLOAD_ARTWORK
 	PL	Autouzupełnianie okładek
 	RU	Автоматически заполнить обложку
 	SV	Autokomplettera albumomslag
+	ZH_TW	自動尋找封面圖片
 
 SETUP_DOWNLOAD_ARTWORK_DESC
 	CS	Logitech Media Server se může v průběhu prohledávání knihovny pokusit o doplnění chybějících obalů alba vašich hudebních souborů. V průběhu tohoto procesu budou za účelem nalezení odpovídajícího obalu alba odeslány údaje o interpretovi a albu na server mysqueezebox.com. Upozornění: tento proces může výrazně zpomalit vyhledávání.<br><br>Obaly alba jsou poskytovány službou <a href="http://last.fm" target="_blank">Last.fm</a>.
@@ -7295,6 +7381,7 @@ SETUP_DOWNLOAD_ARTWORK_DESC
 	PL	Program Logitech Media Server może spróbować uzupełnić brakujące okładki do plików muzycznych podczas przeszukiwania biblioteki. W ramach tego procesu informacje o wykonawcy i albumie zostaną przesłane do witryny mysqueezebox.com w celu wykrycia pasującej okładki. Uwaga: proces ten może znacząco spowolnić przeszukiwanie biblioteki.<br><br>Okładki udostępnia serwis <a href="http://last.fm" target="_blank">Last.fm</a>.
 	RU	Logitech Media Server может попробовать найти недостающие обложки для музыкальных файлов в процессе сканирования медиатеки. При этом сведения об исполнителе и альбоме будут отправляться на mysqueezebox.com, чтобы найти соответствующую обложку. Нужно учитывать, что этот процесс может значительно замедлить сканирование.<br><br>Обложки предоставляются сайтом <a href="http://last.fm" target="_blank">Last.fm</a>.
 	SV	Logitech Media Server kan försöka komplettera albumomslag som saknas för musikfilerna medan ditt bibliotek genomsöks. I den här processen skickas information om artisten och albumet till mysqueezebox.com för att hitta ett matchande albumomslag. Observera att den här processen kan göra att sökningen går betydligt långsammare.<br><br>Albumomslagen tillhandahålls av <a href="http://last.fm" target="_blank">Last.fm</a>.
+	ZH_TW	Logitech Media Server 在掃描您的音樂庫時嘗試為您的音位檔案尋找缺失的封面圖片。此過程會將演出者和專輯資訊發送到 mysqueezebox.com 來匹配。請注意，此過程會大大減慢掃描速度。<br><br>圖片由 <a href="http://last.fm" target="_blank">Last.fm</a> 提供。
 
 SETUP_DOWNLOAD_ARTWORK_ON
 	CS	Stáhnout obal alba (zkušebně)
@@ -7310,6 +7397,7 @@ SETUP_DOWNLOAD_ARTWORK_ON
 	PL	Pobierz okładki albumów (funkcja eksperymentalna)
 	RU	Загрузить обложку альбома (экспериментально)
 	SV	Ladda ner albumomslag (betafunktion)
+	ZH_TW	下載專輯封面圖片（實驗性）
 
 SETUP_DOWNLOAD_ARTWORK_OFF
 	CS	Nestahovat obal alba
@@ -7325,6 +7413,7 @@ SETUP_DOWNLOAD_ARTWORK_OFF
 	PL	Nie pobieraj okładek albumów
 	RU	Не загружать обложку альбома
 	SV	Ladda inte ner albumomslag
+	ZH_TW	不要下載專輯封面圖片
 
 SETUP_THUMBSIZE
 	CS	Velikost náhledů
@@ -7343,6 +7432,7 @@ SETUP_THUMBSIZE
 	RU	Размер эскиза
 	SV	Storlek på miniatyrer
 	ZH_CN	指图大小
+	ZH_TW	縮圖尺寸大小
 
 SETUP_THUMBSIZE_DESC
 	CS	Zvolte velikost v pixelech (25-250) výchozího náhledového obrázku při procházení obalů alb. Výchozí hodnota je 100.
@@ -7361,6 +7451,7 @@ SETUP_THUMBSIZE_DESC
 	RU	Выберите размер в пикселях (25–250) для изображения эскиза, используемый по умолчанию при просмотре обложек. Значение по умолчанию — 100.
 	SV	Välj storlek i bildpunkter (25–250) för standardminiatyrer när du bläddrar efter omslag. Standard är 100.
 	ZH_CN	以映像点（25-250）为单位，请选择浏览图象时缺省图象指图的大小。缺省值为100。
+	ZH_TW	當按照圖片瀏覽時，選擇預設的縮圖尺寸大小，以像素為單位 (25-250)。預設值為 100。
 
 SETUP_HTTPPORT
 	CS	Číslo portu webového serveru
@@ -7380,6 +7471,7 @@ SETUP_HTTPPORT
 	RU	Номер порта веб-сервера
 	SV	Portnummer för webbserver
 	ZH_CN	网络服务器端口号
+	ZH_TW	網路伺服器通訊埠
 
 SETUP_HTTPPORT_DESC
 	CS	Můžete změnit číslo portu, který se používá pro přístup k serveru z webového prohlížeče. (Výchozí hodnota je 9000.)
@@ -7399,6 +7491,7 @@ SETUP_HTTPPORT_DESC
 	RU	Номер порта для доступа к серверу можно изменить в веб-браузере. (Номер по умолчанию — 9000.)
 	SV	Du kan ändra portnumret som används för tillgång till servern från en webbläsare. (Standard är 9 000.)
 	ZH_CN	您可以改变浏览器访问服务器时所使用的端口号。（缺省值为9000）
+	ZH_TW	您可以更改以瀏覽器訪問伺服器的通訊埠。（預設值為 9000。）
 
 SETUP_HTTPPORT_OK
 	CS	Nyní se používá port:
@@ -7418,6 +7511,7 @@ SETUP_HTTPPORT_OK
 	RU	Теперь используется порт:
 	SV	Använder nu porten:
 	ZH_CN	当前正使用端口：
+	ZH_TW	目前使用的通訊埠：
 
 SETUP_SAVESHUFFLED
 	CS	Uložení seznamu skladeb v náhodném pořadí
@@ -7436,6 +7530,7 @@ SETUP_SAVESHUFFLED
 	RU	Сохранить перемешанный плей-лист
 	SV	Spara blandad spellista
 	ZH_CN	保存随机抽样的播放表
+	ZH_TW	保留亂序的播放清單
 
 SETUP_SAVESHUFFLED_DESC
 	CS	Pokud zvolíte uložení seznamu skladeb, který byl předtím náhodně seřazen, můžete si vybrat, zda jej chcete uložit v původním pořadí, v jakém byly skladby přidávány, nebo v náhodném pořadí.
@@ -7454,6 +7549,7 @@ SETUP_SAVESHUFFLED_DESC
 	RU	Если в плей-листе песни были перемешаны в случайном порядке, то его можно сохранить в исходном порядке добавления песен или в получившемся случайном.
 	SV	När du sparar en spellista som blandats kan du välja att spara den antingen i låtarnas ursprungliga ordning eller i blandad ordning.
 	ZH_CN	当您选择保存播放表时，并且它已随机抽样，您能选择根据歌曲在播放表生成时的原来次序或随机抽样后的次序来保存。
+	ZH_TW	當您選擇保留亂序的播放清單時，您可以選擇保留原始順序或按照亂序來儲存播放清單。
 
 SETUP_SAVESHUFFLED_1
 	CS	Uložit seznamy skladeb v náhodném pořadí
@@ -7472,6 +7568,7 @@ SETUP_SAVESHUFFLED_1
 	RU	Сохранять плей-листы после перемешивания
 	SV	Spara spellistor i blandad ordning
 	ZH_CN	保存播放表在随机抽样后的次序
+	ZH_TW	以亂序來儲存播放清單
 
 SETUP_SAVESHUFFLED_0
 	CS	Uložit seznamy skladeb v pořadí, v jakém byly přidávány skladby
@@ -7490,6 +7587,7 @@ SETUP_SAVESHUFFLED_0
 	RU	Сохранить плей-листы в порядке добавления песен
 	SV	Spara spellistor i ursprunglig ordning
 	ZH_CN	保存播放表原来次序
+	ZH_TW	以原來的順序儲存播放清單
 
 SETUP_RATINGIMPLEMENTATION
 	CS	Hodnocení úložiště
@@ -7505,6 +7603,7 @@ SETUP_RATINGIMPLEMENTATION
 	PL	Magazyn ocen
 	RU	Хранилище рейтингов
 	SV	Lagring av betygsättning
+	ZH_TW	評分庫
 
 SETUP_RATINGIMPLEMENTATION_DESC
 	CS	Hodnocení úložiště pro použití při ukládání nebo prohlížení hodnocení
@@ -7520,6 +7619,7 @@ SETUP_RATINGIMPLEMENTATION_DESC
 	PL	Magazyn ocen używany do zapisywania lub wyświetlania ocen
 	RU	Хранилище рейтингов для сохранения или просмотра рейтингов
 	SV	Lagring av betyg som ska användas när betygsättning visas eller lagras
+	ZH_TW	存儲或瀏覽評分時所使用的位置
 
 LOCAL_RATING_STORAGE
 	CS	Databáze Logitech Media Serveru
@@ -7535,6 +7635,7 @@ LOCAL_RATING_STORAGE
 	PL	Baza danych programu Logitech Media Server
 	RU	База данных Logitech Media Server
 	SV	Logitech Media Server-databas
+	ZH_TW	Logitech Media Server 資料庫
 
 SETUP_CHECKVERSION
 	CS	Aktualizace softwaru
@@ -7554,6 +7655,7 @@ SETUP_CHECKVERSION
 	RU	Обновления ПО
 	SV	Programvaruuppdateringar
 	ZH_CN	软件更新
+	ZH_TW	軟體更新
 
 SETUP_CHECKVERSION_DESC
 	CS	Logitech Media Server se může každý den automaticky připojit k mysqueezebox.com a zkontrolovat, zda není k dispozici aktualizovaná verze softwaru. Pokud je, na webovém rozhraní Logitech Media Serveru se zobrazí zpráva.
@@ -7573,6 +7675,7 @@ SETUP_CHECKVERSION_DESC
 	RU	Logitech Media Server может каждый день автоматически подключаться к сайту mysqueezebox.com и проверять наличие обновленных версий программы. При обнаружении новой версии в веб-интерфейсе Logitech Media Server появится соответствующее сообщение.
 	SV	Logitech Media Server kan automatiskt kopplas upp mot mysqueezebox.com varje dag för att kontrollera om en uppdaterad version av programvaran finns tillgänglig. Om det finns uppdateringar visas ett meddelande i webbgränssnittet.
 	ZH_CN	服务器能够每天自动地连接到mysqueezebox.com检查是否有新的软件版本可供使用。如果新的软件版本的确存在，有关信息将出现在Logitech Media Server的网界面。
+	ZH_TW	Logitech Media Server 能夠每日與 mysqueezebox.com 確認是否有更新版本的軟體。如果出現更新檔，相關的資訊將會出現在 Logitech Media Server 的網路介面
 
 SETUP_CHECKVERSION_1
 	CS	Automaticky kontrolovat aktualizace softwaru
@@ -7592,6 +7695,7 @@ SETUP_CHECKVERSION_1
 	RU	Автоматически проверять наличие обновлений ПО
 	SV	Sök automatiskt efter programuppdateringar
 	ZH_CN	自动检查是否有新的软件版本可供使用
+	ZH_TW	自動檢查軟體更新
 
 SETUP_CHECKVERSION_0
 	CS	Nehledat aktualizace softwaru
@@ -7611,6 +7715,7 @@ SETUP_CHECKVERSION_0
 	RU	Не проверять обновления ПО
 	SV	Sök inte automatiskt efter programuppdateringar
 	ZH_CN	不要自动检查是否有新的软件版本可供使用
+	ZH_TW	不要自動檢查軟體更新
 
 SETUP_CHECKVERSION_DAILY
 	CS	Denně
@@ -7619,6 +7724,7 @@ SETUP_CHECKVERSION_DAILY
 	FR	Tous les jours
 	NL	Dagelijks
 	SV	Daglig
+	ZH_TW	每日
 
 SETUP_CHECKVERSION_WEEKLY
 	CS	Týdně
@@ -7627,6 +7733,7 @@ SETUP_CHECKVERSION_WEEKLY
 	FR	Hebdomadaire
 	NL	Wekelijks
 	SV	Veckolig
+	ZH_TW	每周
 
 SETUP_CHECKVERSION_MONTHLY
 	CS	Měsíčně
@@ -7635,6 +7742,7 @@ SETUP_CHECKVERSION_MONTHLY
 	FR	Mensuel
 	NL	Maandelijks
 	SV	Månatlig
+	ZH_TW	每月
 
 SETUP_AUTO_DOWNLOAD
 	CS	Automatické stahování
@@ -7650,6 +7758,7 @@ SETUP_AUTO_DOWNLOAD
 	PL	Automatyczne pobieranie
 	RU	Автоматическая загрузка
 	SV	Automatisk nedladdning
+	ZH_TW	自動下載
 
 SETUP_AUTO_DOWNLOAD_DESC
 	CS	Automaticky stahovat aktualizace Logitech Media Serveru, pokud jsou k dispozici. Po dokončení stahování budete vyzváni k instalaci aktualizace.
@@ -7665,6 +7774,7 @@ SETUP_AUTO_DOWNLOAD_DESC
 	PL	Automatyczne pobieraj aktualizacje programu Logitech Media Server, gdy będą dostępne. Po zakończeniu pobierania zostanie wyświetlony monit o zainstalowanie aktualizacji.
 	RU	Автоматически загружать доступные обновления Logitech Media Server. После окончания загрузки обновления появится предложение установить его.
 	SV	Ladda ner Logitech Media Server-uppdateringar automatiskt när de är tillgängliga. Du ombeds installera uppdateringen när nedladdningen har slutförts.
+	ZH_TW	當出現更新檔時 Logitech Media Server 將會自動下載，在下載完畢後系統將會詢問您是否要安裝更新。
 
 SETUP_AUTO_DOWNLOAD_0
 	CS	Neprovádět automatické stahování aktualizací
@@ -7680,6 +7790,7 @@ SETUP_AUTO_DOWNLOAD_0
 	PL	Nie pobieraj aktualizacji automatycznie
 	RU	Не загружать обновления автоматически
 	SV	Ladda inte ner uppdateringar automatiskt
+	ZH_TW	不要自動下載更新檔
 
 SETUP_AUTO_DOWNLOAD_1
 	CS	Automaticky stahovat aktualizace, pokud jsou k dispozici.
@@ -7695,6 +7806,7 @@ SETUP_AUTO_DOWNLOAD_1
 	PL	Automatycznie pobieraj aktualizacje, gdy są dostępne.
 	RU	Автоматически загружать доступные обновления.
 	SV	Ladda ner uppdateringar automatiskt när de är tillgängliga.
+	ZH_TW	當出現更新檔時自動下載
 
 SETUP_CHECK_NOW
 	CS	Zkontrolovat aktualizace nyní
@@ -7703,6 +7815,7 @@ SETUP_CHECK_NOW
 	FR	Vérifier les mises à jour maintenant
 	SV	Leta efter uppdateringar nu
 	NL	Nu op software updates controleren
+	ZH_TW	立即檢查更新
 
 SETUP_SCREENSAVER
 	CS	Spořič obrazovky při přehrávání
@@ -7722,6 +7835,7 @@ SETUP_SCREENSAVER
 	RU	Экранная заставка при воспроизведении
 	SV	Skärmsläckare vid uppspelning
 	ZH_CN	屏幕保护程序（播放时）
+	ZH_TW	螢幕保護程式（播放時）
 
 SETUP_SCREENSAVER_ABBR
 	CS	Během přehrávání
@@ -7737,6 +7851,7 @@ SETUP_SCREENSAVER_ABBR
 	PL	Podczas odtwarzania
 	RU	При воспроизведении
 	SV	Vid uppspelning
+	ZH_TW	播放時
 
 SETUP_OFFSAVER
 	CS	Spořič obrazovky při vypnutí
@@ -7754,6 +7869,7 @@ SETUP_OFFSAVER
 	RU	Экранная заставка при выкл.
 	SV	Skärmsläckare i avstängt läge
 	ZH_CN	屏幕保护程序（关机时）
+	ZH_TW	螢幕保護程式（關閉時）
 
 SETUP_OFFSAVER_ABBR
 	CS	Při vypnutí
@@ -7769,6 +7885,7 @@ SETUP_OFFSAVER_ABBR
 	PL	Po wyłączeniu
 	RU	Когда выключен
 	SV	I avstängt läge
+	ZH_TW	當關閉時
 
 SETUP_IDLESAVER
 	CS	Spořič obrazovky při zastavení
@@ -7786,6 +7903,7 @@ SETUP_IDLESAVER
 	RU	Экранная заставка при остановке
 	SV	Skärmsläckare i stoppat läge
 	ZH_CN	屏幕保护程序（停止播放时）
+	ZH_TW	螢幕保護程式（停止播放時）
 
 SETUP_IDLESAVER_ABBR
 	CS	Po zastavení
@@ -7801,6 +7919,7 @@ SETUP_IDLESAVER_ABBR
 	PL	Po zatrzymaniu
 	RU	При остановке
 	SV	I stoppat läge
+	ZH_TW	當播放停止時
 
 SETUP_ALARMSAVER
 	CS	Spořič obrazovky při spuštění alarmu
@@ -7816,6 +7935,7 @@ SETUP_ALARMSAVER
 	PL	Wygaszacz ekranu podczas odtwarzania alarmu
 	RU	Экранная заставка при звучании будильника
 	SV	Skärmsläckare när alarmet är i gång
+	ZH_TW	螢幕保護程式（鬧鐘播放時）
 
 SETUP_ALARMSAVER_ABBR
 	CS	Během alarmu
@@ -7831,6 +7951,7 @@ SETUP_ALARMSAVER_ABBR
 	PL	Podczas alarmu
 	RU	Во время работы будильника
 	SV	Vid alarm
+	ZH_TW	鬧鐘播放時
 
 SETUP_SCREENSAVER_DESC
 	CS	Po období nečinnosti dálkového ovladače může přehrávač zobrazovat různé informace jako "spořiče obrazovky". Můžete zvolit odlišné spořiče k zobrazení v závislosti na tom, jestli přehrávač hraje nebo ne nebo je vypnut. Můžete také zvolit dobu čekání před povolením těchto spořičů obrazovky.
@@ -7848,6 +7969,7 @@ SETUP_SCREENSAVER_DESC
 	RU	Если некоторое время с пульта ДУ не поступает никаких команд, плеер может проигрывать разную информацию в качестве экранных заставок. Вы можете выбрать экранные заставки, которые будут отображаться в зависимости от того, играет плеер или нет, и от того, выключен ли он. Также можно задать интервал времени перед появлением экранной заставки.
 	SV	Olika typer av information kan visas som skärmsläckare på spelarens skärm när inga kommandon har skickats från fjärrkontrollen under en viss tid. Du kan välja olika skärmsläckare beroende på om spelaren är påslagen eller avstängd, tyst eller spelar upp musik. Du kan också ange hur lång period av inaktivititet som ska passera innan respektive skärmsläckare börjar visas.
 	ZH_CN	您可以通过遥控器选择在播放机非活动状态时以屏幕保护程序来显示信息。您可以设定屏幕保护程序介入前的等候时间。并且设定播放机在不同状态下如播放时、停止播放时、或关机时应用不同屏幕保护程序。
+	ZH_TW	遙控器在閒置一段時間後，播放器可以顯示為螢幕保護程式。您可以選擇顯示不同的樣式，這取決於播放器是否正在播放或是否已關閉。您還可以更改螢幕保護程式啟用之前等待的時間。
 
 SETUP_SCREENSAVERTIMEOUT
 	CS	Doba před spuštěním spořiče obrazovky, v sekundách
@@ -7867,6 +7989,7 @@ SETUP_SCREENSAVERTIMEOUT
 	RU	Задержка экранной заставки (с)
 	SV	Skärmsläckarfördröjning i sekunder
 	ZH_CN	屏幕保护程序介入前的等候时间（秒）
+	ZH_TW	螢幕保護程式啟用前等待時間（秒）
 
 SCREENSAVER_JUMP_BACK_NAME
 	CS	Právě hraje
@@ -7886,6 +8009,7 @@ SCREENSAVER_JUMP_BACK_NAME
 	RU	Воспроизводится
 	SV	Nu spelas
 	ZH_CN	播放中
+	ZH_TW	目前播放
 
 SCREENSAVER_JUMP_TO_NOW_PLAYING
 	CS	Přejít na "Právě hraje"
@@ -7901,6 +8025,7 @@ SCREENSAVER_JUMP_TO_NOW_PLAYING
 	PL	Przejdź do teraz odtwarzanych
 	RU	Перейти к экрану "Воспроизводится"
 	SV	Hoppa till Nu spelas
+	ZH_TW	跳轉至目前播放
 
 SCREENSAVER_NONE
 	CS	Žádný
@@ -7918,6 +8043,7 @@ SCREENSAVER_NONE
 	RU	Нет
 	SV	Ingen
 	ZH_CN	无
+	ZH_TW	無
 
 SETUP_DISPLAYTEXTTIMEOUT
 	CS	Časování textového vstupu
@@ -7937,6 +8063,7 @@ SETUP_DISPLAYTEXTTIMEOUT
 	RU	Задержка при вводе текста
 	SV	Tidsgräns för textinmatning
 	ZH_CN	文字输入时间
+	ZH_TW	文字輸入時間
 
 SETUP_DISPLAYTEXTTIMEOUT_DESC
 	CS	Když zadáváte text na vyhledávání, přehrávač se po určité době přesune na další písmeno. Můžete změnit trvání této prodlevy (v sekundách).
@@ -7956,6 +8083,7 @@ SETUP_DISPLAYTEXTTIMEOUT_DESC
 	RU	При вводе текста для поиска плеер через определенное время переходит к следующей букве. Можно изменить длительность этого ожидания (в секундах).
 	SV	När du anger text för en sökning flyttar spelaren automatiskt till nästa teckenposition efter en liten fördröjning. Du kan ändra fördröjningstiden (i sekunder).
 	ZH_CN	当您通过播放机输入文字进行搜查行动时，播放机会在您输入的每一个字符后等待片刻才向下一个字符移动。您可以在这里调整该等待时间。
+	ZH_TW	當您輸入搜尋文字時，播放器將等待一段時間後移至下一個字母。您可以更改此等待的持續時間（以秒為單位）。
 
 SETUP_ADDITIONAL_PLAYLIST_BUTTONS
 	CS	Další tlačítka seznamu skladeb
@@ -7971,6 +8099,7 @@ SETUP_ADDITIONAL_PLAYLIST_BUTTONS
 	PL	Dodatkowe przyciski listy odtwarzania
 	RU	Другие кнопки плей-листа
 	SV	Ytterligare spellisteknappar
+	ZH_TW	額外的播放清單按鈕
 
 SETUP_ADDITIONAL_PLAYLIST_BUTTONS_DESC
 	CS	Některé skiny mohou volitelně zobrazovat další tlačítka pro přehrávatelné položky, například "Přehrát další" nebo "Odstranit ze seznamu skladeb".
@@ -7986,6 +8115,7 @@ SETUP_ADDITIONAL_PLAYLIST_BUTTONS_DESC
 	PL	Niektóre karnacje mogą opcjonalnie zawierać dodatkowe przyciski dotyczące odtwarzalnych elementów, np. „Odtwórz następny” lub „Usuń z listy odtwarzania”.
 	RU	В некоторых обложках могут отображаться дополнительные кнопки для воспроизводимых элементов, например "Воспроизвести следующую" или "Удалить из плей-листа".
 	SV	Med vissa skal kan du välja att visa extra spellisteknappar, t.ex. som Spela härnäst eller Ta bort från spellista.
+	ZH_TW	有些外觀套件可以選擇顯示可播放項目的按鈕，例如："播放下一首"或"從播放清單中刪除"。
 
 SETUP_SEARCHSUBSTRING
 	CS	Hledání ve slovech
@@ -8003,6 +8133,7 @@ SETUP_SEARCHSUBSTRING
 	RU	Поиск внутри слов
 	SV	Sök inom ord
 	ZH_CN	在词内搜寻
+	ZH_TW	文字搜尋
 
 SETUP_SEARCHSUBSTRING_0
 	CS	Hledat začátek slov
@@ -8020,6 +8151,7 @@ SETUP_SEARCHSUBSTRING_0
 	RU	Поиск по начальным буквам слов
 	SV	Sök i början av ord
 	ZH_CN	由词的前头搜寻
+	ZH_TW	由文字開頭搜尋
 
 SETUP_SEARCHSUBSTRING_1
 	CS	Hledat ve slovech
@@ -8037,6 +8169,7 @@ SETUP_SEARCHSUBSTRING_1
 	RU	Поиск внутри слов
 	SV	Sök inom ord
 	ZH_CN	在词内搜寻
+	ZH_TW	由文字中搜尋
 
 SETUP_SEARCHSUBSTRING_DESC
 	CS	Pokud hledáte mediální soubory, můžete pomocí serveru hledat odpovídající položky obsahující slova, která začínají stejnými písmeny jako hledaný řetězec, nebo obsahující slova, která mají hledaný řetězec kdekoliv ve slově. Například hledání začátku slov "RAIN" najde položky se slovem "RAINBOW". Hledání uvnitř slov vrátí také položku obsahující slovo "TRAIN".
@@ -8054,6 +8187,7 @@ SETUP_SEARCHSUBSTRING_DESC
 	RU	При поиске файлов мультимедиа на сервере можно задать поиск совпадающих элементов, например файлов, названия которых начинаются с букв поискового запроса или содержат поисковый запрос внутри себя.  Например, при поиске начальных букв RAIN будут найдены элементы со словом RAINBOW.  При поиске внутри слов будут также возвращены элементы со словом TRAIN.
 	SV	När du söker efter mediefiler kan du välja om servern enbart ska visa träffar som innehåller ord som börjar med samma bokstäver som din söksträng, eller om även träffar med ord där bokstäverna finns var som helst i ordet ska visas. Exempel: Om du söker i början av ord med söksträngen REGN visas träffar som innehåller exempelvis REGNBÅGE. Om du också söker inom orden får du dessutom träffar som innehåller t.ex. ÖSREGN.
 	ZH_CN	当您在进行音乐搜寻时，您可以设定让Squeezebox由此的前头或在词内寻找匹配。
+	ZH_TW	當搜索媒體檔案時，您可以讓伺服器文字開頭進行搜尋或是由文字中進行搜尋。例如，由文字開頭搜尋"RAIN"將會找到"RAINBOW"這個項目，但是如果以由文字中搜尋將會找到"TRAIN"這個項目。
 
 SETUP_NOGENREFILTER
 	CS	Filtrování žánrů na úrovni alba a skladby.
@@ -8071,6 +8205,7 @@ SETUP_NOGENREFILTER
 	RU	Фильтровать жанры по альбому и дорожкам.
 	SV	Filtrera genrer på album- och spårnivå.
 	ZH_CN	在专辑和音轨的层面过滤音乐风格。
+	ZH_TW	以專輯和曲目為主過濾出音樂風格
 
 SETUP_NOGENREFILTER_1
 	CS	Zobrazit všechny skladby a alba interpreta
@@ -8088,6 +8223,7 @@ SETUP_NOGENREFILTER_1
 	RU	Показать дорожки и альбомы исполнителя
 	SV	Visa alla spår och album från en artist
 	ZH_CN	显示某个艺人所属的音轨和专辑
+	ZH_TW	顯示演出者所有參與的曲目與專輯
 
 SETUP_NOGENREFILTER_0
 	CS	Zobrazit pouze skladby nebo alba odpovídající vybranému žánru pro interpreta
@@ -8105,6 +8241,7 @@ SETUP_NOGENREFILTER_0
 	RU	Только дорожки или альбомы, совпадающие с выбранным жанром исполнителя
 	SV	Visa bara spår eller album av artisten som matchar den valda genren
 	ZH_CN	只显示和某个艺人的音乐风格匹配的音轨和专辑
+	ZH_TW	只顯示某個演出者和選中的音樂風格相符的曲目與專輯
 
 SETUP_NOGENREFILTER_DESC
 	CS	Při procházení žánrů lze filtrovat tak, aby se zobrazovaly pouze alba a skladby odpovídající zvolenému žánru.
@@ -8122,6 +8259,7 @@ SETUP_NOGENREFILTER_DESC
 	RU	При просмотре жанров можно применить фильтр, чтобы отображались только альбомы и дорожки определенного жанра.
 	SV	När du bläddrar efter genre kan du filtrera så att endast låtar och album från den valda genren visas.
 	ZH_CN	您可以在当浏览音乐曲风时过滤并只显示和音乐曲风匹配的专辑和音轨。
+	ZH_TW	您可以在瀏覽音樂風格時進行過濾並且只顯示出和其相符的專輯和曲目。
 
 SETUP_NOROLEFILTER
 	CS	Filtrování rolí přispěvatelů na úrovni alba a skladby
@@ -8132,6 +8270,7 @@ SETUP_NOROLEFILTER
 	NO	Filtrer utøverroller på album- og spornivå
 	PL	Filtrowanie albumów i utworów według ról kontrybutorów
 	SV	Filtrera artistroller på album- och låtnivå
+	ZH_TW	以專輯和曲目為主過濾出製作人員
 
 SETUP_NOROLEFILTER_1
 	CS	Zobrazit všechna alba a skladby interpreta
@@ -8142,6 +8281,7 @@ SETUP_NOROLEFILTER_1
 	NO	Vis alle plater og spor med en utøver
 	PL	Pokaż wszystkie albumy i utwory dla wykonawcy
 	SV	Visa alla album och låtar för en artist
+	ZH_TW	顯示所有演出者參與的專輯與曲目
 
 SETUP_NOROLEFILTER_0
 	CS	Zobrazit pouze skladby nebo alba, které odpovídají vybrané roli interpreta
@@ -8152,6 +8292,7 @@ SETUP_NOROLEFILTER_0
 	NO	Vis bare spor og plater hvor utøveren har den valgte rollen
 	PL	Pokaż wyłącznie te albumy i utwory, które są zgodne z wybraną rolą
 	SV	Visa bara album och låtar där artisten har den valda rollen.
+	ZH_TW	只顯示某個演出者和選中的製作人員相符的曲目與專輯
 
 SETUP_NOROLEFILTER_DESC
 	CS	Při procházení interpretů lze provádět filtrování, aby se zobrazovala pouze alba a skladby, které odpovídají vybrané roli (např. ALBUMARTIST, COMPOSER atd.).
@@ -8162,6 +8303,7 @@ SETUP_NOROLEFILTER_DESC
 	NO	Når du blar gjennom artister kan du filtrere ut og vise bare album og spor som stemmer overens med den valgte rollen (ALBUMARTIST, COMPOSER osv.).
 	PL	Filtrowanie może zostać włączone podczas przeglądania listy wykonawców, aby wyświetlić tylko te albumy i utwory, które są zgodne z wybraną rolą kontrybutora (np. ALBUMARTIST, COMPOSER itp.).
 	SV	När du bläddrar genom "Artister" kan du filtrera så att bara album och låtar som matchar den valda rollen ("ALBUMARTIST", "COMPOSER", etc.) visas.
+	ZH_TW	您可以在瀏覽演出者時進行過濾出所選的製作人員並且只顯示出和其相符的專輯和曲目（例如：專輯製作人、作曲者等）。
 
 SETUP_COMPOSERINARTISTS
 	CS	Skladatel, Skupina a Orchestr v Interpretech
@@ -8181,6 +8323,7 @@ SETUP_COMPOSERINARTISTS
 	RU	Поле "Исполнители": композитор, группа и оркестр
 	SV	Kompositör, band och orkester i Artister
 	ZH_CN	有关艺人的作曲家及乐队信息
+	ZH_TW	與演出者有關的作曲者或樂隊
 
 SETUP_COMPOSERINARTISTS_DESC
 	CS	Informace o skladatelích, skupinách a orchestrech mohou být přidány do seznamu interpretů pro procházení a vyhledávání.
@@ -8200,6 +8343,7 @@ SETUP_COMPOSERINARTISTS_DESC
 	RU	Информацию о композиторах, группах и оркестрах для данной песни можно включить в список исполнителей для просмотра и поиска.
 	SV	Låtinformation om kompositörer, band och orkestrar kan inkluderas i artistlistan för bläddring eller sökning.
 	ZH_CN	在浏览及搜寻艺人时，有关作曲家及乐队的歌曲信息可以包括一同显示。
+	ZH_TW	在瀏覽及搜尋演出者時，相關的作曲者和樂隊可以一起顯示在歌曲資訊中
 
 SETUP_PERSISTPLAYLISTS
 	CS	Udržování seznamů skladeb klientů
@@ -8219,6 +8363,7 @@ SETUP_PERSISTPLAYLISTS
 	RU	Сохранять клиентские плей-листы
 	SV	Behåll klientspellistor
 	ZH_CN	维护Client播放表
+	ZH_TW	記住播放清單
 
 SETUP_PERSISTPLAYLISTS_DESC
 	CS	Logitech Media Server si může pamatovat poslední seznam skladeb, které byly právě přehrávány při spuštění aplikace.
@@ -8238,6 +8383,7 @@ SETUP_PERSISTPLAYLISTS_DESC
 	RU	Logitech Media Server может запоминать последний плей-лист песен, воспроизводившихся при запуске приложения.
 	SV	Logitech Media Server kan komma ihåg den senast spelade aktuella spellistan tills nästa gång programmet körs.
 	ZH_CN	服务器可以记住在起动前最后使用的播放表。
+	ZH_TW	Logitech Media Server 能夠在啟動時記住播放器的播放清單中最後播放的歌曲
 
 SETUP_PERSISTPLAYLISTS_1
 	CS	Zapamatovat seznam skladeb
@@ -8257,6 +8403,7 @@ SETUP_PERSISTPLAYLISTS_1
 	RU	Запомнить плей-лист
 	SV	Behåll spellista
 	ZH_CN	记住播放表
+	ZH_TW	記住播放清單
 
 SETUP_PERSISTPLAYLISTS_0
 	CS	Neukládat seznam skladeb
@@ -8276,6 +8423,7 @@ SETUP_PERSISTPLAYLISTS_0
 	RU	Не запоминать плей-лист
 	SV	Behåll inte spellistor
 	ZH_CN	不要记住播放表
+	ZH_TW	不要記住播放清單
 
 SETUP_RESHUFFLEONREPEAT
 	CS	Znovu seřazení v náhodném pořadí při opakování
@@ -8295,6 +8443,7 @@ SETUP_RESHUFFLEONREPEAT
 	RU	Перемешать при повторе
 	SV	Blanda om vid repetering
 	ZH_CN	在重复后再度随机抽样
+	ZH_TW	在重複播放時將播放清單亂序
 
 SETUP_RESHUFFLEONREPEAT_DESC
 	CS	Pokud je to požadováno, Logitech Media Server může seřadit náhodně seznamy skladeb po každém úplném přehrání seznamu skladeb.
@@ -8314,6 +8463,7 @@ SETUP_RESHUFFLEONREPEAT_DESC
 	RU	Logitech Media Server может повторно перемешивать плей-листы после воспроизведения всех песен списка.
 	SV	Logitech Media Server kan blanda om blandade spellistor varje gång hela listan gåtts igenom.
 	ZH_CN	如有必要，服务器可以把随机抽样后的播放表在每一次播放时再度抽样决定次序。
+	ZH_TW	Logitech Media Server 可以在播放清單播放結束時進行一次重新排列
 
 SETUP_RESHUFFLEONREPEAT_0
 	CS	Ponechat ve stejném pořadí
@@ -8333,6 +8483,7 @@ SETUP_RESHUFFLEONREPEAT_0
 	RU	Оставить в том же порядке
 	SV	Behåll samma ordning
 	ZH_CN	保留原有次序
+	ZH_TW	保留原本順序
 
 SETUP_RESHUFFLEONREPEAT_1
 	CS	Pokaždé seřadit náhodně
@@ -8352,6 +8503,7 @@ SETUP_RESHUFFLEONREPEAT_1
 	RU	Перемешивать каждый раз
 	SV	Blanda om varje gång
 	ZH_CN	在每一次播放时再度随机抽样决定次序。
+	ZH_TW	每次結束後進行隨機排序
 
 SETUP_PLAYTRACKALBUM
 	CS	Přehrání další skladby v albu
@@ -8371,6 +8523,7 @@ SETUP_PLAYTRACKALBUM
 	RU	Воспроизвести другие песни в альбоме
 	SV	Spela andra låtar från albumet
 	ZH_CN	播放其他在同一张专辑的歌曲
+	ZH_TW	播放在其他專輯中的同一首歌曲
 
 SETUP_PLAYTRACKALBUM_1
 	CS	Přehrát další skladby v albu nebo adresáři
@@ -8390,6 +8543,7 @@ SETUP_PLAYTRACKALBUM_1
 	RU	Воспроизвести другие песни в альбоме или каталоге
 	SV	Spela andra låtar från albumet eller mappen
 	ZH_CN	播放专辑里或目录里的其他歌曲
+	ZH_TW	播放在其他專輯或資料夾中的同一首歌曲
 
 SETUP_PLAYTRACKALBUM_0
 	CS	Přehrát pouze zvolenou skladbu
@@ -8409,6 +8563,7 @@ SETUP_PLAYTRACKALBUM_0
 	RU	Воспроизводить только выбранную песню
 	SV	Spela endast den valda låten
 	ZH_CN	只播放指定歌曲
+	ZH_TW	只播放指定歌曲
 
 SETUP_PLAYTRACKALBUM_DESC
 	CS	Pokud při procházení alby nebo složkami vyberete jednu skladbu a stisknete tlačítko PLAY na dálkovém ovladači, můžete si zvolit, zda se má přehrát pouze tato skladba nebo všechny skladby v daném albu nebo adresáři, počínaje touto skladbou.
@@ -8428,6 +8583,7 @@ SETUP_PLAYTRACKALBUM_DESC
 	RU	Если во время просмотра альбомов и папок выбрать одну песню и нажать на пульте ДУ кнопку PLAY, можно начать воспроизведение только данной песни или всех песен в данном альбоме или каталоге, начиная с текущей.
 	SV	När du väljer en enskild låt och trycker på PLAY på fjärrkontrollen, kan du välja att bara spela upp den valda låten, eller att spela upp alla låtar i albumet eller mappen, med det valda spåret som första låt.
 	ZH_CN	当您浏览专机时通过遥控器选择一首歌曲并按“播放”键时，您可以选择只播放指定的那一首歌曲或播放在同一张专辑内随其后的所有歌曲。
+	ZH_TW	當瀏覽專輯或資料夾時播放某一首曲目，您可以選擇在結束後繼續播放位於其他專輯或資料夾內的同一首曲目。
 
 SETUP_IGNOREDARTICLES
 	CS	Ignorované členy při řazení
@@ -8447,6 +8603,7 @@ SETUP_IGNOREDARTICLES
 	RU	Артикли, игнорируемые при сортировке
 	SV	Artiklar som ska ignoreras vid sortering
 	ZH_CN	进行排序时应忽略的词汇
+	ZH_TW	排序時要忽略的文字
 
 SETUP_IGNOREDARTICLES_DESC
 	CS	Seznam členů ("the", "les", "los", atd.) na začátku jména interpreta, skladby nebo alba, které se budou při řazení ignorovat. Více členů oddělte mezerami nebo nechte tento seznam prázdný, čímž se tato funkce vypne. Změna tohoto nastavení spustí nové prohledání vaší knihovny hudby.
@@ -8463,6 +8620,7 @@ SETUP_IGNOREDARTICLES_DESC
 	PL	Lista przedimków („the”, „les”, „los” itp.) ignorowanych na początku nazwy wykonawcy, utworu lub albumu podczas sortowania. Oddziel przedimki spacjami lub pozostaw pole puste, aby wyłączyć tę funkcję. Zmiana tego ustawienia spowoduje ponowne przeszukanie biblioteki muzyki.
 	RU	Список артиклей (the, les, los и др.), игнорируемых в начале имени исполнителя, названия песни или альбома при их сортировке. Введите артикли через пробел или не заполняйте этот список, чтобы отключить данное поведение. При изменении этой настройки медиатека будет пересканирована.
 	SV	En lista med artiklar (the, les, los, o.s.v.) som ska ignoreras när de kommer först i namn på artister, låtar och album. Avgränsa artiklarna med mellanslag eller lämna fältet tomt om du vill avaktivera funktionen. Om du ändrar den här inställningen söks musikbiblioteket igenom på nytt.
+	ZH_TW	在專輯、演出者或歌曲進行排序時可以針對特定開頭的文字進行忽略，例如："the", "les", "los" 等。使用空格來分隔多個文字或是留白來禁用此功能。更改此設定將會需要重新掃描媒體庫
 
 SETUP_SPLITLIST
 	CS	Oddělovač více položek ve štítcích
@@ -8478,6 +8636,7 @@ SETUP_SPLITLIST
 	PL	Separator kilku elementów w znacznikach
 	RU	Разделитель для нескольких элементов в тегах
 	SV	Avgränsare för flera objekt i taggar
+	ZH_TW	在標籤中分隔多個項目
 
 SETUP_SPLITLIST_DESC
 	CS	Logitech Media Server může z tagů ve vašich hudebních souborech získat více interpretů, názvů alb a žánrů. Pokud ve vašich tagách najde některé ze slov nebo znaků uvedených níže, vytvoří pro každou položku jednotlivé výpisy. Pokud například do seznamu níže vložíte středník, skladba s tagem interpreta "J. S. Bach;Michael Tilson Thomas" se objeví v oblasti interpretů pro "J. S. Bach" i "Michael Tilson Thomas". Po změně tohoto nastavení se spustí prohledávání vaší hudební knihovny.
