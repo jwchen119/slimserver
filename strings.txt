@@ -8653,6 +8653,7 @@ SETUP_SPLITLIST_DESC
 	PL	Program Logitech Media Server może wyodrębnić wykonawców, tytuły albumów i gatunki ze znaczników plików muzycznych. Jeżeli program Logitech Media Server znajdzie poniższe słowa lub znaki w znacznikach, utworzy listy dla każdego elementu. Na przykład umieszczenie średnika na liście poniżej, spowoduje, że utwór ze znacznikiem wykonawcy „J. S. Bach;Michael Tilson Thomas” pojawi się w obszarze wykonawców dla „J. S. Bach” i „Michael Tilson Thomas”. Zmiana tego ustawienia spowoduje ponowne przeszukanie biblioteki muzyki.
 	RU	Logitech Media Server может извлекать из тегов музыкальных файлов имена исполнителей, названия альбомов и жанры, даже если их несколько. Если в тегах обнаружатся какие-либо из нижеперечисленных слов или символов, для каждого элемента будут созданы отдельные записи. Например, если в списке ниже поставить точку с запятой, песня с тегом исполнителя "И. С. Бах; Майкл Тилсон Томас" появится в области исполнителей и под именем "И. С. Бах", и под именем "Майкл Тилсон Томас". При изменении этой настройки будет запущено повторное сканирование медиатеки.
 	SV	Logitech Media Server har stöd för taggar med flera artistnamn, albumtitlar eller genrer för samma låt. Om ett eller flera av orden eller tecknen i taggarna hittas, så skapas självständiga poster för varje objekt. Om du t.ex. använder semikolon i listan nedan visas en låt med taggen J. S. Bach;Michael Tilson Thomas i artistområdet för både J. S. Bach och Michael Tilson Thomas. Om du ändrar den här inställningen söks musikbiblioteket igenom på nytt.
+	ZH_TW	Logitech Media Server 能夠從音樂檔案的標籤中提取多個演出者、專輯標題和曲風。如果在標籤中找到以下任何單字或字串，它將會為每個項目建立單獨的清單。例如，如果您在下面的清單中添加分號，則演出者標籤為"J. S. Bach;Michael Tilson Thomas"的歌曲將會同時出現在"J. S. Bach"和"Michael Tilson Thomas"的演出者區塊中。更改此設定需要重新掃描您的音樂庫。
 
 SETUP_ARTISTS_BROWSE_MODES
 	CS	Procházení interpretů
@@ -8668,6 +8669,7 @@ SETUP_ARTISTS_BROWSE_MODES
 	PL	Przeglądanie wykonawców
 	RU	Просмотр исполнителей
 	SV	Bläddra efter artister
+	ZH_TW	瀏覽演出者
 
 SETUP_ARTISTS_BROWSE_MODES_DESC
 	CS	Zvolte, zda chcete použít jeden konfigurovatelný seznam interpretů, nebo dva seznamy pro Interprety alba a Všechny interpreti. Interpreti alba je seznam, ve kterém je Interpret alba jediným interpretem na albu nebo interpretem uvedeným v tagu ALBUMARTIST. Všichni interpreti je seznam všech interpretů, kteří jsou uvedeni v tagu role přispěvatele (ARTIST, COMPOSER atd.). Jednotný konfigurovatelný seznam interpretů naproti tomu umožňuje určit, které role přispěvatelů mají být součástí nabídky Interptet.
